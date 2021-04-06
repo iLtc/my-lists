@@ -1,4 +1,4 @@
-export default {
+const books = {
     data: [
         {
             'title': 2021,
@@ -403,3 +403,5 @@ export default {
         }
     ]
 }
+
+export default books;

@@ -1,4 +1,4 @@
-export default {
+const games =  {
     data: [
         {
             'title': 2021,
@@ -101,3 +101,5 @@ export default {
         }
     ]
 }
+
+export default games;
