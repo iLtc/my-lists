@@ -12,8 +12,8 @@ import games from './games'
 
 class App extends React.Component {
     render() {
-        const bookCardGroups = books.data.map(group => <CardGroup key={group.title} title={group.title} items={group.items} />)
-        const gameCardGroups = games.data.map(group => <CardGroup key={group.title} title={group.title} items={group.items} />)
+        const bookCardGroups = books.map(group => <CardGroup key={group.title} title={group.title} items={group.items} />)
+        const gameCardGroups = games.map(group => <CardGroup key={group.title} title={group.title} items={group.items} />)
 
         return (
             <HashRouter>
