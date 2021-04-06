@@ -1,11 +1,7 @@
 import './App.css';
 import React from "react";
 import Container from 'react-bootstrap/Container';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route
-} from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar'
@@ -20,15 +16,15 @@ class App extends React.Component {
         const gameCardGroups = games.data.map(group => <CardGroup key={group.title} title={group.title} items={group.items} />)
 
         return (
-            <Router>
+            <HashRouter>
                 <div>
                     <Navbar bg="light" expand="lg">
                         <Navbar.Brand>My Lists</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mr-auto">
-                                <Nav.Link href="/books">Books</Nav.Link>
-                                <Nav.Link href="/games">Game</Nav.Link>
+                                <Nav.Link href="#/books">Books</Nav.Link>
+                                <Nav.Link href="#/games">Game</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
@@ -43,7 +39,7 @@ class App extends React.Component {
                         </Switch>
                     </Container>
                 </div>
-            </Router>
+            </HashRouter>
         );
     }
 }
