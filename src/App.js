@@ -3,6 +3,9 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+
 
 import books from './books'
 
@@ -17,9 +20,22 @@ class App extends React.Component {
         const cardGroups = this.state.data.map(group => <CardGroup key={group.title} title={group.title} items={group.items} />)
 
         return (
-            <Container>
-                {cardGroups}
-            </Container>
+            <div>
+                <Navbar bg="light" expand="lg">
+                    <Navbar.Brand>My Lists</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="mr-auto">
+                            <Nav.Link href="#" className="active">Books</Nav.Link>
+                            {/* <Nav.Link href="#link">Game</Nav.Link> */}
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
+                <Container>
+                    {cardGroups}
+                </Container>
+            </div>
+
         );
     }
 }
