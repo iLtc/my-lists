@@ -1,6 +1,6 @@
 {
   "name": "my-lists",
-  "homepage": "https://iltc.io/my-lists/",
+  "homepage": "https://lists.iltc.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
