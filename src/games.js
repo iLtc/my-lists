@@ -38,6 +38,12 @@ const games =  [
                 'author': 'New One Studio'
             },
             {
+                'title': 'Rise of the Tomb Raider: Baba Yaga: The Temple of the Witch',
+                'link': 'https://en.wikipedia.org/wiki/Rise_of_the_Tomb_Raider',
+                'image': 'images/RiseOfTheTombRaiderBabaYaga.jpeg',
+                'author': 'Crystal Dynamics'
+            },
+            {
                 'title': 'Rise of the Tomb Raider',
                 'link': 'https://en.wikipedia.org/wiki/Rise_of_the_Tomb_Raider',
                 'image': 'images/RiseOfTheTombRaider.jpeg',
