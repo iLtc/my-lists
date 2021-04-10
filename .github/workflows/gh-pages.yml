@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: GitHub Pages Deploy
 
 # Controls when the action will run. 
 on:
@@ -21,6 +21,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
       
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.5
