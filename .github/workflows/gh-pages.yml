@@ -42,4 +42,4 @@ jobs:
         run: npm run deploy
         
       - name: Push Changes
-        run: git push "https://iltc:${{ secrets.GITHUB_TOKEN }}@github.com/iLtc/my-lists.git"
+        run: git push "https://iltc:${{ secrets.GITHUB_TOKEN }}@github.com/iLtc/my-lists.git" gh-pages
