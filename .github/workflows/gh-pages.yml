@@ -42,4 +42,4 @@ jobs:
         run: npm run deploy
         
       - name: Push Changes
-        run: git push "https://${{ secrets.USERNAME }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ GITHUB_REPOSITORY }}.git"
+        run: git push "https://${{ secrets.USERNAME }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ env.GITHUB_REPOSITORY }}.git"
