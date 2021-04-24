@@ -3,6 +3,12 @@ const books = [
         'title': 2021,
         'items': [
             {
+                'title': 'Know My Name',
+                'link': 'https://www.goodreads.com/book/show/49944910-know-my-name',
+                'image': 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567616805l/49944910._SX318_SY475_.jpg',
+                'author': 'Chanel Miller'
+            },
+            {
                 'title': 'Moonflower Murders',
                 'link': 'https://www.goodreads.com/book/show/51456186-moonflower-murders',
                 'image': 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599756269l/51456186._SY475_.jpg',
