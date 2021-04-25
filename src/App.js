@@ -12,8 +12,12 @@ import games from './games'
 
 class App extends React.Component {
     render() {
-        const bookCardGroups = books.map(group => <CardGroup key={group.title} title={group.title} items={group.items} />)
-        const gameCardGroups = games.map(group => <CardGroup key={group.title} title={group.title} items={group.items} />)
+        const bookCardGroups = (lang) => {
+            return books.map(group => <CardGroup key={group.title} title={group.title} items={group.items} lang={lang} />)
+        }
+        const gameCardGroups = (lang) => {
+            return games.map(group => <CardGroup key={group.title} title={group.title} items={group.items} lang={lang} />)
+        }
 
         return (
             <HashRouter>
@@ -30,11 +34,17 @@ class App extends React.Component {
                     </Navbar>
                     <Container>
                         <Switch>
+                            <Route path="/books/zh">
+                                {bookCardGroups("zh")}
+                            </Route>
                             <Route path="/(|books)">
-                                {bookCardGroups}
+                                {bookCardGroups("en")}
+                            </Route>
+                            <Route path="/games/zh">
+                                {gameCardGroups("zh")}
                             </Route>
                             <Route path="/games">
-                                {gameCardGroups}
+                                {gameCardGroups("en")}
                             </Route>
                         </Switch>
                     </Container>
@@ -46,7 +56,9 @@ class App extends React.Component {
 
 class CardGroup extends React.Component {
     render() {
-        const cards = this.props.items.map(item => <Card key={item.title} {...item} />)
+        const cards = (lang) => {
+            return this.props.items.map(item => <Card key={item.title} {...item} lang={lang} />)
+        }
 
         return (
             <div>
@@ -54,7 +66,7 @@ class CardGroup extends React.Component {
                     <h2>{this.props.title}</h2>
                 </div>
                 <Row>
-                    {cards}
+                    {cards(this.props.lang)}
                 </Row>
             </div>
         )
@@ -63,20 +75,22 @@ class CardGroup extends React.Component {
 
 class Card extends React.Component {
     render() {
+        const idx = this.props.lang === "en" ? 0 : 1;
+
         return (
             <Col sm={12} md={6} lg={4}>
                 <div className="image-container">
-                    <a rel="nofollow" href={this.props.link}>
-                        <img alt={this.props.title} src={this.props.image} />
+                    <a rel="nofollow" href={this.props.link[idx]}>
+                        <img alt={this.props.title[idx]} src={this.props.image[idx]} />
                     </a>
                 </div>
                 <div className="title-container">
-                    <a rel="nofollow" href={this.props.link}>
-                        {this.props.title}
+                    <a rel="nofollow" href={this.props.link[idx]}>
+                        {this.props.title[idx]}
                     </a>
                 </div>
                 <div className="author-container">
-                    by {this.props.author}
+                    by {this.props.author[idx]}
                 </div>
             </Col>
         )
