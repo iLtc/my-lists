@@ -3,6 +3,12 @@ const books = [
         'title': 2021,
         'items': [
             {
+                'title': '小李飞刀4：天涯·明月·刀',
+                'link': 'https://www.goodreads.com/book/show/19273971-4',
+                'image': 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474264872l/19273971.jpg',
+                'author': 'Gu Long'
+            },
+            {
                 'title': 'Know My Name',
                 'link': 'https://www.goodreads.com/book/show/49944910-know-my-name',
                 'image': 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567616805l/49944910._SX318_SY475_.jpg',
