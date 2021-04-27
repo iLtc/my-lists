@@ -21,10 +21,18 @@ const books = [
                 ]
             },
             {
-                'title': ['小李飞刀4：天涯·明月·刀', '小李飞刀4：天涯·明月·刀'],
-                'link': ['https://www.goodreads.com/book/show/19273971-4', 'https://www.goodreads.com/book/show/19273971-4'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474264872l/19273971.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474264872l/19273971.jpg'],
-                'author': ['Gu Long', 'Gu Long']
+                'title': [
+                    'Moonlight Blade',
+                    '小李飞刀4：天涯·明月·刀'],
+                'link': [
+                    'https://www.goodreads.com/book/show/19273971-4',
+                    'https://www.goodreads.com/book/show/19273971-4'],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474264872l/19273971.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474264872l/19273971.jpg'],
+                'author': [
+                    'Gu Long',
+                    '古龙']
             },
             {
                 'title': [
@@ -45,16 +53,40 @@ const books = [
                 ]
             },
             {
-                'title': ['Moonflower Murders', 'Moonflower Murders'],
-                'link': ['https://www.goodreads.com/book/show/51456186-moonflower-murders', 'https://www.goodreads.com/book/show/51456186-moonflower-murders'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599756269l/51456186._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599756269l/51456186._SY475_.jpg'],
-                'author': ['Anthony Horowitz', 'Anthony Horowitz']
+                'title': [
+                    'Moonflower Murders',
+                    'Moonflower Murders'
+                ],
+                'link': [
+                    'https://www.goodreads.com/book/show/51456186-moonflower-murders',
+                    'https://www.goodreads.com/book/show/51456186-moonflower-murders'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599756269l/51456186._SY475_.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599756269l/51456186._SY475_.jpg'
+                ],
+                'author': [
+                    'Anthony Horowitz',
+                    '安东尼·霍洛维茨'
+                ]
             },
             {
-                'title': ['Magpie Murders', 'Magpie Murders'],
-                'link': ['https://www.goodreads.com/book/show/32970179-magpie-murders', 'https://www.goodreads.com/book/show/32970179-magpie-murders'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482092109l/32970179._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482092109l/32970179._SY475_.jpg'],
-                'author': ['Anthony Horowitz', 'Anthony Horowitz']
+                'title': [
+                    'Magpie Murders',
+                    '喜鹊谋杀案'
+                ],
+                'link': [
+                    'https://www.goodreads.com/book/show/32970179-magpie-murders',
+                    'https://book.douban.com/subject/33445034/'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482092109l/32970179._SY475_.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482092109l/32970179._SY475_.jpg'
+                ],
+                'author': [
+                    'Anthony Horowitz',
+                    '安东尼·霍洛维茨'
+                ]
             }]
     },
     {
@@ -427,10 +459,21 @@ const books = [
         'title': 2014,
         'items': [
             {
-                'title': ['徒步中国', '徒步中国'],
-                'link': ['https://www.goodreads.com/book/show/19190763', 'https://www.goodreads.com/book/show/19190763'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386201299l/19190763.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386201299l/19190763.jpg'],
-                'author': ['雷克', '雷克']
+                'title': [
+                    'The Longest Way',
+                    '徒步中国'],
+                'link': [
+                    'https://www.goodreads.com/book/show/15732501-the-longest-way---4646-kilometer-zu-fu-durch-china',
+                    'https://www.goodreads.com/book/show/19190763'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1341237180l/15732501.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386201299l/19190763.jpg'
+                ],
+                'author': [
+                    'Christoph Rehage',
+                    '雷克'
+                ]
             }]
     }]
 
