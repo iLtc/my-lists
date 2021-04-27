@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import Container from 'react-bootstrap/Container';
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route, useLocation } from "react-router-dom";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar'
@@ -22,16 +22,7 @@ class App extends React.Component {
         return (
             <HashRouter>
                 <div>
-                    <Navbar bg="light" expand="lg">
-                        <Navbar.Brand>My Lists</Navbar.Brand>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="mr-auto">
-                                <Nav.Link href="#/books">Books</Nav.Link>
-                                <Nav.Link href="#/games">Game</Nav.Link>
-                            </Nav>
-                        </Navbar.Collapse>
-                    </Navbar>
+                    <NavBar/>
                     <Container>
                         <Switch>
                             <Route path="/books/zh">
@@ -52,6 +43,37 @@ class App extends React.Component {
             </HashRouter>
         );
     }
+}
+
+function NavBar() {
+    const location = useLocation();
+
+    const booksActive = !location.pathname.includes("games");
+    const gamesActive = location.pathname.includes("games");
+
+    const enActive = !location.pathname.includes("zh");
+
+    const booksLink = enActive ? "#/books" : "#/books/zh";
+    const gamesLink = enActive ? "#/games" : "#/games/zh";
+    const enLink = booksActive ? "#/books" : "#/games";
+    const zhLink = booksActive ? "#/books/zh" : "#/games/zh";
+
+    return (
+        <Navbar bg="light" expand="lg">
+            <Navbar.Brand>My Lists</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                    <Nav.Link href={booksLink} active={booksActive}>Books</Nav.Link>
+                    <Nav.Link href={gamesLink} active={gamesActive}>Game</Nav.Link>
+                </Nav>
+                <Nav>
+                    <Nav.Link href={enLink} active={enActive}>En</Nav.Link>
+                    <Nav.Link href={zhLink} active={!enActive}>中</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
+    )
 }
 
 class CardGroup extends React.Component {
