@@ -3,6 +3,24 @@ const books = [
         'title': 2021,
         'items': [
             {
+                'title': [
+                    'Fly Already',
+                    '银河系边缘的小失常'
+                ],
+                'link': [
+                    'https://www.goodreads.com/book/show/44009977-fly-already',
+                    'https://www.goodreads.com/book/show/56553602'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550156201l/44009977._SY475_.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609782872l/56553602._SY475_.jpg'
+                ],
+                'author': [
+                    'Etgar Keret',
+                    '埃特加·凯雷特'
+                ]
+            },
+            {
                 'title': ['小李飞刀4：天涯·明月·刀', '小李飞刀4：天涯·明月·刀'],
                 'link': ['https://www.goodreads.com/book/show/19273971-4', 'https://www.goodreads.com/book/show/19273971-4'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474264872l/19273971.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474264872l/19273971.jpg'],
