@@ -22,7 +22,7 @@ const books = [
             },
             {
                 'title': [
-                    'Moonlight Blade',
+                    'Horizon, Bright Moon, Saber',
                     '小李飞刀4：天涯·明月·刀'],
                 'link': [
                     'https://www.goodreads.com/book/show/19273971-4',
@@ -93,22 +93,22 @@ const books = [
         'title': 2020,
         'items': [
             {
-                'title': ['房思琪的初恋乐园', '房思琪的初恋乐园'],
+                'title': ['Fang Si-Chi\'s First Love Paradise', '房思琪的初恋乐园'],
                 'link': ['https://www.goodreads.com/book/show/41057632', 'https://www.goodreads.com/book/show/41057632'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564889971l/41057632._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564889971l/41057632._SX318_.jpg'],
-                'author': ['林奕含', '林奕含']
+                'image': ['https://www.goodreads.com/en/book/show/35785738-fang-si-chi-s-first-love-paradise', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564889971l/41057632._SX318_.jpg'],
+                'author': ['Lin Yi-han', '林奕含']
             },
             {
-                'title': ['Lockdown', 'Lockdown'],
+                'title': ['Lockdown', '封锁'],
                 'link': ['https://www.goodreads.com/book/show/53244954-lockdown', 'https://www.goodreads.com/book/show/53244954-lockdown'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587570422l/53244954._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587570422l/53244954._SY475_.jpg'],
-                'author': ['Peter May', 'Peter May']
+                'author': ['Peter May', '彼得·梅']
             },
             {
-                'title': ['小李飞刀3：九月鹰飞', '小李飞刀3：九月鹰飞'],
+                'title': ['Eagle Soaring in the Ninth Month', '小李飞刀3：九月鹰飞'],
                 'link': ['https://www.goodreads.com/book/show/18925019-3', 'https://www.goodreads.com/book/show/18925019-3'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474264968l/18925019.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474264968l/18925019.jpg'],
-                'author': ['Gu Long', 'Gu Long']
+                'author': ['Gu Long', '古龙']
             },
             {
                 'title': ['Shut Up and Listen!', 'Shut Up and Listen!'],
@@ -117,16 +117,16 @@ const books = [
                 'author': ['Tilman Fertitta', 'Tilman Fertitta']
             },
             {
-                'title': ['小李飞刀2：边城浪子', '小李飞刀2：边城浪子'],
+                'title': ['Bordertown Wanderer', '小李飞刀2：边城浪子'],
                 'link': ['https://www.goodreads.com/book/show/18925016-2', 'https://www.goodreads.com/book/show/18925016-2'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474265148l/18925016.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474265148l/18925016.jpg'],
-                'author': ['Gu Long', 'Gu Long']
+                'author': ['Gu Long', '古龙']
             },
             {
-                'title': ['小李飞刀1：多情剑客无情剑', '小李飞刀1：多情剑客无情剑'],
+                'title': ['Sentimental Swordsman, Ruthless Sword', '小李飞刀1：多情剑客无情剑'],
                 'link': ['https://www.goodreads.com/book/show/18930869-1', 'https://www.goodreads.com/book/show/18930869-1'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474265059l/18930869._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474265059l/18930869._SX318_.jpg'],
-                'author': ['Gu Long', 'Gu Long']
+                'author': ['Gu Long', '古龙']
             },
             {
                 'title': ['Mastery', 'Mastery'],
@@ -135,22 +135,22 @@ const books = [
                 'author': ['George Leonard', 'George Leonard']
             },
             {
-                'title': ["Ender's Game", "Ender's Game"],
+                'title': ["Ender's Game", "安德的游戏"],
                 'link': ['https://www.goodreads.com/book/show/8045789-ender-s-game', 'https://www.goodreads.com/book/show/8045789-ender-s-game'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1452898522l/8045789.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1452898522l/8045789.jpg'],
-                'author': ['Orson Scott Card', 'Orson Scott Card']
+                'author': ['Orson Scott Card', '奥森·斯科特·卡德']
             },
             {
-                'title': ['鱼翅与花椒', '鱼翅与花椒'],
+                'title': ['Shark\'s Fin and Sichuan Pepper', '鱼翅与花椒'],
                 'link': ['https://www.goodreads.com/book/show/44536316', 'https://www.goodreads.com/book/show/44536316'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553006363l/44536316._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553006363l/44536316._SY475_.jpg'],
-                'author': ['Fuchsia Dunlop', 'Fuchsia Dunlop']
+                'author': ['Fuchsia Dunlop', '扶霞·邓洛普']
             },
             {
-                'title': ['如父如子', '如父如子'],
+                'title': ['Like Father, Like Son', '如父如子'],
                 'link': ['https://www.goodreads.com/book/show/40033086', 'https://www.goodreads.com/book/show/40033086'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525401730l/40033086._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525401730l/40033086._SX318_.jpg'],
-                'author': ['Hirokazu Koreeda', 'Hirokazu Koreeda']
+                'author': ['Hirokazu Koreeda', '是枝裕和']
             },
             {
                 'title': ['82年生的金智英', '82年生的金智英'],
@@ -165,10 +165,10 @@ const books = [
                 'author': ['Andy Weir', 'Andy Weir']
             },
             {
-                'title': ['The Martian', 'The Martian'],
+                'title': ['The Martian', '火星救援'],
                 'link': ['https://www.goodreads.com/book/show/18401393-the-martian', 'https://www.goodreads.com/book/show/18401393-the-martian'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377968571l/18401393.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377968571l/18401393.jpg'],
-                'author': ['Andy Weir', 'Andy Weir']
+                'author': ['Andy Weir', '安迪·威尔']
             },
             {
                 'title': ['最后的耍猴人', '最后的耍猴人'],
@@ -189,10 +189,10 @@ const books = [
                 'author': ['紫金陈', '紫金陈']
             },
             {
-                'title': ['The Devil Wears Prada', 'The Devil Wears Prada'],
+                'title': ['The Devil Wears Prada', '穿普拉达的女王'],
                 'link': ['https://www.goodreads.com/book/show/40024758-the-devil-wears-prada', 'https://www.goodreads.com/book/show/40024758-the-devil-wears-prada'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525283199l/40024758.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525283199l/40024758.jpg'],
-                'author': ['Lauren Weisberger', 'Lauren Weisberger']
+                'author': ['Lauren Weisberger', '萝伦·薇丝柏格']
             },
             {
                 'title': ['Delivered from Distraction', 'Delivered from Distraction'],
@@ -235,10 +235,10 @@ const books = [
                 'author': ['Hyeonseo Lee', 'Hyeonseo Lee']
             },
             {
-                'title': ['Ready Player One', 'Ready Player One'],
+                'title': ['Ready Player One', '头号玩家'],
                 'link': ['https://www.goodreads.com/book/show/20603758-ready-player-one', 'https://www.goodreads.com/book/show/20603758-ready-player-one'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390275705l/20603758.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390275705l/20603758.jpg'],
-                'author': ['Ernest Cline', 'Ernest Cline']
+                'author': ['Ernest Cline', '恩斯特·克莱恩']
             },
             {
                 'title': ['Sleep', 'Sleep'],
@@ -253,10 +253,10 @@ const books = [
                 'author': ['刘慈欣', '刘慈欣']
             },
             {
-                'title': ['How to Stop Worrying and Start Living', 'How to Stop Worrying and Start Living'],
+                'title': ['How to Stop Worrying and Start Living', '人性的优点'],
                 'link': ['https://www.goodreads.com/book/show/4866.How_to_Stop_Worrying_and_Start_Living', 'https://www.goodreads.com/book/show/4866.How_to_Stop_Worrying_and_Start_Living'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442129098l/4866._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442129098l/4866._SY475_.jpg'],
-                'author': ['Dale Carnegie', 'Dale Carnegie']
+                'author': ['Dale Carnegie', '戴尔·卡耐基']
             },
             {
                 'title': ['到了南半球，一切都变了', '到了南半球，一切都变了'],
@@ -265,10 +265,10 @@ const books = [
                 'author': ['刘小顺', '刘小顺']
             },
             {
-                'title': ['How to Win Friends and Influence People', 'How to Win Friends and Influence People'],
+                'title': ['How to Win Friends and Influence People', '人性的弱点'],
                 'link': ['https://www.goodreads.com/book/show/4865.How_to_Win_Friends_and_Influence_People', 'https://www.goodreads.com/book/show/4865.How_to_Win_Friends_and_Influence_People'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442726934l/4865._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442726934l/4865._SY475_.jpg'],
-                'author': ['Dale Carnegie', 'Dale Carnegie']
+                'author': ['Dale Carnegie', '戴尔·卡耐基']
             },
             {
                 'title': ['流浪地球', '流浪地球'],
@@ -363,26 +363,26 @@ const books = [
                 'author': ['James Dashner', 'James Dashner']
             },
             {
-                'title': ['Harry Potter and the Deathly Hallows', 'Harry Potter and the Deathly Hallows'],
+                'title': ['Harry Potter and the Deathly Hallows', '哈利·波特与死亡圣器'],
                 'link': ['https://www.goodreads.com/book/show/28143118-harry-potter-and-the-deathly-hallows', 'https://www.goodreads.com/book/show/28143118-harry-potter-and-the-deathly-hallows'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449590443l/28143118._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449590443l/28143118._SY475_.jpg'],
-                'author': ['J.K. Rowling', 'J.K. Rowling']
+                'author': ['J.K. Rowling', 'J·K·罗琳']
             }]
     },
     {
         'title': 2016,
         'items': [
             {
-                'title': ['Harry Potter and the Half-Blood Prince', 'Harry Potter and the Half-Blood Prince'],
+                'title': ['Harry Potter and the Half-Blood Prince', '哈利·波特与“混血王子”'],
                 'link': ['https://www.goodreads.com/book/show/1.Harry_Potter_and_the_Half_Blood_Prince', 'https://www.goodreads.com/book/show/1.Harry_Potter_and_the_Half_Blood_Prince'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587697303l/1._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587697303l/1._SX318_.jpg'],
-                'author': ['J.K. Rowling', 'J.K. Rowling']
+                'author': ['J.K. Rowling', 'J·K·罗琳']
             },
             {
-                'title': ['Harry Potter and the Order of the Phoenix', 'Harry Potter and the Order of the Phoenix'],
+                'title': ['Harry Potter and the Order of the Phoenix', '哈利·波特与凤凰社'],
                 'link': ['https://www.goodreads.com/book/show/28144751-harry-potter-and-the-order-of-the-phoenix', 'https://www.goodreads.com/book/show/28144751-harry-potter-and-the-order-of-the-phoenix'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449602534l/28144751._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449602534l/28144751._SY475_.jpg'],
-                'author': ['J.K. Rowling', 'J.K. Rowling']
+                'author': ['J.K. Rowling', 'J·K·罗琳']
             },
             {
                 'title': ['Quantum Break: Zero State', 'Quantum Break: Zero State'],
@@ -391,28 +391,28 @@ const books = [
                 'author': ['Cam Rogers', 'Cam Rogers']
             },
             {
-                'title': ['Harry Potter and the Goblet of Fire', 'Harry Potter and the Goblet of Fire'],
+                'title': ['Harry Potter and the Goblet of Fire', '哈利·波特与火焰杯'],
                 'link': ['https://www.goodreads.com/book/show/28137887-harry-potter-and-the-goblet-of-fire', 'https://www.goodreads.com/book/show/28137887-harry-potter-and-the-goblet-of-fire'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1492616888l/28137887._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1492616888l/28137887._SY475_.jpg'],
-                'author': ['J.K. Rowling', 'J.K. Rowling']
+                'author': ['J.K. Rowling', 'J·K·罗琳']
             },
             {
-                'title': ['Harry Potter and the Prisoner of Azkaban', 'Harry Potter and the Prisoner of Azkaban'],
+                'title': ['Harry Potter and the Prisoner of Azkaban', '哈利·波特与阿兹卡班囚徒'],
                 'link': ['https://www.goodreads.com/book/show/13611643-harry-potter-and-the-prisoner-of-azkaban', 'https://www.goodreads.com/book/show/13611643-harry-potter-and-the-prisoner-of-azkaban'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335037879l/13611643.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335037879l/13611643.jpg'],
-                'author': ['J.K. Rowling', 'J.K. Rowling']
+                'author': ['J.K. Rowling', 'J·K·罗琳']
             },
             {
-                'title': ['Harry Potter and the Chamber of Secrets', 'Harry Potter and the Chamber of Secrets'],
+                'title': ['Harry Potter and the Chamber of Secrets', '哈利·波特与密室'],
                 'link': ['https://www.goodreads.com/book/show/13603662-harry-potter-and-the-chamber-of-secrets', 'https://www.goodreads.com/book/show/13603662-harry-potter-and-the-chamber-of-secrets'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334525819l/13603662.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334525819l/13603662.jpg'],
-                'author': ['J.K. Rowling', 'J.K. Rowling']
+                'author': ['J.K. Rowling', 'J·K·罗琳']
             },
             {
-                'title': ["Harry Potter and the Sorcerer's Stone", "Harry Potter and the Sorcerer's Stone"],
+                'title': ["Harry Potter and the Sorcerer's Stone", "哈利·波特与魔法石"],
                 'link': ['https://www.goodreads.com/book/show/13562891-harry-potter-and-the-sorcerer-s-stone', 'https://www.goodreads.com/book/show/13562891-harry-potter-and-the-sorcerer-s-stone'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333153083l/13562891.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333153083l/13562891.jpg'],
-                'author': ['J.K. Rowling', 'J.K. Rowling']
+                'author': ['J.K. Rowling', 'J·K·罗琳']
             },
             {
                 'title': ['Third Culture Kids', 'Third Culture Kids'],
