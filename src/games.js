@@ -3,6 +3,15 @@ const games = [
         'title': 2021,
         'items': [
             {
+                'title': ["Shadow of the Tomb Raider", "古墓丽影：暗影"],
+                'link': [
+                    'https://tombraider.square-enix-games.com/en-us',
+                    'https://tombraider.square-enix-games.com/en-us'
+                ],
+                'image': ['images/ShadowOfTheTombRaider.jpeg', 'images/ShadowOfTheTombRaider.jpeg'],
+                'author': ['Crystal Dynamics', '晶体动力']
+            },
+            {
                 'title': [
                     "Marvel's Spider-Man",
                     "漫威蜘蛛侠"
