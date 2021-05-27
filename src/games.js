@@ -3,6 +3,15 @@ const games = [
         'title': 2021,
         'items': [
             {
+                'title': ["Marvel's Avengers", "漫威复仇者"],
+                'link': [
+                    'https://avengers.square-enix-games.com/en-us/',
+                    'https://avengers.square-enix-games.com/zh-cn/'
+                ],
+                'image': ['images/Avengers.png', 'images/Avengers.png'],
+                'author': ['Crystal Dynamics', '晶体动力']
+            },
+            {
                 'title': ["Shadow of the Tomb Raider", "古墓丽影：暗影"],
                 'link': [
                     'https://tombraider.square-enix-games.com/en-us',
