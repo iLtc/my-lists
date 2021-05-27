@@ -95,7 +95,7 @@ const books = [
             {
                 'title': ['Fang Si-Chi\'s First Love Paradise', '房思琪的初恋乐园'],
                 'link': ['https://www.goodreads.com/book/show/41057632', 'https://www.goodreads.com/book/show/41057632'],
-                'image': ['https://www.goodreads.com/en/book/show/35785738-fang-si-chi-s-first-love-paradise', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564889971l/41057632._SX318_.jpg'],
+                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564889971l/41057632._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564889971l/41057632._SX318_.jpg'],
                 'author': ['Lin Yi-han', '林奕含']
             },
             {
