@@ -3,6 +3,18 @@ const books = [
         'title': 2021,
         'items': [
             {
+                'title': ['Paper Towns', '纸镇'],
+                'link': [
+                    'https://www.goodreads.com/book/show/8123162-paper-towns',
+                    'https://www.goodreads.com/book/show/53024916'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349013763l/8123162.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568084857l/53024916._SX318_SY475_.jpg'
+                ],
+                'author': ['John Green', '约翰·格林']
+            },
+            {
                 'title': [
                     'Fly Already',
                     '银河系边缘的小失常'
