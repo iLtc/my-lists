@@ -8,7 +8,7 @@ const games = [
                     'https://avengers.square-enix-games.com/en-us/',
                     'https://avengers.square-enix-games.com/zh-cn/'
                 ],
-                'image': ['images/Avengers.png', 'images/Avengers.png'],
+                'image': ['images/Avengers.jpeg', 'images/Avengers.jpeg'],
                 'author': ['Crystal Dynamics', '晶体动力']
             },
             {
@@ -29,7 +29,7 @@ const games = [
                     'https://www.playstation.com/en-us/games/marvels-spider-man/',
                     'https://www.playstation.com/en-us/games/marvels-spider-man/'
                 ],
-                'image': ['images/SpiderMan.jpeg', 'images/SpiderMan.jpeg'],
+                'image': ['images/SpiderMan.webp', 'images/SpiderMan.webp'],
                 'author': ['Insomniac Games', 'Insomniac Games']
             },
             {
@@ -93,13 +93,13 @@ const games = [
             {
                 'title': ['Watch Dogs: Bad Blood', '看门狗：坏血'],
                 'link': ['https://en.wikipedia.org/wiki/Watch_Dogs', 'https://en.wikipedia.org/wiki/Watch_Dogs'],
-                'image': ['images/WatchDogsBadBlood.webp', 'images/WatchDogsBadBlood.webp'],
+                'image': ['images/WatchDogsBadBlood.png', 'images/WatchDogsBadBlood.png'],
                 'author': ['Ubisoft', '育碧']
             },
             {
                 'title': ['Watch Dogs', '看门狗'],
                 'link': ['https://en.wikipedia.org/wiki/Watch_Dogs', 'https://en.wikipedia.org/wiki/Watch_Dogs'],
-                'image': ['images/WatchDogs.webp', 'images/WatchDogs.webp'],
+                'image': ['images/WatchDogs.jpeg', 'images/WatchDogs.jpeg'],
                 'author': ['Ubisoft', '育碧']
             },
             {

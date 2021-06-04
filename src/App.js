@@ -10,10 +10,10 @@ import games from './games'
 
 const App = () => {
     const bookCardGroups = (lang) => {
-        return books.map(group => <CardGroup key={group.title} title={group.title} items={group.items} lang={lang} />)
+        return books.map(group => <CardGroup key={group.title} title={group.title} items={group.items} lang={lang} isGame={false} />)
     }
     const gameCardGroups = (lang) => {
-        return games.map(group => <CardGroup key={group.title} title={group.title} items={group.items} lang={lang} />)
+        return games.map(group => <CardGroup key={group.title} title={group.title} items={group.items} lang={lang} isGame={true} />)
     }
 
     return (

@@ -1,9 +1,12 @@
-import Card from "./Card";
+import BookCard from "./BookCard";
+import GameCard from "./GameCard";
 import React from "react";
 import { Row } from "react-bootstrap";
 
 const CardGroup = (props) => {
-    const cards = props.items.map(item => <Card key={item.title} {...item} lang={props.lang} />)
+    const cards =
+        props.isGame ? props.items.map(item => <GameCard key={item.title} {...item} lang={props.lang} />)
+            : props.items.map(item => <BookCard key={item.title} {...item} lang={props.lang} />);
 
     return (
         <div>
