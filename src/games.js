@@ -3,6 +3,15 @@ const games = [
         'title': 2021,
         'items': [
             {
+                'title': ["Marvel's Avengers: Taking AIM", "Marvel's Avengers: Taking AIM"],
+                'link': [
+                    'https://avengers.square-enix-games.com/en-us/',
+                    'https://avengers.square-enix-games.com/zh-cn/'
+                ],
+                'image': ['images/AvengersTakingAIM.jpeg', 'images/AvengersTakingAIM.jpeg'],
+                'author': ['Crystal Dynamics', '晶体动力']
+            },
+            {
                 'title': ["Marvel's Avengers", "漫威复仇者"],
                 'link': [
                     'https://avengers.square-enix-games.com/en-us/',
