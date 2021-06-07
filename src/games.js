@@ -3,7 +3,16 @@ const games = [
         'title': 2021,
         'items': [
             {
-                'title': ["Marvel's Avengers: Taking AIM", "Marvel's Avengers: Taking AIM"],
+                'title': ["Marvel's Avengers: Hawkeye - Future Imperfect", "漫威复仇者：鹰眼之不完美的未来"],
+                'link': [
+                    'https://avengers.square-enix-games.com/en-us/',
+                    'https://avengers.square-enix-games.com/zh-cn/'
+                ],
+                'image': ['images/AvengersFutureImperfect.jpeg', 'images/AvengersFutureImperfect.jpeg'],
+                'author': ['Crystal Dynamics', '晶体动力']
+            },
+            {
+                'title': ["Marvel's Avengers: Kate Bishop - Taking AIM", "漫威复仇者：凯特·毕肖普之击败先锋科技"],
                 'link': [
                     'https://avengers.square-enix-games.com/en-us/',
                     'https://avengers.square-enix-games.com/zh-cn/'
