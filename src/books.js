@@ -3,6 +3,18 @@ const books = [
         'title': 2021,
         'items': [
             {
+                'title': ['Grocery Store', '南货店'],
+                'link': [
+                    'https://www.goodreads.com/book/show/54797378-2020',
+                    'https://www.goodreads.com/book/show/54797378-2020'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596438207l/54797378._SX318_.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596438207l/54797378._SX318_.jpg'
+                ],
+                'author': ['Zhang Ji', '张忌']
+            },
+            {
                 'title': ['Paper Towns', '纸镇'],
                 'link': [
                     'https://www.goodreads.com/book/show/8123162-paper-towns',
