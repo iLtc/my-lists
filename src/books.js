@@ -3,6 +3,18 @@ const books = [
         'title': 2021,
         'items': [
             {
+                'title': ['Ordered', '受命'],
+                'link': [
+                    'https://www.goodreads.com/book/show/57736665',
+                    'https://www.goodreads.com/book/show/57736665'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618396718l/57736665._SX318_.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618396718l/57736665._SX318_.jpg'
+                ],
+                'author': ['Zhi An', '止庵']
+            },
+            {
                 'title': ['Grocery Store', '南货店'],
                 'link': [
                     'https://www.goodreads.com/book/show/54797378-2020',
