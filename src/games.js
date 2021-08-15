@@ -3,31 +3,15 @@ const games = [
         'title': 2021,
         'items': [
             {
-                'title': ["Marvel's Avengers: Hawkeye - Future Imperfect", "漫威复仇者：鹰眼之不完美的未来"],
-                'link': [
-                    'https://avengers.square-enix-games.com/en-us/',
-                    'https://avengers.square-enix-games.com/zh-cn/'
-                ],
-                'image': ['images/AvengersFutureImperfect.jpeg', 'images/AvengersFutureImperfect.jpeg'],
-                'author': ['Crystal Dynamics', '晶体动力']
-            },
-            {
-                'title': ["Marvel's Avengers: Kate Bishop - Taking AIM", "漫威复仇者：凯特·毕肖普之击败先锋科技"],
-                'link': [
-                    'https://avengers.square-enix-games.com/en-us/',
-                    'https://avengers.square-enix-games.com/zh-cn/'
-                ],
-                'image': ['images/AvengersTakingAIM.jpeg', 'images/AvengersTakingAIM.jpeg'],
-                'author': ['Crystal Dynamics', '晶体动力']
-            },
-            {
                 'title': ["Marvel's Avengers", "漫威复仇者"],
                 'link': [
                     'https://avengers.square-enix-games.com/en-us/',
                     'https://avengers.square-enix-games.com/zh-cn/'
                 ],
                 'image': ['images/Avengers.jpeg', 'images/Avengers.jpeg'],
-                'author': ['Crystal Dynamics', '晶体动力']
+                'author': ['Crystal Dynamics', '晶体动力'],
+                'dlc': [["Kate Bishop - Taking AIM", "凯特·毕肖普之击败先锋科技"], 
+                        ["Hawkeye - Future Imperfect", "鹰眼之不完美的未来"]]
             },
             {
                 'title': ["Shadow of the Tomb Raider", "古墓丽影：暗影"],
@@ -36,7 +20,8 @@ const games = [
                     'https://tombraider.square-enix-games.com/en-us'
                 ],
                 'image': ['images/ShadowOfTheTombRaider.jpeg', 'images/ShadowOfTheTombRaider.jpeg'],
-                'author': ['Crystal Dynamics', '晶体动力']
+                'author': ['Crystal Dynamics', '晶体动力'],
+                'dlc': []
             },
             {
                 'title': [
@@ -48,7 +33,8 @@ const games = [
                     'https://www.playstation.com/en-us/games/marvels-spider-man/'
                 ],
                 'image': ['images/SpiderMan.webp', 'images/SpiderMan.webp'],
-                'author': ['Insomniac Games', 'Insomniac Games']
+                'author': ['Insomniac Games', 'Insomniac Games'],
+                'dlc': [['The City That Never Sleeps', '不夜城']]
             },
             {
                 'title': [
@@ -57,7 +43,8 @@ const games = [
                 ],
                 'link': ['https://www.cyberpunk.net/', 'https://www.cyberpunk.net/'],
                 'image': ['images/Cyberpunk2077.jpeg', 'images/Cyberpunk2077.jpeg'],
-                'author': ['CD Projekt', 'CD Projekt']
+                'author': ['CD Projekt', 'CD Projekt'],
+                'dlc': []
             }]
     },
     {
@@ -70,61 +57,57 @@ const games = [
                 ],
                 'link': ['https://www.ubisoft.com/en-us/game/watch-dogs/legion', 'https://www.ubisoft.com/en-us/game/watch-dogs/legion'],
                 'image': ['images/WatchDogsLegion.webp', 'images/WatchDogsLegion.webp'],
-                'author': ['Ubisoft', '育碧']
+                'author': ['Ubisoft', '育碧'],
+                'dlc': [['Bloodline', '血脉相承']]
             },
             {
                 'title': ['Watch Dogs 2', '看门狗2'],
                 'link': ['https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs-2', 'https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs-2'],
                 'image': ['images/WatchDogs2.jpeg', 'images/WatchDogs2.jpeg'],
-                'author': ['Ubisoft', '育碧']
+                'author': ['Ubisoft', '育碧'],
+                'dlc': []
             },
             {
                 'title': ['The Invisible Guardian', '隐形守护者'],
                 'link': ['https://zh.wikipedia.org/wiki/%E9%9A%90%E5%BD%A2%E5%AE%88%E6%8A%A4%E8%80%85', 'https://zh.wikipedia.org/wiki/%E9%9A%90%E5%BD%A2%E5%AE%88%E6%8A%A4%E8%80%85'],
                 'image': ['images/TheInvisibleGuardian.jpeg', 'images/TheInvisibleGuardian.jpeg'],
-                'author': ['New One Studio', 'New One Studio']
-            },
-            {
-                'title': ['Rise of the Tomb Raider: Baba Yaga', '古墓丽影：崛起：巴巴雅加'],
-                'link': ['https://en.wikipedia.org/wiki/Rise_of_the_Tomb_Raider', 'https://en.wikipedia.org/wiki/Rise_of_the_Tomb_Raider'],
-                'image': ['images/RiseOfTheTombRaiderBabaYaga.jpeg', 'images/RiseOfTheTombRaiderBabaYaga.jpeg'],
-                'author': ['Crystal Dynamics', '晶体动力']
+                'author': ['New One Studio', 'New One Studio'],
+                'dlc': []
             },
             {
                 'title': ['Rise of the Tomb Raider', '古墓丽影：崛起'],
                 'link': ['https://en.wikipedia.org/wiki/Rise_of_the_Tomb_Raider', 'https://en.wikipedia.org/wiki/Rise_of_the_Tomb_Raider'],
                 'image': ['images/RiseOfTheTombRaider.jpeg', 'images/RiseOfTheTombRaider.jpeg'],
-                'author': ['Crystal Dynamics', '晶体动力']
+                'author': ['Crystal Dynamics', '晶体动力'],
+                'dlc': [['Baba Yaga', '巴巴雅加']]
             },
             {
                 'title': ['Uncharted: The Lost Legacy', '神秘海域：失落的遗产'],
                 'link': ['https://www.unchartedthegame.com/en-us/games/uncharted-the-lost-legacy/', 'https://www.unchartedthegame.com/en-us/games/uncharted-the-lost-legacy/'],
                 'image': ['images/UnchartedTheLostLegacy.jpeg', 'images/UnchartedTheLostLegacy.jpeg'],
-                'author': ['Naughty Dog', '顽皮狗']
+                'author': ['Naughty Dog', '顽皮狗'],
+                'dlc': []
             },
             {
                 'title': ['Uncharted 4: A Thief’s End', '神秘海域4：盗贼末路'],
                 'link': ['https://www.unchartedthegame.com/en-us/games/uncharted-4/', 'https://www.unchartedthegame.com/en-us/games/uncharted-4/'],
                 'image': ['images/Uncharted4.jpeg', 'images/Uncharted4.jpeg'],
-                'author': ['Naughty Dog', '顽皮狗']
-            },
-            {
-                'title': ['Watch Dogs: Bad Blood', '看门狗：坏血'],
-                'link': ['https://en.wikipedia.org/wiki/Watch_Dogs', 'https://en.wikipedia.org/wiki/Watch_Dogs'],
-                'image': ['images/WatchDogsBadBlood.png', 'images/WatchDogsBadBlood.png'],
-                'author': ['Ubisoft', '育碧']
+                'author': ['Naughty Dog', '顽皮狗'],
+                'dlc': []
             },
             {
                 'title': ['Watch Dogs', '看门狗'],
                 'link': ['https://en.wikipedia.org/wiki/Watch_Dogs', 'https://en.wikipedia.org/wiki/Watch_Dogs'],
                 'image': ['images/WatchDogs.jpeg', 'images/WatchDogs.jpeg'],
-                'author': ['Ubisoft', '育碧']
+                'author': ['Ubisoft', '育碧'],
+                'dlc': [['Bad Blood', '坏血']]
             },
             {
                 'title': ['Tomb Raider', '古墓丽影'],
                 'link': ['https://en.wikipedia.org/wiki/Tomb_Raider', 'https://en.wikipedia.org/wiki/Tomb_Raider'],
                 'image': ['images/TombRaider.jpeg', 'images/TombRaider.jpeg'],
-                'author': ['Crystal Dynamics', '晶体动力']
+                'author': ['Crystal Dynamics', '晶体动力'],
+                'dlc': []
             }]
     },
     {
@@ -134,19 +117,22 @@ const games = [
                 'title': ['Shadow Complex', '多重阴影'],
                 'link': ['https://www.epicgames.com/shadowcomplex/', 'https://www.epicgames.com/shadowcomplex/'],
                 'image': ['images/ShadowComplex.jpeg', 'images/ShadowComplex.jpeg'],
-                'author': ['Chair Entertainment', 'Chair Entertainment']
+                'author': ['Chair Entertainment', 'Chair Entertainment'],
+                'dlc': []
             },
             {
                 'title': ['Quantum Break', '量子裂痕'],
                 'link': ['https://www.remedygames.com/games/quantumbreak/', 'https://www.remedygames.com/games/quantumbreak/'],
                 'image': ['images/QuantumBreak.jpeg', 'images/QuantumBreak.jpeg'],
-                'author': ['Remedy Entertainment', '绿美迪娱乐']
+                'author': ['Remedy Entertainment', '绿美迪娱乐'],
+                'dlc': []
             },
             {
                 'title': ['Firewatch', '看火人'],
                 'link': ['https://www.firewatchgame.com/', 'https://www.firewatchgame.com/'],
                 'image': ['images/Firewatch.jpeg', 'images/Firewatch.jpeg'],
-                'author': ['Campo Santo', 'Campo Santo']
+                'author': ['Campo Santo', 'Campo Santo'],
+                'dlc': []
             }]
     }]
 
