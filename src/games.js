@@ -3,6 +3,19 @@ const games = [
         'title': 2021,
         'items': [
             {
+                'title': [
+                    "Marvel's Spider-Man: Miles Morales",
+                    "漫威蜘蛛侠：迈尔斯·莫拉雷斯"
+                ],
+                'link': [
+                    'https://www.playstation.com/en-us/games/marvels-spider-man-miles-morales/',
+                    'https://www.playstation.com/en-us/games/marvels-spider-man-miles-morales/'
+                ],
+                'image': ['images/SpiderManMilesMorales.webp', 'images/SpiderManMilesMorales.webp'],
+                'author': ['Insomniac Games', 'Insomniac Games'],
+                'dlc': []
+            },
+            {
                 'title': ["Marvel's Avengers", "漫威复仇者"],
                 'link': [
                     'https://avengers.square-enix-games.com/en-us/',
