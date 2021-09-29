@@ -3,6 +3,18 @@ const books = [
         'title': 2021,
         'items': [
             {
+                'title': ['The Handmaid\'s Tale', '使女的故事'],
+                'link': [
+                    'https://www.goodreads.com/book/show/45864574-the-handmaid-s-tale',
+                    'https://www.goodreads.com/book/show/13556813'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618403388l/45864574._SY475_.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332442058l/13556813.jpg'
+                ],
+                'author': ['Margaret Atwood', '玛格丽特·阿特伍德']
+            },
+            {
                 'title': ['Ordered', '受命'],
                 'link': [
                     'https://www.goodreads.com/book/show/57736665',
