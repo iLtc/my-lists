@@ -4,6 +4,19 @@ const games = [
         'items': [
             {
                 'title': [
+                    "Detroit: Become Human",
+                    "底特律：变人"
+                ],
+                'link': [
+                    'https://www.playstation.com/en-us/games/detroit-become-human/',
+                    'https://www.playstation.com/en-us/games/detroit-become-human/'
+                ],
+                'image': ['images/DetroitBecomeHuman.jpeg', 'images/DetroitBecomeHuman.jpeg'],
+                'author': ['Quantic Dream', 'Quantic Dream'],
+                'dlc': []
+            },
+            {
+                'title': [
                     "Marvel's Spider-Man: Miles Morales",
                     "漫威蜘蛛侠：迈尔斯·莫拉雷斯"
                 ],
