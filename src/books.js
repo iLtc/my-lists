@@ -3,6 +3,18 @@ const books = [
         'title': 2021,
         'items': [
             {
+                'title': ['The Midnight Library', '午夜图书馆'],
+                'link': [
+                    'https://www.goodreads.com/book/show/52578297-the-midnight-library',
+                    'https://www.goodreads.com/book/show/57120582'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602190253l/52578297.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620206792l/57120582._SX318_.jpg'
+                ],
+                'author': ['Matt Haig', '麦特·海格']
+            },
+            {
                 'title': ['The Handmaid\'s Tale', '使女的故事'],
                 'link': [
                     'https://www.goodreads.com/book/show/45864574-the-handmaid-s-tale',
