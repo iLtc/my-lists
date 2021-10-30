@@ -3,6 +3,18 @@ const books = [
         'title': 2021,
         'items': [
             {
+                'title': ['The Forgotten Village', '六里庄遗事'],
+                'link': [
+                    'https://www.goodreads.com/book/show/44152880',
+                    'https://www.goodreads.com/book/show/44152880'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551281544l/44152880.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551281544l/44152880.jpg'
+                ],
+                'author': ['Dong Dong Qiang', '东东枪']
+            },
+            {
                 'title': ['The Midnight Library', '午夜图书馆'],
                 'link': [
                     'https://www.goodreads.com/book/show/52578297-the-midnight-library',
