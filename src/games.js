@@ -4,6 +4,19 @@ const games = [
         'items': [
             {
                 'title': [
+                    "Star Wars Jedi: Fallen Order",
+                    "星球大战 绝地：陨落的武士团"
+                ],
+                'link': [
+                    'https://www.ea.com/games/starwars/jedi-fallen-order',
+                    'https://www.ea.com/zh-tw/games/starwars/jedi-fallen-order'
+                ],
+                'image': ['images/StarWarsJediFallenOrder.jpeg', 'images/StarWarsJediFallenOrder.jpeg'],
+                'author': ['Electronic Arts', '艺电'],
+                'dlc': []
+            },
+            {
+                'title': [
                     "Detroit: Become Human",
                     "底特律：变人"
                 ],
