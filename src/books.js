@@ -3,6 +3,18 @@ const books = [
         'title': 2021,
         'items': [
             {
+                'title': ['Anxious People', '焦虑的人'],
+                'link': [
+                    'https://www.goodreads.com/book/show/53799686-anxious-people',
+                    'https://www.goodreads.com/book/show/58956221'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594234890l/53799686._SX318_.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631182883l/58956221._SX318_.jpg'
+                ],
+                'author': ['Fredrik Backman', '弗雷德里克·巴克曼']
+            },
+            {
                 'title': ['The Forgotten Village', '六里庄遗事'],
                 'link': [
                     'https://www.goodreads.com/book/show/44152880',
