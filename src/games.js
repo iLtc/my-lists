@@ -4,6 +4,19 @@ const games = [
         'items': [
             {
                 'title': [
+                    "Life Is Strange: True Colors",
+                    "奇异人生：本色"
+                ],
+                'link': [
+                    'https://lifeisstrange.square-enix-games.com/en-us/',
+                    'https://lifeisstrange.square-enix-games.com/en-us/'
+                ],
+                'image': ['images/LifeIsStrangeTrueColors.jpeg', 'images/LifeIsStrangeTrueColors.jpeg'],
+                'author': ['Deck Nine', 'Deck Nine'],
+                'dlc': []
+            },
+            {
+                'title': [
                     "Star Wars Jedi: Fallen Order",
                     "星球大战 绝地：陨落的武士团"
                 ],
