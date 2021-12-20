@@ -13,7 +13,7 @@ const games = [
                 ],
                 'image': ['images/LifeIsStrangeTrueColors.jpeg', 'images/LifeIsStrangeTrueColors.jpeg'],
                 'author': ['Deck Nine', 'Deck Nine'],
-                'dlc': []
+                'dlc': [['Wavelengths', '波长']]
             },
             {
                 'title': [
