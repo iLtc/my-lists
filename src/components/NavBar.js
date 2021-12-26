@@ -19,7 +19,7 @@ const NavBar = () => {
     const gameTitle = enActive ? "Game" : "游戏"
 
     return (
-        <Navbar bg="light" expand="lg" fixed="top">
+        <Navbar bg="light" expand="lg" sticky="top">
             <Navbar.Brand>{brandTitle}</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
