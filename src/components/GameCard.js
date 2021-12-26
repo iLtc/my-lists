@@ -1,4 +1,4 @@
-import { Col, Card, Button, ListGroup, ListGroupItem } from "react-bootstrap";
+import { Col, Card, ListGroup, ListGroupItem } from "react-bootstrap";
 import React from "react";
 import classes from "./GameCard.module.css"
 
