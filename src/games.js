@@ -4,6 +4,19 @@ const games = [
         'items': [
             {
                 'title': [
+                    "Marvel's Guardians of the Galaxy",
+                    "漫威银河护卫队"
+                ],
+                'link': [
+                    'https://guardiansofthegalaxy.square-enix-games.com/en-us/',
+                    'https://guardiansofthegalaxy.square-enix-games.com/zh-cn/'
+                ],
+                'image': ['images/GuardiansOfTheGalaxy.jpeg', 'images/GuardiansOfTheGalaxy.jpeg'],
+                'author': ['Eidos-Montréal', '艺夺蒙特利尔'],
+                'dlc': []
+            },
+            {
+                'title': [
                     "Life Is Strange: True Colors",
                     "奇异人生：本色"
                 ],
