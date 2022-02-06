@@ -62,7 +62,7 @@ const games = [
             {
                 'title': [
                     "Detroit: Become Human",
-                    "底特律：变人"
+                    "底特律：化身为人"
                 ],
                 'link': [
                     'https://www.playstation.com/en-us/games/detroit-become-human/',
