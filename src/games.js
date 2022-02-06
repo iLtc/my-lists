@@ -1,5 +1,23 @@
 const games = [
     {
+        'title': 2022,
+        'items': [
+            {
+                'title': [
+                    "Mafia",
+                    "四海兄弟"
+                ],
+                'link': [
+                    'https://mafiagame.com/mafia/',
+                    'https://mafiagame.com/zh-CN/mafia/'
+                ],
+                'image': ['images/Mafia.jpeg', 'images/Mafia.jpeg'],
+                'author': ['Hangar 13', 'Hangar 13'],
+                'dlc': []
+            }
+        ]
+    },
+    {
         'title': 2021,
         'items': [
             {
