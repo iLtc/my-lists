@@ -4,6 +4,19 @@ const games = [
         'items': [
             {
                 'title': [
+                    "Uncharted: Drake's Fortune",
+                    "神秘海域：德雷克船长的宝藏"
+                ],
+                'link': [
+                    'https://en.wikipedia.org/wiki/Uncharted:_Drake%27s_Fortune',
+                    'https://zh.wikipedia.org/zh-cn/%E7%A7%98%E5%A2%83%E6%8E%A2%E9%9A%AA%EF%BC%9A%E9%BB%83%E9%87%91%E5%9F%8E%E7%A7%98%E5%AF%B6'
+                ],
+                'image': ['images/UnchartedDrakesFortune.webp', 'images/UnchartedDrakesFortune.webp'],
+                'author': ['Naughty Dog', '顽皮狗'],
+                'dlc': []
+            },
+            {
+                'title': [
                     "Mafia",
                     "四海兄弟"
                 ],
