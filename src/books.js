@@ -1,5 +1,22 @@
 const books = [
     {
+        'title': 2022,
+        'items': [
+            {
+                'title': ['A Man Called Ove', '一个叫欧维的男人'],
+                'link': [
+                    'https://www.goodreads.com/book/show/20492604-a-man-called-ove',
+                    'https://www.goodreads.com/book/show/51691420'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389203193l/20492604.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582685622l/51691420._SX318_.jpg'
+                ],
+                'author': ['Fredrik Backman', '弗雷德里克·巴克曼']
+            }
+        ]
+    },
+    {
         'title': 2021,
         'items': [
             {
