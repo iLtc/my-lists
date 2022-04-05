@@ -576,6 +576,102 @@ const books = [
                     '雷克'
                 ]
             }]
-    }]
+    },
+    {
+        'title': 2013,
+        'items': [
+            {
+                'title': ['The Minority Report', '少数派报告'],
+                'link': [
+                    'https://www.goodreads.com/book/show/581125.The_Minority_Report',
+                    'https://www.goodreads.com/book/show/18923585'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390719396l/581125.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428242570l/25301536.jpg'
+                ],
+                'author': [
+                    'Philip K. Dick',
+                    '菲利普·狄克'
+                ]
+            },
+            {
+                'title': ['背包十年：我的职业是旅行', '背包十年：我的职业是旅行'],
+                'link': [
+                    'https://www.goodreads.com/book/show/18923585',
+                    'https://www.goodreads.com/book/show/18923585'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393091420l/18923585.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393091420l/18923585.jpg'
+                ],
+                'author': [
+                    '小鹏',
+                    '小鹏'
+                ]
+            },
+            {
+                'title': ['看见', '看见'],
+                'link': [
+                    'https://www.goodreads.com/book/show/18458655',
+                    'https://www.goodreads.com/book/show/18458655'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408458884l/18458655.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408458884l/18458655.jpg'
+                ],
+                'author': [
+                    '柴静',
+                    '柴静'
+                ]
+            },
+            {
+                'title': ['Mockingjay', '饥饿游戏3：嘲笑鸟'],
+                'link': [
+                    'https://www.goodreads.com/book/show/7260188-mockingjay',
+                    'https://www.goodreads.com/book/show/7260188-mockingjay'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722918l/7260188._SY475_.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722918l/7260188._SY475_.jpg'
+                ],
+                'author': [
+                    'Suzanne Collins',
+                    '苏珊·柯林斯'
+                ]
+            },
+            {
+                'title': ['Catching Fire', '饥饿游戏2：燃烧的女孩'],
+                'link': [
+                    'https://www.goodreads.com/book/show/6148028-catching-fire',
+                    'https://www.goodreads.com/book/show/6148028-catching-fire'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722941l/6148028.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722941l/6148028.jpg'
+                ],
+                'author': [
+                    'Suzanne Collins',
+                    '苏珊·柯林斯'
+                ]
+            },
+            {
+                'title': ['The Hunger Games', '饥饿游戏'],
+                'link': [
+                    'https://www.goodreads.com/book/show/2767052-the-hunger-games',
+                    'https://www.goodreads.com/book/show/2767052-the-hunger-games'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722975l/2767052.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722975l/2767052.jpg'
+                ],
+                'author': [
+                    'Suzanne Collins',
+                    '苏珊·柯林斯'
+                ]
+            }
+        ]
+    }
+]
 
 export default books;
