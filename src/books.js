@@ -3,6 +3,18 @@ const books = [
         'title': 2022,
         'items': [
             {
+                'title': ['Bad Blood', '恶血'],
+                'link': [
+                    'https://www.goodreads.com/book/show/41304176-bad-blood',
+                    'https://www.goodreads.com/book/show/41304176-bad-blood'
+                ],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563822235l/41304176._SY475_.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563822235l/41304176._SY475_.jpg'
+                ],
+                'author': ['John Carreyrou', '约翰·卡里鲁']
+            },
+            {
                 'title': ['A Man Called Ove', '一个叫欧维的男人'],
                 'link': [
                     'https://www.goodreads.com/book/show/20492604-a-man-called-ove',
