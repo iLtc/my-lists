@@ -336,7 +336,7 @@ const books = [
                 'author': ['Ma Boyong', 'Ma Boyong']
             },
             {
-                'title': ['The Phoenix Project', 'The Phoenix Project'],
+                'title': ['The Phoenix Project', '凤凰项目'],
                 'link': ['https://www.goodreads.com/book/show/38191426-the-phoenix-project', 'https://www.goodreads.com/book/show/38191426-the-phoenix-project'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516785582l/38191426._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516785582l/38191426._SY475_.jpg'],
                 'author': ['Gene Kim, Kevin Behr, and George Spafford', 'Gene Kim, Kevin Behr, and George Spafford']
@@ -434,7 +434,7 @@ const books = [
                 'author': ['Gregory S. Aldrete', 'Gregory S. Aldrete']
             },
             {
-                'title': ['Divergent', 'Divergent'],
+                'title': ['Divergent', '分歧者'],
                 'link': ['https://www.goodreads.com/book/show/9717320-divergent', 'https://www.goodreads.com/book/show/9717320-divergent'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374773761l/9717320.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374773761l/9717320.jpg'],
                 'author': ['Veronica Roth', 'Veronica Roth']
