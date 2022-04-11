@@ -400,7 +400,7 @@ const books = [
         'title': 2018,
         'items': [
             {
-                'title': ['Allegiant', 'Allegiant'],
+                'title': ['Allegiant', '忠诚者'],
                 'link': ['https://www.goodreads.com/book/show/18710190-allegiant', 'https://www.goodreads.com/book/show/18710190-allegiant'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395582745l/18710190.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395582745l/18710190.jpg'],
                 'author': ['Veronica Roth', 'Veronica Roth']
@@ -412,7 +412,7 @@ const books = [
                 'author': ['Veronica Roth', 'Veronica Roth']
             },
             {
-                'title': ['Insurgent', 'Insurgent'],
+                'title': ['Insurgent', '反叛者'],
                 'link': ['https://www.goodreads.com/book/show/13068756-insurgent', 'https://www.goodreads.com/book/show/13068756-insurgent'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1324015626l/13068756.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1324015626l/13068756.jpg'],
                 'author': ['Veronica Roth', 'Veronica Roth']
