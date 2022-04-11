@@ -4,6 +4,19 @@ const games = [
         'items': [
             {
                 'title': [
+                    "Uncharted 2: Among Thieves",
+                    "神秘海域2：纵横四海"
+                ],
+                'link': [
+                    'https://en.wikipedia.org/wiki/Uncharted_2:_Among_Thieves',
+                    'https://zh.wikipedia.org/wiki/%E7%A7%98%E5%A2%83%E6%8E%A2%E9%9A%AA2%EF%BC%9A%E7%9B%9C%E4%BA%A6%E6%9C%89%E9%81%93'
+                ],
+                'image': ['images/UnchartedAmongThieves.jpeg', 'images/UnchartedAmongThieves.jpeg'],
+                'author': ['Naughty Dog', '顽皮狗'],
+                'dlc': []
+            },
+            {
+                'title': [
                     "Uncharted: Drake's Fortune",
                     "神秘海域：德雷克船长的宝藏"
                 ],
