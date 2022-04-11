@@ -28,8 +28,7 @@ jobs:
       run: yarn build
       
     - name: Deploy
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: JamesIves/github-pages-deploy-action@v4.3.0
       with:
         branch: gh-pages
-        repository: build
-        push_options: '--force'
+        folder: build
