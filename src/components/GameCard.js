@@ -13,9 +13,7 @@ const GameCard = (props) => {
                 <Card.Img variant="top" src={props.image[idx]} alt={props.title[idx]} />
                 <Card.Body>
                     <Card.Title>
-                        <a rel="nofollow" href={props.link[idx]}>
-                            {props.title[idx]}
-                        </a>
+                        {props.title[idx]}
                     </Card.Title>
                     <Card.Text>
                         by {props.author[idx]}
