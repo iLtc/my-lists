@@ -4,6 +4,15 @@ const games = [
         'items': [
             {
                 'title': [
+                    "Uncharted 3: Drake's Deception",
+                    "神秘海域3：德雷克的诡计"
+                ],
+                'image': ['images/UnchartedDrakesDeception.jpeg', 'images/UnchartedDrakesDeception.jpeg'],
+                'author': ['Naughty Dog', '顽皮狗'],
+                'dlc': []
+            },
+            {
+                'title': [
                     "Uncharted 2: Among Thieves",
                     "神秘海域2：纵横四海"
                 ],
