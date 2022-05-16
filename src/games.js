@@ -16,10 +16,6 @@ const games = [
                     "Uncharted 2: Among Thieves",
                     "神秘海域2：纵横四海"
                 ],
-                'link': [
-                    'https://en.wikipedia.org/wiki/Uncharted_2:_Among_Thieves',
-                    'https://zh.wikipedia.org/wiki/%E7%A7%98%E5%A2%83%E6%8E%A2%E9%9A%AA2%EF%BC%9A%E7%9B%9C%E4%BA%A6%E6%9C%89%E9%81%93'
-                ],
                 'image': ['images/UnchartedAmongThieves.jpeg', 'images/UnchartedAmongThieves.jpeg'],
                 'author': ['Naughty Dog', '顽皮狗'],
                 'dlc': []
@@ -29,10 +25,6 @@ const games = [
                     "Uncharted: Drake's Fortune",
                     "神秘海域：德雷克船长的宝藏"
                 ],
-                'link': [
-                    'https://en.wikipedia.org/wiki/Uncharted:_Drake%27s_Fortune',
-                    'https://zh.wikipedia.org/zh-cn/%E7%A7%98%E5%A2%83%E6%8E%A2%E9%9A%AA%EF%BC%9A%E9%BB%83%E9%87%91%E5%9F%8E%E7%A7%98%E5%AF%B6'
-                ],
                 'image': ['images/UnchartedDrakesFortune.webp', 'images/UnchartedDrakesFortune.webp'],
                 'author': ['Naughty Dog', '顽皮狗'],
                 'dlc': []
@@ -41,10 +33,6 @@ const games = [
                 'title': [
                     "Mafia",
                     "四海兄弟"
-                ],
-                'link': [
-                    'https://mafiagame.com/mafia/',
-                    'https://mafiagame.com/zh-CN/mafia/'
                 ],
                 'image': ['images/Mafia.jpeg', 'images/Mafia.jpeg'],
                 'author': ['Hangar 13', 'Hangar 13'],
@@ -60,10 +48,6 @@ const games = [
                     "Marvel's Guardians of the Galaxy",
                     "漫威银河护卫队"
                 ],
-                'link': [
-                    'https://guardiansofthegalaxy.square-enix-games.com/en-us/',
-                    'https://guardiansofthegalaxy.square-enix-games.com/zh-cn/'
-                ],
                 'image': ['images/GuardiansOfTheGalaxy.jpeg', 'images/GuardiansOfTheGalaxy.jpeg'],
                 'author': ['Eidos-Montréal', '艺夺蒙特利尔'],
                 'dlc': []
@@ -72,10 +56,6 @@ const games = [
                 'title': [
                     "Life Is Strange: True Colors",
                     "奇异人生：本色"
-                ],
-                'link': [
-                    'https://lifeisstrange.square-enix-games.com/en-us/',
-                    'https://lifeisstrange.square-enix-games.com/en-us/'
                 ],
                 'image': ['images/LifeIsStrangeTrueColors.jpeg', 'images/LifeIsStrangeTrueColors.jpeg'],
                 'author': ['Deck Nine', 'Deck Nine'],
@@ -86,10 +66,6 @@ const games = [
                     "Star Wars Jedi: Fallen Order",
                     "星球大战 绝地：陨落的武士团"
                 ],
-                'link': [
-                    'https://www.ea.com/games/starwars/jedi-fallen-order',
-                    'https://www.ea.com/zh-tw/games/starwars/jedi-fallen-order'
-                ],
                 'image': ['images/StarWarsJediFallenOrder.jpeg', 'images/StarWarsJediFallenOrder.jpeg'],
                 'author': ['Electronic Arts', '艺电'],
                 'dlc': []
@@ -98,10 +74,6 @@ const games = [
                 'title': [
                     "Detroit: Become Human",
                     "底特律：化身为人"
-                ],
-                'link': [
-                    'https://www.playstation.com/en-us/games/detroit-become-human/',
-                    'https://www.playstation.com/en-us/games/detroit-become-human/'
                 ],
                 'image': ['images/DetroitBecomeHuman.jpeg', 'images/DetroitBecomeHuman.jpeg'],
                 'author': ['Quantic Dream', 'Quantic Dream'],
@@ -112,20 +84,12 @@ const games = [
                     "Marvel's Spider-Man: Miles Morales",
                     "漫威蜘蛛侠：迈尔斯·莫拉雷斯"
                 ],
-                'link': [
-                    'https://www.playstation.com/en-us/games/marvels-spider-man-miles-morales/',
-                    'https://www.playstation.com/en-us/games/marvels-spider-man-miles-morales/'
-                ],
                 'image': ['images/SpiderManMilesMorales.webp', 'images/SpiderManMilesMorales.webp'],
                 'author': ['Insomniac Games', 'Insomniac Games'],
                 'dlc': []
             },
             {
                 'title': ["Marvel's Avengers", "漫威复仇者"],
-                'link': [
-                    'https://avengers.square-enix-games.com/en-us/',
-                    'https://avengers.square-enix-games.com/zh-cn/'
-                ],
                 'image': ['images/Avengers.jpeg', 'images/Avengers.jpeg'],
                 'author': ['Crystal Dynamics', '晶体动力'],
                 'dlc': [["Kate Bishop - Taking AIM", "凯特·毕肖普之击败先锋科技"], 
@@ -133,10 +97,6 @@ const games = [
             },
             {
                 'title': ["Shadow of the Tomb Raider", "古墓丽影：暗影"],
-                'link': [
-                    'https://tombraider.square-enix-games.com/en-us',
-                    'https://tombraider.square-enix-games.com/en-us'
-                ],
                 'image': ['images/ShadowOfTheTombRaider.jpeg', 'images/ShadowOfTheTombRaider.jpeg'],
                 'author': ['Crystal Dynamics', '晶体动力'],
                 'dlc': []
@@ -145,10 +105,6 @@ const games = [
                 'title': [
                     "Marvel's Spider-Man",
                     "漫威蜘蛛侠"
-                ],
-                'link': [
-                    'https://www.playstation.com/en-us/games/marvels-spider-man/',
-                    'https://www.playstation.com/en-us/games/marvels-spider-man/'
                 ],
                 'image': ['images/SpiderMan.webp', 'images/SpiderMan.webp'],
                 'author': ['Insomniac Games', 'Insomniac Games'],
@@ -159,7 +115,6 @@ const games = [
                     'Cyberpunk 2077',
                     '赛博朋克 2077'
                 ],
-                'link': ['https://www.cyberpunk.net/', 'https://www.cyberpunk.net/'],
                 'image': ['images/Cyberpunk2077.jpeg', 'images/Cyberpunk2077.jpeg'],
                 'author': ['CD Projekt', 'CD Projekt'],
                 'dlc': []
@@ -173,56 +128,48 @@ const games = [
                     'Watch Dogs: Legion',
                     '看门狗：军团'
                 ],
-                'link': ['https://www.ubisoft.com/en-us/game/watch-dogs/legion', 'https://www.ubisoft.com/en-us/game/watch-dogs/legion'],
                 'image': ['images/WatchDogsLegion.webp', 'images/WatchDogsLegion.webp'],
                 'author': ['Ubisoft', '育碧'],
                 'dlc': [['Bloodline', '血脉相承']]
             },
             {
                 'title': ['Watch Dogs 2', '看门狗2'],
-                'link': ['https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs-2', 'https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs-2'],
                 'image': ['images/WatchDogs2.jpeg', 'images/WatchDogs2.jpeg'],
                 'author': ['Ubisoft', '育碧'],
                 'dlc': []
             },
             {
                 'title': ['The Invisible Guardian', '隐形守护者'],
-                'link': ['https://zh.wikipedia.org/wiki/%E9%9A%90%E5%BD%A2%E5%AE%88%E6%8A%A4%E8%80%85', 'https://zh.wikipedia.org/wiki/%E9%9A%90%E5%BD%A2%E5%AE%88%E6%8A%A4%E8%80%85'],
                 'image': ['images/TheInvisibleGuardian.jpeg', 'images/TheInvisibleGuardian.jpeg'],
                 'author': ['New One Studio', 'New One Studio'],
                 'dlc': []
             },
             {
                 'title': ['Rise of the Tomb Raider', '古墓丽影：崛起'],
-                'link': ['https://en.wikipedia.org/wiki/Rise_of_the_Tomb_Raider', 'https://en.wikipedia.org/wiki/Rise_of_the_Tomb_Raider'],
                 'image': ['images/RiseOfTheTombRaider.jpeg', 'images/RiseOfTheTombRaider.jpeg'],
                 'author': ['Crystal Dynamics', '晶体动力'],
                 'dlc': [['Baba Yaga', '巴巴雅加']]
             },
             {
                 'title': ['Uncharted: The Lost Legacy', '神秘海域：失落的遗产'],
-                'link': ['https://www.unchartedthegame.com/en-us/games/uncharted-the-lost-legacy/', 'https://www.unchartedthegame.com/en-us/games/uncharted-the-lost-legacy/'],
                 'image': ['images/UnchartedTheLostLegacy.jpeg', 'images/UnchartedTheLostLegacy.jpeg'],
                 'author': ['Naughty Dog', '顽皮狗'],
                 'dlc': []
             },
             {
                 'title': ['Uncharted 4: A Thief’s End', '神秘海域4：盗贼末路'],
-                'link': ['https://www.unchartedthegame.com/en-us/games/uncharted-4/', 'https://www.unchartedthegame.com/en-us/games/uncharted-4/'],
                 'image': ['images/Uncharted4.jpeg', 'images/Uncharted4.jpeg'],
                 'author': ['Naughty Dog', '顽皮狗'],
                 'dlc': []
             },
             {
                 'title': ['Watch Dogs', '看门狗'],
-                'link': ['https://en.wikipedia.org/wiki/Watch_Dogs', 'https://en.wikipedia.org/wiki/Watch_Dogs'],
                 'image': ['images/WatchDogs.jpeg', 'images/WatchDogs.jpeg'],
                 'author': ['Ubisoft', '育碧'],
                 'dlc': [['Bad Blood', '坏血']]
             },
             {
                 'title': ['Tomb Raider', '古墓丽影'],
-                'link': ['https://en.wikipedia.org/wiki/Tomb_Raider', 'https://en.wikipedia.org/wiki/Tomb_Raider'],
                 'image': ['images/TombRaider.jpeg', 'images/TombRaider.jpeg'],
                 'author': ['Crystal Dynamics', '晶体动力'],
                 'dlc': []
@@ -233,21 +180,18 @@ const games = [
         'items': [
             {
                 'title': ['Shadow Complex', '多重阴影'],
-                'link': ['https://www.epicgames.com/shadowcomplex/', 'https://www.epicgames.com/shadowcomplex/'],
                 'image': ['images/ShadowComplex.jpeg', 'images/ShadowComplex.jpeg'],
                 'author': ['Chair Entertainment', 'Chair Entertainment'],
                 'dlc': []
             },
             {
                 'title': ['Quantum Break', '量子裂痕'],
-                'link': ['https://www.remedygames.com/games/quantumbreak/', 'https://www.remedygames.com/games/quantumbreak/'],
                 'image': ['images/QuantumBreak.jpeg', 'images/QuantumBreak.jpeg'],
                 'author': ['Remedy Entertainment', '绿美迪娱乐'],
                 'dlc': []
             },
             {
                 'title': ['Firewatch', '看火人'],
-                'link': ['https://www.firewatchgame.com/', 'https://www.firewatchgame.com/'],
                 'image': ['images/Firewatch.jpeg', 'images/Firewatch.jpeg'],
                 'author': ['Campo Santo', 'Campo Santo'],
                 'dlc': []
