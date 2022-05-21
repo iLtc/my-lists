@@ -4,6 +4,15 @@ const games = [
         'items': [
             {
                 'title': [
+                    "The Last of Us",
+                    "最后生还者"
+                ],
+                'image': ['images/TheLastOfUs.jpeg', 'images/TheLastOfUs.jpeg'],
+                'author': ['Naughty Dog', '顽皮狗'],
+                'dlc': [['Left Behind', '抛诸脑后']]
+            },
+            {
+                'title': [
                     "Uncharted 3: Drake's Deception",
                     "神秘海域3：德雷克的诡计"
                 ],
