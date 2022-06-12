@@ -3,6 +3,14 @@ const books = [
         'title': 2022,
         'items': [
             {
+                'title': ['Steve Jobs', '史蒂夫·乔布斯传'],
+                'image': [
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1313501697l/11297044.jpg',
+                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1313501697l/11297044.jpg'
+                ],
+                'author': ['Walter Isaacson', '沃尔特·艾萨克森']
+            },
+            {
                 'title': ['Bad Blood', '恶血'],
                 'image': [
                     'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563822235l/41304176._SY475_.jpg',
