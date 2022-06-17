@@ -4,6 +4,15 @@ const games = [
         'items': [
             {
                 'title': [
+                    "The Last of Us Part II",
+                    "最后生还者 第II章"
+                ],
+                'image': ['images/TheLastOfUsPart2.webp', 'images/TheLastOfUsPart2.webp'],
+                'author': ['Naughty Dog', '顽皮狗'],
+                'dlc': []
+            },
+            {
+                'title': [
                     "The Last of Us",
                     "最后生还者"
                 ],
