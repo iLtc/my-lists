@@ -3,6 +3,14 @@ const books = [
         'title': 2022,
         'items': [
             {
+                'title': ['The Storied Life of A. J. Fikry', '岛上书店'],
+                'image': [
+                    'images/books/TheStoriedLifeOfAJFikry.jpg',
+                    'images/books/TheStoriedLifeOfAJFikry.jpg'
+                ],
+                'author': ['Gabrielle Zevin', '嘉布莉·丽文']
+            },
+            {
                 'title': ['Steve Jobs', '史蒂夫·乔布斯传'],
                 'image': [
                     'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1313501697l/11297044.jpg',
