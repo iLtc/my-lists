@@ -10,7 +10,7 @@ const GameCard = (props) => {
     return (
         <Col sm={12} md={6} lg={4} className={classes["card-container"]}>
             <Card>
-                <Card.Img variant="top" src={props.image[idx]} alt={props.title[idx]} />
+                <Card.Img variant="top" src={`images/games/${props.image[idx]}`} alt={props.title[idx]} />
                 <Card.Body>
                     <Card.Title>
                         {props.title[idx]}
