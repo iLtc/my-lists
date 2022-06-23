@@ -3,6 +3,14 @@ const books = [
         'title': 2022,
         'items': [
             {
+                'title': ['The Crimes That Bind', '祈祷落幕时'],
+                'image': [
+                    'images/books/TheCrimesThatBind.jpeg',
+                    'images/books/TheCrimesThatBind.jpeg'
+                ],
+                'author': ['Keigo Higashino', '东野奎吾']
+            },
+            {
                 'title': ['The Storied Life of A. J. Fikry', '岛上书店'],
                 'image': [
                     'images/books/TheStoriedLifeOfAJFikry.jpg',
