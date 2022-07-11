@@ -4,6 +4,15 @@ const games = [
         'items': [
             {
                 'title': [
+                    "Assassin's Creed",
+                    "刺客信条"
+                ],
+                'image': ['AssassinsCreed1.jpeg', 'AssassinsCreed1.jpeg'],
+                'author': ['Ubisoft', '育碧'],
+                'dlc': []
+            },
+            {
+                'title': [
                     "The Last of Us Part II",
                     "最后生还者 第II章"
                 ],
