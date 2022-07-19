@@ -3,6 +3,14 @@ const books = [
         'title': 2022,
         'items': [
             {
+                'title': ['Klara and the Sun', '克拉拉与太阳'],
+                'image': [
+                    'images/books/KlaraAndTheSun.jpg',
+                    'images/books/KlaraAndTheSun.jpg'
+                ],
+                'author': ['Kazuo Ishiguro', '石黑一雄']
+            },
+            {
                 'title': ['The Crimes That Bind', '祈祷落幕时'],
                 'image': [
                     'images/books/TheCrimesThatBind.jpeg',
