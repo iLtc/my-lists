@@ -3,6 +3,14 @@ const books = [
         'title': 2022,
         'items': [
             {
+                'title': ['And Then There Were None', '无人生还'],
+                'image': [
+                    'images/books/AndThenThereWereNone.jpg',
+                    'images/books/AndThenThereWereNone.jpg'
+                ],
+                'author': ['Agatha Christie', '阿加莎·克里斯蒂']
+            },
+            {
                 'title': ['Klara and the Sun', '克拉拉与太阳'],
                 'image': [
                     'images/books/KlaraAndTheSun.jpg',
