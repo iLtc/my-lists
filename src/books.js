@@ -3,6 +3,22 @@ const books = [
         'title': 2022,
         'items': [
             {
+                'title': ['Midnight in Chernobyl', '切尔诺贝利的午夜'],
+                'image': [
+                    'images/books/MidnightInChernobyl.jpeg',
+                    'images/books/MidnightInChernobylCN.jpg'
+                ],
+                'author': ['Adam Higginbotham', '亚当·希金博特姆']
+            },
+            {
+                'title': ['Murder on the Orient Express', '东方快车谋杀案'],
+                'image': [
+                    'images/books/MurderOnTheOrientExpress.jpg',
+                    'images/books/MurderOnTheOrientExpressCN.jpg'
+                ],
+                'author': ['Agatha Christie', '阿加莎·克里斯蒂']
+            },
+            {
                 'title': ['And Then There Were None', '无人生还'],
                 'image': [
                     'images/books/AndThenThereWereNone.jpg',
