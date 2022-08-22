@@ -3,6 +3,14 @@ const books = [
         'title': 2022,
         'items': [
             {
+                'title': ['Being Mortal', '最好的告别'],
+                'image': [
+                    'images/books/BeingMortal.jpeg',
+                    'images/books/BeingMortalCN.jpeg'
+                ],
+                'author': ['Atul Gawande', '阿图·葛文德']
+            },
+            {
                 'title': ['Midnight in Chernobyl', '切尔诺贝利的午夜'],
                 'image': [
                     'images/books/MidnightInChernobyl.jpeg',
