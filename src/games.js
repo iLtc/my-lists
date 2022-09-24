@@ -4,6 +4,15 @@ const games = [
         'items': [
             {
                 'title': [
+                    "God of War",
+                    "战神"
+                ],
+                'image': ['GodOfWar.jpeg', 'GodOfWar.jpeg'],
+                'author': ['SIE Santa Monica Studio', '索尼互动娱乐圣莫尼卡工作室'],
+                'dlc': []
+            },
+            {
+                'title': [
                     "Assassin's Creed II",
                     "刺客信条II"
                 ],
