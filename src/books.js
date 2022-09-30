@@ -3,6 +3,14 @@ const books = [
         'title': 2022,
         'items': [
             {
+                'title': ['Why We Sleep', '我们为什么要睡觉？'],
+                'image': [
+                    'images/books/WhyWeSleep.jpeg',
+                    'images/books/WhyWeSleep.jpeg'
+                ],
+                'author': ['Matthew Walker', '马修·沃克']
+            },
+            {
                 'title': ['Being Mortal', '最好的告别'],
                 'image': [
                     'images/books/BeingMortal.jpeg',
