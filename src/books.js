@@ -3,6 +3,14 @@ const books = [
         'title': 2022,
         'items': [
             {
+                'title': ['Selfish, Shallow, and Self-Absorbed', '最好的决定'],
+                'image': [
+                    'images/books/SelfishShallowAndSelfAbsorbed.jpeg',
+                    'images/books/SelfishShallowAndSelfAbsorbedCN.jpeg'
+                ],
+                'author': ['Meghan Daum', '梅根·多姆']
+            },
+            {
                 'title': ['Why We Sleep', '我们为什么要睡觉？'],
                 'image': [
                     'images/books/WhyWeSleep.jpeg',
