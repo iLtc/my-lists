@@ -4,6 +4,15 @@ const games = [
         'items': [
             {
                 'title': [
+                    "Stray",
+                    "Stray"
+                ],
+                'image': ['Stray.jpeg', 'Stray.jpeg'],
+                'author': ['BlueTwelve Studio', 'BlueTwelve Studio'],
+                'dlc': []
+            },
+            {
+                'title': [
                     "God of War",
                     "战神"
                 ],
