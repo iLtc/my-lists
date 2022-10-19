@@ -4,6 +4,14 @@ const games = [
         'items': [
             {
                 'title': [
+                    "Alan Wake", "心灵杀手"
+                ],
+                'image': ['AlanWake.jpeg', 'AlanWake.jpeg'],
+                'author': ['Remedy Entertainment', '绿美迪娱乐'],
+                'dlc': [["The Signal", "信号"], ["The Writer", "作家"]]
+            },
+            {
+                'title': [
                     "Stray",
                     "Stray"
                 ],
