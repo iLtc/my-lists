@@ -3,6 +3,14 @@ const books = [
         'title': 2022,
         'items': [
             {
+                'title': ['Atomic Habits', 'Atomic Habits'],
+                'image': [
+                    'images/books/AtomicHabits.jpeg',
+                    'images/books/AtomicHabits.jpeg'
+                ],
+                'author': ['James Clear', 'James Clear']
+            },
+            {
                 'title': ['Selfish, Shallow, and Self-Absorbed', '最好的决定'],
                 'image': [
                     'images/books/SelfishShallowAndSelfAbsorbed.jpeg',
