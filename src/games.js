@@ -4,6 +4,14 @@ const games = [
         'items': [
             {
                 'title': [
+                    "A Plague Tale: Requiem", "瘟疫传说：安魂曲"
+                ],
+                'image': ['APlagueTaleRequiem.jpeg', 'APlagueTaleRequiem.jpeg'],
+                'author': ['Asobo Studio', 'Asobo 游戏工作室'],
+                'dlc': []
+            },
+            {
+                'title': [
                     "A Plague Tale: Innocence", "瘟疫传说：无罪"
                 ],
                 'image': ['APlagueTaleInnocence.jpeg', 'APlagueTaleInnocence.jpeg'],
