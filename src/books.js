@@ -3,6 +3,14 @@ const books = [
         'title': 2022,
         'items': [
             {
+                'title': ['Rich Dad Poor Dad', '富爸爸·穷爸爸'],
+                'image': [
+                    'images/books/RichDadPoorDad.jpg',
+                    'images/books/RichDadPoorDad.jpg'
+                ],
+                'author': ['Robert T. Kiyosaki', '罗伯特·清崎']
+            },
+            {
                 'title': ['Atomic Habits', 'Atomic Habits'],
                 'image': [
                     'images/books/AtomicHabits.jpeg',
