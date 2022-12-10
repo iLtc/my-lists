@@ -4,6 +4,15 @@ const games = [
         'items': [
             {
                 'title': [
+                    "God of War Ragnarök",
+                    "战神：诸神黄昏"
+                ],
+                'image': ['GodOfWarRagnarök.webp', 'GodOfWarRagnarök.webp'],
+                'author': ['SIE Santa Monica Studio', '索尼互动娱乐圣莫尼卡工作室'],
+                'dlc': []
+            },
+            {
+                'title': [
                     "A Plague Tale: Requiem", "瘟疫传说：安魂曲"
                 ],
                 'image': ['APlagueTaleRequiem.jpeg', 'APlagueTaleRequiem.jpeg'],
