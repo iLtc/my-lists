@@ -3,6 +3,14 @@ const books = [
         'title': 2022,
         'items': [
             {
+                'title': ['We Were Dreamers', '我们都是追梦者'],
+                'image': [
+                    'images/books/WeWereDreamers.jpg',
+                    'images/books/WeWereDreamers.jpg'
+                ],
+                'author': ['Simu Liu', '刘思慕']
+            },
+            {
                 'title': ['Rich Dad Poor Dad', '富爸爸·穷爸爸'],
                 'image': [
                     'images/books/RichDadPoorDad.jpg',
