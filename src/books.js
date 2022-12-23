@@ -3,6 +3,14 @@ const books = [
         'title': 2022,
         'items': [
             {
+                'title': ['Sea Anemone', '海葵'],
+                'image': [
+                    'images/books/SeaAnemone.jpg',
+                    'images/books/SeaAnemone.jpg'
+                ],
+                'author': ['Bei Ke Bang', '贝客邦']
+            },
+            {
                 'title': ['We Were Dreamers', '我们都是追梦者'],
                 'image': [
                     'images/books/WeWereDreamers.jpg',
