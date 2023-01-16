@@ -14,7 +14,13 @@ const books = [
                     'Darren Hardy',
                     'Darren Hardy'
                 ]
-            }]
+            },
+            {
+                'title': ['Project Hail Mary', '挽救计划'],
+                'image': ['images/books/ProjectHailMary.jpeg', 'images/books/ProjectHailMaryCN.jpeg'],
+                'author': ['Andy Weir', '安迪·威尔']
+            }
+        ]
     },
     {
         'title': 2022,
