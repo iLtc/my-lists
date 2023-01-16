@@ -1,5 +1,22 @@
 const books = [
     {
+        'title': 2023,
+        'items': [
+            {
+                'title': [
+                    'The Compound Effect',
+                    '复利效应'],
+                'image': [
+                    'images/books/TheCompoundEffect.jpg',
+                    'images/books/TheCompoundEffect.jpg'
+                ],
+                'author': [
+                    'Darren Hardy',
+                    'Darren Hardy'
+                ]
+            }]
+    },
+    {
         'title': 2022,
         'items': [
             {
