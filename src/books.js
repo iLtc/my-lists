@@ -341,11 +341,6 @@ const books = [
                 'author': ['Cho Nam-Joo', 'Cho Nam-Joo']
             },
             {
-                'title': ['Diary of an AssCan', 'Diary of an AssCan'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1526997647l/26852117.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1526997647l/26852117.jpg'],
-                'author': ['Andy Weir', 'Andy Weir']
-            },
-            {
                 'title': ['The Martian', '火星救援'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377968571l/18401393.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377968571l/18401393.jpg'],
                 'author': ['Andy Weir', '安迪·威尔']
@@ -454,11 +449,6 @@ const books = [
                 'author': ['Veronica Roth', 'Veronica Roth']
             },
             {
-                'title': ['The World of Divergent', 'The World of Divergent'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1376880754l/17860199.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1376880754l/17860199.jpg'],
-                'author': ['Veronica Roth', 'Veronica Roth']
-            },
-            {
                 'title': ['Insurgent', '反叛者'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1324015626l/13068756.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1324015626l/13068756.jpg'],
                 'author': ['Veronica Roth', 'Veronica Roth']
@@ -467,11 +457,6 @@ const books = [
     {
         'title': 2017,
         'items': [
-            {
-                'title': ['Free Four', 'Free Four'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342596743l/15743053.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342596743l/15743053.jpg'],
-                'author': ['Veronica Roth', 'Veronica Roth']
-            },
             {
                 'title': ['Daily Life in the Roman City', 'Daily Life in the Roman City'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328813293l/6377286.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328813293l/6377286.jpg'],
@@ -495,11 +480,6 @@ const books = [
             {
                 'title': ['The Death Cure', 'The Death Cure'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1304015333l/11162293.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1304015333l/11162293.jpg'],
-                'author': ['James Dashner', 'James Dashner']
-            },
-            {
-                'title': ['Thomas’s First Memory of the Flare', 'Thomas’s First Memory of the Flare'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328589200l/12878132.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328589200l/12878132.jpg'],
                 'author': ['James Dashner', 'James Dashner']
             },
             {
