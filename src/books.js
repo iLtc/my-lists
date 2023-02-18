@@ -4,6 +4,20 @@ const books = [
         'items': [
             {
                 'title': [
+                    'UGVybWFuZW50IFJlY29yZA==',
+                    '5rC45LmF6K6w5b2V'],
+                'image': [
+                    'aW1hZ2VzL2Jvb2tzL1VHVnliV0Z1Wlc1MElGSmxZMjl5WkE9PS5qcGc=',
+                    'aW1hZ2VzL2Jvb2tzL1VHVnliV0Z1Wlc1MElGSmxZMjl5WkE9PS5qcGc='
+                ],
+                'author': [
+                    'RWR3YXJkIFNub3dkZW4=',
+                    '54ix5b635Y2Owrfmlq/or7rnmbs='
+                ],
+                'isBase64': true
+            },
+            {
+                'title': [
                     'The Compound Effect',
                     '复利效应'],
                 'image': [
