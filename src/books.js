@@ -409,7 +409,7 @@ const books = [
                 'author': ['Edward M. Hallowell and John J. Ratey', 'Edward M. Hallowell and John J. Ratey']
             },
             {
-                'title': ['长安十二时辰', '长安十二时辰'],
+                'title': ['The Longest Day In Chang\'an', '长安十二时辰'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488352112l/34437247._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488352112l/34437247._SX318_.jpg'],
                 'author': ['Ma Boyong', '马伯庸']
             },
