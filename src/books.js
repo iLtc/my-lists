@@ -3,6 +3,11 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['The Litchi Road', '长安的荔枝'],
+                'image': ['images/books/TheLitchiRoad.jpeg', 'images/books/TheLitchiRoad.jpeg'],
+                'author': ['Ma Boyong', '马伯庸']
+            },
+            {
                 'title': [
                     'UGVybWFuZW50IFJlY29yZA==',
                     '5rC45LmF6K6w5b2V'],
@@ -406,7 +411,7 @@ const books = [
             {
                 'title': ['长安十二时辰', '长安十二时辰'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488352112l/34437247._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488352112l/34437247._SX318_.jpg'],
-                'author': ['Ma Boyong', 'Ma Boyong']
+                'author': ['Ma Boyong', '马伯庸']
             },
             {
                 'title': ['The Phoenix Project', '凤凰项目'],
