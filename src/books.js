@@ -3,6 +3,11 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['Alan Wake', '心灵杀手'],
+                'image': ['images/books/AlanWake.jpg', 'images/books/AlanWake.jpg'],
+                'author': ['Rick Burroughs', 'Rick Burroughs']
+            },
+            {
                 'title': ['Qiu Yuan', '秋园'],
                 'image': ['images/books/QiuYuan.jpg', 'images/books/QiuYuan.jpg'],
                 'author': ['Yang Benfen', '杨本芬']
