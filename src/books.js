@@ -3,6 +3,11 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['Qiu Yuan', '秋园'],
+                'image': ['images/books/QiuYuan.jpg', 'images/books/QiuYuan.jpg'],
+                'author': ['Yang Benfen', '杨本芬']
+            },
+            {
                 'title': ['The Litchi Road', '长安的荔枝'],
                 'image': ['images/books/TheLitchiRoad.jpeg', 'images/books/TheLitchiRoad.jpeg'],
                 'author': ['Ma Boyong', '马伯庸']
