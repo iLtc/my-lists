@@ -3,6 +3,11 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['The Coding Career Handbook', 'The Coding Career Handbook'],
+                'image': ['images/books/TheCodingCareerHandbook.jpeg', 'images/books/TheCodingCareerHandbook.jpeg'],
+                'author': ['Shawn Swyx Wang', 'Shawn Swyx Wang']
+            },
+            {
                 'title': ['Alan Wake', '心灵杀手'],
                 'image': ['images/books/AlanWake.jpg', 'images/books/AlanWake.jpg'],
                 'author': ['Rick Burroughs', 'Rick Burroughs']
