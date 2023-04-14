@@ -512,6 +512,11 @@ const books = [
                 'author': ['James Dashner', 'James Dashner']
             },
             {
+                'title': ['The Complete Software Developer\'s Career Guide', 'The Complete Software Developer\'s Career Guide'],
+                'image': ['images/books/TheCompleteSoftwareDevelopersCareerGuide.jpeg', 'images/books/TheCompleteSoftwareDevelopersCareerGuide.jpeg'],
+                'author': ['John Sonmez', 'John Sonmez']
+            },
+            {
                 'title': ['The Kill Order', 'The Kill Order'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342539117l/13091429.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342539117l/13091429.jpg'],
                 'author': ['James Dashner', 'James Dashner']
