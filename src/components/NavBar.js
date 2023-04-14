@@ -16,7 +16,7 @@ const NavBar = () => {
 
     const brandTitle = enActive ? "My Lists" : "我的列表"
     const bookTitle = enActive ? "Books" : "书籍"
-    const gameTitle = enActive ? "Game" : "游戏"
+    const gameTitle = enActive ? "Games" : "游戏"
 
     return (
         <Navbar bg="light" expand="lg" sticky="top">
