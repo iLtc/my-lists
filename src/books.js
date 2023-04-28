@@ -3,6 +3,11 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['I Am Malala', '我是马拉拉'],
+                'image': ['images/books/TheCodingCareerHandbook.jpeg', 'images/books/TheCodingCareerHandbook.jpeg'],
+                'author': ['Malala Yousafzai', '马拉拉·优素福·扎伊']
+            },
+            {
                 'title': ['The Coding Career Handbook', 'The Coding Career Handbook'],
                 'image': ['images/books/TheCodingCareerHandbook.jpeg', 'images/books/TheCodingCareerHandbook.jpeg'],
                 'author': ['Shawn Swyx Wang', 'Shawn Swyx Wang']
