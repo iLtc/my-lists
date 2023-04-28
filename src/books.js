@@ -4,7 +4,7 @@ const books = [
         'items': [
             {
                 'title': ['I Am Malala', '我是马拉拉'],
-                'image': ['images/books/TheCodingCareerHandbook.jpeg', 'images/books/TheCodingCareerHandbook.jpeg'],
+                'image': ['images/books/IAmMalala.jpeg', 'images/books/IAmMalala.jpeg'],
                 'author': ['Malala Yousafzai', '马拉拉·优素福·扎伊']
             },
             {
