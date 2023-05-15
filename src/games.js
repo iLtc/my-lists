@@ -3,6 +3,12 @@ const games = [
         'title': 2022,
         'items': [
             {
+                'title': ["Star Wars Jedi: Survivor", "星球大战 绝地：幸存者"],
+                'image': ['StarWarsJediSurvivor.jpg', 'StarWarsJediSurvivor.jpg'],
+                'author': ['Respawn Entertainment', '重生娱乐'],
+                'dlc': []
+            },
+            {
                 'title': [
                     "God of War Ragnarök",
                     "战神：诸神黄昏"
@@ -151,10 +157,10 @@ const games = [
             {
                 'title': [
                     "Star Wars Jedi: Fallen Order",
-                    "星球大战 绝地：陨落的武士团"
+                    "星球大战 绝地：组织陨落"
                 ],
                 'image': ['StarWarsJediFallenOrder.jpeg', 'StarWarsJediFallenOrder.jpeg'],
-                'author': ['Electronic Arts', '艺电'],
+                'author': ['Respawn Entertainment', '重生娱乐'],
                 'dlc': []
             },
             {
