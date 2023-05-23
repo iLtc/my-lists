@@ -3,6 +3,11 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['No Hard Feelings', '我工作，我没有不开心'],
+                'image': ['images/books/NoHardFeelings.jpg', 'images/books/NoHardFeelings.jpg'],
+                'author': ['Liz Fosslien / Mollie West Duffy', 'Liz Fosslien / Mollie West Duffy']
+            },
+            {
                 'title': ['I Am Malala', '我是马拉拉'],
                 'image': ['images/books/IAmMalala.jpeg', 'images/books/IAmMalala.jpeg'],
                 'author': ['Malala Yousafzai', '马拉拉·优素福·扎伊']
