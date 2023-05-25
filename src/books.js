@@ -3,6 +3,11 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['After My Wife Died', '妻子的后事'],
+                'image': ['images/books/AfterMyWifeDied.jpg', 'images/books/AfterMyWifeDied.jpg'],
+                'author': ['坂井希久子', '坂井希久子']
+            },
+            {
                 'title': ['No Hard Feelings', '我工作，我没有不开心'],
                 'image': ['images/books/NoHardFeelings.jpg', 'images/books/NoHardFeelings.jpg'],
                 'author': ['Liz Fosslien / Mollie West Duffy', 'Liz Fosslien / Mollie West Duffy']
