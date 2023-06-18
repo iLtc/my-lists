@@ -3,6 +3,11 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['The Hobbit', '霍比特人'],
+                'image': ['images/books/TheHobbit.jpg', 'images/books/TheHobbitCN.jpeg'],
+                'author': ['J. R. R. Tolkien', 'J. R. R. Tolkien']
+            },
+            {
                 'title': ['After My Wife Died', '妻子的后事'],
                 'image': ['images/books/AfterMyWifeDied.jpg', 'images/books/AfterMyWifeDied.jpg'],
                 'author': ['坂井希久子', '坂井希久子']
