@@ -3,6 +3,11 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['The Fellowship of the Ring', '护戒同盟队'],
+                'image': ['images/books/TheFellowshipOfTheRing.jpeg', 'images/books/TheFellowshipOfTheRing.jpeg'],
+                'author': ['J. R. R. Tolkien', 'J·R·R·托尔金']
+            },
+            {
                 'title': ['The Hobbit', '霍比特人'],
                 'image': ['images/books/TheHobbit.jpg', 'images/books/TheHobbitCN.jpeg'],
                 'author': ['J. R. R. Tolkien', 'J. R. R. Tolkien']
