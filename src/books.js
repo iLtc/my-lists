@@ -3,13 +3,18 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['The Two Towers', '双塔奇兵'],
+                'image': ['images/books/TheTwoTowers.jpeg', 'images/books/TheTwoTowers.jpeg'],
+                'author': ['J. R. R. Tolkien', 'J·R·R·托尔金']
+            },
+            {
                 'title': ['The Fellowship of the Ring', '护戒同盟队'],
                 'image': ['images/books/TheFellowshipOfTheRing.jpeg', 'images/books/TheFellowshipOfTheRing.jpeg'],
                 'author': ['J. R. R. Tolkien', 'J·R·R·托尔金']
             },
             {
                 'title': ['The Hobbit', '霍比特人'],
-                'image': ['images/books/TheHobbit.jpg', 'images/books/TheHobbitCN.jpeg'],
+                'image': ['images/books/TheHobbit.jpeg', 'images/books/TheHobbit.jpeg'],
                 'author': ['J. R. R. Tolkien', 'J. R. R. Tolkien']
             },
             {
