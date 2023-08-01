@@ -3,12 +3,17 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['The Return of the King', '王者归来'],
+                'image': ['images/books/TheReturnOfTheKing.jpeg', 'images/books/TheReturnOfTheKing.jpeg'],
+                'author': ['J. R. R. Tolkien', 'J·R·R·托尔金']
+            },
+            {
                 'title': ['The Two Towers', '双塔奇兵'],
                 'image': ['images/books/TheTwoTowers.jpeg', 'images/books/TheTwoTowers.jpeg'],
                 'author': ['J. R. R. Tolkien', 'J·R·R·托尔金']
             },
             {
-                'title': ['The Fellowship of the Ring', '护戒同盟队'],
+                'title': ['The Fellowship of the Ring', '护戒使者'],
                 'image': ['images/books/TheFellowshipOfTheRing.jpeg', 'images/books/TheFellowshipOfTheRing.jpeg'],
                 'author': ['J. R. R. Tolkien', 'J·R·R·托尔金']
             },
