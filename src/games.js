@@ -3,6 +3,12 @@ const games = [
         'title': 2023,
         'items': [
             {
+                'title': ["The Legend of Sword and Fairy", "仙剑奇侠传"],
+                'image': ['TheLegendOfSwordAndFairy.jpeg', 'TheLegendOfSwordAndFairy.jpeg'],
+                'author': ['Softstar Entertainment', '大宇资讯'],
+                'dlc': []
+            },
+            {
                 'title': ["Star Wars Jedi: Survivor", "星球大战 绝地：幸存者"],
                 'image': ['StarWarsJediSurvivor.jpg', 'StarWarsJediSurvivor.jpg'],
                 'author': ['Respawn Entertainment', '重生娱乐'],
