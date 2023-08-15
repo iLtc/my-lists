@@ -3,6 +3,11 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['I Need to Survive', '我要活下去'],
+                'image': ['images/books/INeedToSurvive.jpeg', 'images/books/INeedToSurvive.jpeg'],
+                'author': ['Kim Tak-Hwan', '金琸桓']
+            },
+            {
                 'title': ['The Return of the King', '王者归来'],
                 'image': ['images/books/TheReturnOfTheKing.jpeg', 'images/books/TheReturnOfTheKing.jpeg'],
                 'author': ['J. R. R. Tolkien', 'J·R·R·托尔金']
