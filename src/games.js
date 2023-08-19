@@ -3,6 +3,12 @@ const games = [
         'title': 2023,
         'items': [
             {
+                'title': ["Mafia II", "四海兄弟II"],
+                'image': ['Mafia2.jpeg', 'Mafia2.jpeg'],
+                'author': ['2K Czech', '2K Czech'],
+                'dlc': []
+            },
+            {
                 'title': ["The Legend of Sword and Fairy", "仙剑奇侠传"],
                 'image': ['TheLegendOfSwordAndFairy.jpeg', 'TheLegendOfSwordAndFairy.jpeg'],
                 'author': ['Softstar Entertainment', '大宇资讯'],
