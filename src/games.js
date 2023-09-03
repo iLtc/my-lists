@@ -3,6 +3,12 @@ const games = [
         'title': 2023,
         'items': [
             {
+                'title': [ "Venba", "Venba" ],
+                'image': ['Venba.jpg', 'Venba.jpg'],
+                'author': ['Visai Games', 'Visai Games'],
+                'dlc': []
+            },
+            {
                 'title': ["Mafia II", "四海兄弟II"],
                 'image': ['Mafia2.jpeg', 'Mafia2.jpeg'],
                 'author': ['2K Czech', '2K Czech'],
