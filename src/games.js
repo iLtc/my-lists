@@ -3,6 +3,12 @@ const games = [
         'title': 2023,
         'items': [
             {
+                'title': ["Hogwarts Legacy", "霍格华兹的传承"],
+                'image': ['HogwartsLegacy.jpeg', 'HogwartsLegacy.jpeg'],
+                'author': ['Avalanche Software', '艾薇岚奇软件'],
+                'dlc': []
+            },
+            {
                 'title': [ "Venba", "Venba" ],
                 'image': ['Venba.jpg', 'Venba.jpg'],
                 'author': ['Visai Games', 'Visai Games'],
