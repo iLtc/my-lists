@@ -3,6 +3,11 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['Country Driving', '寻路中国'],
+                'image': ['images/books/CountryDriving.jpeg', 'images/books/CountryDrivingCN.jpeg'],
+                'author': ['Peter Hessler', '何伟']
+            },
+            {
                 'title': ['I Need to Survive', '我要活下去'],
                 'image': ['images/books/INeedToSurvive.jpeg', 'images/books/INeedToSurvive.jpeg'],
                 'author': ['Kim Tak-Hwan', '金琸桓']
