@@ -3,6 +3,11 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['River Town', '江城'],
+                'image': ['images/books/RiverTown.jpeg', 'images/books/RiverTownCN.jpeg'],
+                'author': ['Peter Hessler', '何伟']
+            },
+            {
                 'title': ['Country Driving', '寻路中国'],
                 'image': ['images/books/CountryDriving.jpeg', 'images/books/CountryDrivingCN.jpeg'],
                 'author': ['Peter Hessler', '何伟']
