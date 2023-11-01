@@ -3,6 +3,11 @@ const books = [
         'title': 2023,
         'items': [
             {
+                'title': ['Strange Stones', '奇石'],
+                'image': ['images/books/StrangeStones.jpeg', 'images/books/StrangeStonesCN.jpeg'],
+                'author': ['Peter Hessler', '何伟']
+            },
+            {
                 'title': ['River Town', '江城'],
                 'image': ['images/books/RiverTown.jpeg', 'images/books/RiverTownCN.jpeg'],
                 'author': ['Peter Hessler', '何伟']
