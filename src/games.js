@@ -3,6 +3,12 @@ const games = [
         'title': 2023,
         'items': [
             {
+                'title': ["Marvel's Spider-Man 2", "漫威蜘蛛侠2"],
+                'image': ['SpiderMan2.jpeg', 'SpiderMan2.jpeg'],
+                'author': ['Insomniac Games', 'Insomniac Games'],
+                'dlc': []
+            },
+            {
                 'title': ["Hogwarts Legacy", "霍格华兹的传承"],
                 'image': ['HogwartsLegacy.jpeg', 'HogwartsLegacy.jpeg'],
                 'author': ['Avalanche Software', '艾薇岚奇软件'],
