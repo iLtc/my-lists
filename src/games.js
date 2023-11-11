@@ -3,6 +3,12 @@ const games = [
         'title': 2023,
         'items': [
             {
+                'title': ["Inside", "Inside"],
+                'image': ['Inside.jpeg', 'Inside.jpeg'],
+                'author': ['Playdead', 'Playdead'],
+                'dlc': []
+            },
+            {
                 'title': ["Marvel's Spider-Man 2", "漫威蜘蛛侠2"],
                 'image': ['SpiderMan2.jpeg', 'SpiderMan2.jpeg'],
                 'author': ['Insomniac Games', 'Insomniac Games'],
