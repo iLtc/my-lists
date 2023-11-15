@@ -3,6 +3,12 @@ const games = [
         'title': 2023,
         'items': [
             {
+                'title': ["Limbo", "Limbo"],
+                'image': ['Limbo.jpeg', 'Limbo.jpeg'],
+                'author': ['Playdead', 'Playdead'],
+                'dlc': []
+            },
+            {
                 'title': ["Inside", "Inside"],
                 'image': ['Inside.jpeg', 'Inside.jpeg'],
                 'author': ['Playdead', 'Playdead'],
