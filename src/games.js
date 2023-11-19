@@ -3,6 +3,12 @@ const games = [
         'title': 2023,
         'items': [
             {
+                'title': ['Control', '控制'],
+                'image': ['Control.jpeg', 'Control.jpeg'],
+                'author': ['Remedy Entertainment', '绿美迪娱乐'],
+                'dlc': []
+            },
+            {
                 'title': ["Limbo", "Limbo"],
                 'image': ['Limbo.jpeg', 'Limbo.jpeg'],
                 'author': ['Playdead', 'Playdead'],
