@@ -6,7 +6,7 @@ const games = [
                 'title': ['Control', '控制'],
                 'image': ['Control.jpeg', 'Control.jpeg'],
                 'author': ['Remedy Entertainment', '绿美迪娱乐'],
-                'dlc': []
+                'dlc': [['The Foundation', 'The Foundation'], ['AWE', 'AWE']]
             },
             {
                 'title': ["Limbo", "Limbo"],
