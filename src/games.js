@@ -3,6 +3,12 @@ const games = [
         'title': 2023,
         'items': [
             {
+                'title': ['Horizon Zero Dawn', '地平线 零之曙光'],
+                'image': ['HorizonZeroDawn.jpg', 'HorizonZeroDawn.jpg'],
+                'author': ['Guerrilla Games', '游击队工作室'],
+                'dlc': [['The Frozen Wilds', '冰尘雪野']]
+            },
+            {
                 'title': ['Control', '控制'],
                 'image': ['Control.jpeg', 'Control.jpeg'],
                 'author': ['Remedy Entertainment', '绿美迪娱乐'],
