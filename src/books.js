@@ -1,5 +1,15 @@
 const books = [
     {
+        'title': 2024,
+        'items': [
+            {
+                'title': ['The Pragmatic Programmer', '程序员修炼之道'],
+                'image': ['images/books/ThePragmaticProgrammer.jpeg', 'images/books/ThePragmaticProgrammer.jpeg'],
+                'author': ['David Thomas and Andrew Hunt', 'David Thomas and Andrew Hunt']
+            },
+        ]
+    },
+    {
         'title': 2023,
         'items': [
             {
