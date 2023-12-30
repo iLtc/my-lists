@@ -34,6 +34,9 @@ const App = () => {
                         <Route path="/games">
                             {gameCardGroups("en")}
                         </Route>
+                        <Route>
+                            404 Not Found
+                        </Route>
                     </Switch>
                 </Container>
             </div>
