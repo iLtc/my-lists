@@ -3,6 +3,11 @@ const books = [
         'title': 2024,
         'items': [
             {
+                'title': ['To Live', '活着'],
+                'image': ['images/books/ToLive.jpeg', 'images/books/ToLiveCN.jpeg'],
+                'author': ['Yu Hua', '余华']
+            },
+            {
                 'title': ['I Deliver Express in Beijing', '我在北京送快递'],
                 'image': ['images/books/IDeliverExpressInBeijing.jpeg', 'images/books/IDeliverExpressInBeijing.jpeg'],
                 'author': ['Hu Anyan', '胡安焉']
