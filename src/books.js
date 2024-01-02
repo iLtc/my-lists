@@ -3,6 +3,11 @@ const books = [
         'title': 2024,
         'items': [
             {
+                'title': ['I Deliver Express in Beijing', '我在北京送快递'],
+                'image': ['images/books/IDeliverExpressInBeijing.jpeg', 'images/books/IDeliverExpressInBeijing.jpeg'],
+                'author': ['Hu Anyan', '胡安焉']
+            },
+            {
                 'title': ['The Pragmatic Programmer', '程序员修炼之道'],
                 'image': ['images/books/ThePragmaticProgrammer.jpeg', 'images/books/ThePragmaticProgrammer.jpeg'],
                 'author': ['David Thomas and Andrew Hunt', 'David Thomas and Andrew Hunt']
