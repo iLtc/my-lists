@@ -3,6 +3,11 @@ const books = [
         'title': 2024,
         'items': [
             {
+                'title': ['Chronicle of a Blood Merchant', '许三观卖血记'],
+                'image': ['images/books/ChronicleOfABloodMerchant.jpg', 'images/books/ChronicleOfABloodMerchantCN.jpeg'],
+                'author': ['Yu Hua', '余华']
+            },
+            {
                 'title': ['To Live', '活着'],
                 'image': ['images/books/ToLive.jpeg', 'images/books/ToLiveCN.jpeg'],
                 'author': ['Yu Hua', '余华']
