@@ -13,7 +13,7 @@ const BookCard = (props) => {
     return (
         <Col sm={12} md={6} lg={4} className={classes["card-container"]}>
             <div className={classes["image-container"]}>
-                <img alt={title} src={image} className={classes.img} />
+                <img alt={title} src={`images/books/${image}`} className={classes.img} />
             </div>
             <div className="title-container">
                 {title}
