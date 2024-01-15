@@ -1,6 +1,6 @@
 const games = [
   {
-    title: 2023,
+    title: 2024,
     items: [
       {
         title: ["Horizon Forbidden West", "地平线 禁忌西域"],
@@ -8,6 +8,11 @@ const games = [
         author: ["Guerrilla Games", "游击队工作室"],
         dlc: [],
       },
+    ],
+  },
+  {
+    title: 2023,
+    items: [
       {
         title: ["Horizon Zero Dawn", "地平线 零之曙光"],
         image: ["HorizonZeroDawn.jpg", "HorizonZeroDawn.jpg"],
