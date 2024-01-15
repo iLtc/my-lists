@@ -1,6 +1,7 @@
 import { Col } from "react-bootstrap";
 import React from "react";
 import classes from "./BookCard.module.css";
+import { Buffer } from "buffer";
 
 const BookCard = (props) => {
   const idx = props.lang === "en" ? 0 : 1;
