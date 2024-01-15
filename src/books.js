@@ -256,24 +256,24 @@ const books = [
             {
                 'title': ['Steve Jobs', '史蒂夫·乔布斯传'],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1313501697l/11297044.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1313501697l/11297044.jpg'
+                    'images/books/SteveJobs.jpg',
+                    'images/books/SteveJobs.jpg'
                 ],
                 'author': ['Walter Isaacson', '沃尔特·艾萨克森']
             },
             {
                 'title': ['Bad Blood', '恶血'],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563822235l/41304176._SY475_.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563822235l/41304176._SY475_.jpg'
+                    'images/books/BadBlood.jpg',
+                    'images/books/BadBlood.jpg'
                 ],
                 'author': ['John Carreyrou', '约翰·卡里鲁']
             },
             {
                 'title': ['A Man Called Ove', '一个叫欧维的男人'],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389203193l/20492604.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582685622l/51691420._SX318_.jpg'
+                    'images/books/AManCalledOve.jpg',
+                    'images/books/AManCalledOveCN.jpg'
                 ],
                 'author': ['Fredrik Backman', '弗雷德里克·巴克曼']
             }
@@ -285,56 +285,56 @@ const books = [
             {
                 'title': ['Anxious People', '焦虑的人'],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594234890l/53799686._SX318_.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631182883l/58956221._SX318_.jpg'
+                    'images/books/AnxiousPeople.jpg',
+                    'images/books/AnxiousPeopleCN.jpg'
                 ],
                 'author': ['Fredrik Backman', '弗雷德里克·巴克曼']
             },
             {
                 'title': ['The Forgotten Village', '六里庄遗事'],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551281544l/44152880.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551281544l/44152880.jpg'
+                    'images/books/TheForgottenVillage.jpg',
+                    'images/books/TheForgottenVillage.jpg'
                 ],
                 'author': ['Dong Dong Qiang', '东东枪']
             },
             {
                 'title': ['The Midnight Library', '午夜图书馆'],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602190253l/52578297.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620206792l/57120582._SX318_.jpg'
+                    'images/books/TheMidnightLibrary.jpg',
+                    'images/books/TheMidnightLibraryCN.jpg'
                 ],
                 'author': ['Matt Haig', '麦特·海格']
             },
             {
                 'title': ['The Handmaid\'s Tale', '使女的故事'],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618403388l/45864574._SY475_.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332442058l/13556813.jpg'
+                    'images/books/TheHandmaidsTale.jpg',
+                    'images/books/TheHandmaidsTaleCN.jpg'
                 ],
                 'author': ['Margaret Atwood', '玛格丽特·阿特伍德']
             },
             {
                 'title': ['Ordered', '受命'],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618396718l/57736665._SX318_.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618396718l/57736665._SX318_.jpg'
+                    'images/books/Ordered.jpg',
+                    'images/books/Ordered.jpg'
                 ],
                 'author': ['Zhi An', '止庵']
             },
             {
                 'title': ['Grocery Store', '南货店'],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596438207l/54797378._SX318_.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596438207l/54797378._SX318_.jpg'
+                    'images/books/GroceryStore.jpg',
+                    'images/books/GroceryStore.jpg'
                 ],
                 'author': ['Zhang Ji', '张忌']
             },
             {
                 'title': ['Paper Towns', '纸镇'],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349013763l/8123162.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568084857l/53024916._SX318_SY475_.jpg'
+                    'images/books/PaperTowns.jpg',
+                    'images/books/PaperTownsCN.jpg'
                 ],
                 'author': ['John Green', '约翰·格林']
             },
@@ -344,8 +344,8 @@ const books = [
                     '银河系边缘的小失常'
                 ],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550156201l/44009977._SY475_.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609782872l/56553602._SY475_.jpg'
+                    'images/books/FlyAlready.jpg',
+                    'images/books/FlyAlreadyCN.jpg'
                 ],
                 'author': [
                     'Etgar Keret',
@@ -357,8 +357,8 @@ const books = [
                     'Horizon, Bright Moon, Saber',
                     '小李飞刀4：天涯·明月·刀'],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474264872l/19273971.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474264872l/19273971.jpg'],
+                    'images/books/HorizonBrightMoonSaber.jpg',
+                    'images/books/HorizonBrightMoonSaber.jpg'],
                 'author': [
                     'Gu Long',
                     '古龙']
@@ -369,8 +369,8 @@ const books = [
                     '知晓我姓名'
                 ],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567616805l/49944910._SX318_SY475_.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608824566l/56399805._SX318_.jpg'
+                    'images/books/KnowMyName.jpg',
+                    'images/books/KnowMyNameCN.jpg'
                 ],
                 'author': [
                     'Chanel Miller',
@@ -383,8 +383,8 @@ const books = [
                     'Moonflower Murders'
                 ],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599756269l/51456186._SY475_.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599756269l/51456186._SY475_.jpg'
+                    'images/books/MoonflowerMurders.jpg',
+                    'images/books/MoonflowerMurders.jpg'
                 ],
                 'author': [
                     'Anthony Horowitz',
@@ -397,8 +397,8 @@ const books = [
                     '喜鹊谋杀案'
                 ],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482092109l/32970179._SY475_.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482092109l/32970179._SY475_.jpg'
+                    'images/books/MagpieMurders.jpg',
+                    'images/books/MagpieMurders.jpg'
                 ],
                 'author': [
                     'Anthony Horowitz',
@@ -411,92 +411,92 @@ const books = [
         'items': [
             {
                 'title': ['Fang Si-Chi\'s First Love Paradise', '房思琪的初恋乐园'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564889971l/41057632._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564889971l/41057632._SX318_.jpg'],
+                'image': ['images/books/FangSichisFirstLoveParadise.jpg', 'images/books/FangSichisFirstLoveParadise.jpg'],
                 'author': ['Lin Yi-han', '林奕含']
             },
             {
                 'title': ['Lockdown', '封锁'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587570422l/53244954._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587570422l/53244954._SY475_.jpg'],
+                'image': ['images/books/Lockdown.jpg', 'images/books/Lockdown.jpg'],
                 'author': ['Peter May', '彼得·梅']
             },
             {
                 'title': ['Eagle Soaring in the Ninth Month', '小李飞刀3：九月鹰飞'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474264968l/18925019.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474264968l/18925019.jpg'],
+                'image': ['images/books/EagleSoaringInTheNinthMonth.jpg', 'images/books/EagleSoaringInTheNinthMonth.jpg'],
                 'author': ['Gu Long', '古龙']
             },
             {
                 'title': ['Shut Up and Listen!', 'Shut Up and Listen!'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554889716l/45013646._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554889716l/45013646._SY475_.jpg'],
+                'image': ['images/books/ShutUpAndListen.jpg', 'images/books/ShutUpAndListen.jpg'],
                 'author': ['Tilman Fertitta', 'Tilman Fertitta']
             },
             {
                 'title': ['Bordertown Wanderer', '小李飞刀2：边城浪子'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474265148l/18925016.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474265148l/18925016.jpg'],
+                'image': ['images/books/BordertownWanderer.jpg', 'images/books/BordertownWanderer.jpg'],
                 'author': ['Gu Long', '古龙']
             },
             {
                 'title': ['Sentimental Swordsman, Ruthless Sword', '小李飞刀1：多情剑客无情剑'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474265059l/18930869._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474265059l/18930869._SX318_.jpg'],
+                'image': ['images/books/SentimentalSwordsmanRuthlessSword.jpg', 'images/books/SentimentalSwordsmanRuthlessSword.jpg'],
                 'author': ['Gu Long', '古龙']
             },
             {
                 'title': ['Mastery', 'Mastery'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488671791l/34463946._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488671791l/34463946._SX318_.jpg'],
+                'image': ['images/books/Mastery.jpg', 'images/books/Mastery.jpg'],
                 'author': ['George Leonard', 'George Leonard']
             },
             {
                 'title': ["Ender's Game", "安德的游戏"],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1452898522l/8045789.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1452898522l/8045789.jpg'],
+                'image': ['images/books/EndersGame.jpg', 'images/books/EndersGame.jpg'],
                 'author': ['Orson Scott Card', '奥森·斯科特·卡德']
             },
             {
                 'title': ['Shark\'s Fin and Sichuan Pepper', '鱼翅与花椒'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553006363l/44536316._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553006363l/44536316._SY475_.jpg'],
+                'image': ['images/books/SharksFinAndSichuanPepper.jpg', 'images/books/SharksFinAndSichuanPepper.jpg'],
                 'author': ['Fuchsia Dunlop', '扶霞·邓洛普']
             },
             {
                 'title': ['Like Father, Like Son', '如父如子'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525401730l/40033086._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525401730l/40033086._SX318_.jpg'],
+                'image': ['images/books/LikeFatherLikeSon.jpg', 'images/books/LikeFatherLikeSon.jpg'],
                 'author': ['Hirokazu Koreeda', '是枝裕和']
             },
             {
                 'title': ['Kim Ji-young, Born 1982', '82年生的金智英'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1570377823l/53114821._SX318_SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1570377823l/53114821._SX318_SY475_.jpg'],
+                'image': ['images/books/KimJiyoungBorn1982.jpg', 'images/books/KimJiyoungBorn1982.jpg'],
                 'author': ['Cho Nam-Joo', 'Cho Nam-Joo']
             },
             {
                 'title': ['The Martian', '火星救援'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377968571l/18401393.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377968571l/18401393.jpg'],
+                'image': ['images/books/TheMartian.jpg', 'images/books/TheMartian.jpg'],
                 'author': ['Andy Weir', '安迪·威尔']
             },
             {
                 'title': ['The Last Monkey Performer', '最后的耍猴人'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1424008386l/24940477.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1424008386l/24940477.jpg'],
+                'image': ['images/books/TheLastMonkeyPerformer.jpg', 'images/books/TheLastMonkeyPerformer.jpg'],
                 'author': ['马宏杰', '马宏杰']
             },
             {
                 'title': ['Klein Bottle', '克莱因壶'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572404088l/48640357._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572404088l/48640357._SX318_.jpg'],
+                'image': ['images/books/KleinBottle.jpg', 'images/books/KleinBottle.jpg'],
                 'author': ['冈岛二人', '冈岛二人']
             },
             {
                 'title': ['Bad Kid', '坏小孩'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560300097l/30642373.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560300097l/30642373.jpg'],
+                'image': ['images/books/BadKid.jpg', 'images/books/BadKid.jpg'],
                 'author': ['紫金陈', '紫金陈']
             },
             {
                 'title': ['The Devil Wears Prada', '穿普拉达的女王'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525283199l/40024758.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525283199l/40024758.jpg'],
+                'image': ['images/books/TheDevilWearsPrada.jpg', 'images/books/TheDevilWearsPrada.jpg'],
                 'author': ['Lauren Weisberger', '萝伦·薇丝柏格']
             },
             {
                 'title': ['Delivered from Distraction', 'Delivered from Distraction'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394607958l/19895671.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394607958l/19895671.jpg'],
+                'image': ['images/books/DeliveredFromDistraction.jpg', 'images/books/DeliveredFromDistraction.jpg'],
                 'author': ['Edward M. Hallowell and John J. Ratey', 'Edward M. Hallowell and John J. Ratey']
             },
             {
                 'title': ['Educated', 'Educated'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609778195l/36247169._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609778195l/36247169._SY475_.jpg'],
+                'image': ['images/books/Educated.jpg', 'images/books/Educated.jpg'],
                 'author': ['Tara Westover', 'Tara Westover']
             }]
     },
@@ -505,62 +505,62 @@ const books = [
         'items': [
             {
                 'title': ['Driven to Distraction', 'Driven to Distraction'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388187952l/18712223.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388187952l/18712223.jpg'],
+                'image': ['images/books/DrivenToDistraction.jpg', 'images/books/DrivenToDistraction.jpg'],
                 'author': ['Edward M. Hallowell and John J. Ratey', 'Edward M. Hallowell and John J. Ratey']
             },
             {
                 'title': ['The Longest Day In Chang\'an', '长安十二时辰'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488352112l/34437247._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488352112l/34437247._SX318_.jpg'],
+                'image': ['images/books/TheLongestDayInChangan.jpg', 'images/books/TheLongestDayInChangan.jpg'],
                 'author': ['Ma Boyong', '马伯庸']
             },
             {
                 'title': ['The Phoenix Project', '凤凰项目'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516785582l/38191426._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516785582l/38191426._SY475_.jpg'],
+                'image': ['images/books/ThePhoenixProject.jpg', 'images/books/ThePhoenixProject.jpg'],
                 'author': ['Gene Kim, Kevin Behr, and George Spafford', 'Gene Kim, Kevin Behr, and George Spafford']
             },
             {
                 'title': ['The Girl with Seven Names', 'The Girl with Seven Names'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495994007l/35248097._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495994007l/35248097._SY475_.jpg'],
+                'image': ['images/books/TheGirlWithSevenNames.jpg', 'images/books/TheGirlWithSevenNames.jpg'],
                 'author': ['Hyeonseo Lee', 'Hyeonseo Lee']
             },
             {
                 'title': ['Ready Player One', '头号玩家'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390275705l/20603758.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390275705l/20603758.jpg'],
+                'image': ['images/books/ReadyPlayerOne.jpg', 'images/books/ReadyPlayerOne.jpg'],
                 'author': ['Ernest Cline', '恩斯特·克莱恩']
             },
             {
                 'title': ['Sleep', 'Sleep'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507696286l/36390562._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507696286l/36390562._SY475_.jpg'],
+                'image': ['images/books/Sleep.jpg', 'images/books/Sleep.jpg'],
                 'author': ['Nick Littlehales', 'Nick Littlehales']
             },
             {
                 'title': ['The Three-Body Problem', '三体'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552877666l/44490300.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552877666l/44490300.jpg'],
+                'image': ['images/books/TheThreebodyProblem.jpg', 'images/books/TheThreebodyProblem.jpg'],
                 'author': ['刘慈欣', '刘慈欣']
             },
             {
                 'title': ['How to Stop Worrying and Start Living', '人性的优点'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442129098l/4866._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442129098l/4866._SY475_.jpg'],
+                'image': ['images/books/HowToStopWorryingAndStartLiving.jpg', 'images/books/HowToStopWorryingAndStartLiving.jpg'],
                 'author': ['Dale Carnegie', '戴尔·卡耐基']
             },
             {
                 'title': ['Reaching the Southern Hemisphere, Everything Changed', '到了南半球，一切都变了'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559976411l/46207890._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559976411l/46207890._SX318_.jpg'],
+                'image': ['images/books/ReachingTheSouthernHemisphereEverythingChanged.jpg', 'images/books/ReachingTheSouthernHemisphereEverythingChanged.jpg'],
                 'author': ['刘小顺', '刘小顺']
             },
             {
                 'title': ['How to Win Friends and Influence People', '人性的弱点'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442726934l/4865._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442726934l/4865._SY475_.jpg'],
+                'image': ['images/books/HowToWinFriendsAndInfluencePeople.jpg', 'images/books/HowToWinFriendsAndInfluencePeople.jpg'],
                 'author': ['Dale Carnegie', '戴尔·卡耐基']
             },
             {
                 'title': ['The Wandering Earth', '流浪地球'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535086444l/41445419._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535086444l/41445419._SY475_.jpg'],
+                'image': ['images/books/TheWanderingEarth.jpg', 'images/books/TheWanderingEarth.jpg'],
                 'author': ['刘慈欣', '刘慈欣']
             },
             {
                 'title': ['Watch Dogs The DedSec Revenge', 'Watch Dogs The DedSec Revenge'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1445984702l/27310755._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1445984702l/27310755._SY475_.jpg'],
+                'image': ['images/books/WatchDogsTheDedsecRevenge.jpg', 'images/books/WatchDogsTheDedsecRevenge.jpg'],
                 'author': ['Innovate Media', 'Innovate Media']
             }]
     },
@@ -569,12 +569,12 @@ const books = [
         'items': [
             {
                 'title': ['Allegiant', '忠诚者'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395582745l/18710190.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395582745l/18710190.jpg'],
+                'image': ['images/books/Allegiant.jpg', 'images/books/Allegiant.jpg'],
                 'author': ['Veronica Roth', 'Veronica Roth']
             },
             {
                 'title': ['Insurgent', '反叛者'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1324015626l/13068756.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1324015626l/13068756.jpg'],
+                'image': ['images/books/Insurgent.jpg', 'images/books/Insurgent.jpg'],
                 'author': ['Veronica Roth', 'Veronica Roth']
             }]
     },
@@ -583,17 +583,17 @@ const books = [
         'items': [
             {
                 'title': ['Daily Life in the Roman City', 'Daily Life in the Roman City'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328813293l/6377286.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328813293l/6377286.jpg'],
+                'image': ['images/books/DailyLifeInTheRomanCity.jpg', 'images/books/DailyLifeInTheRomanCity.jpg'],
                 'author': ['Gregory S. Aldrete', 'Gregory S. Aldrete']
             },
             {
                 'title': ['Divergent', '分歧者'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374773761l/9717320.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374773761l/9717320.jpg'],
+                'image': ['images/books/Divergent.jpg', 'images/books/Divergent.jpg'],
                 'author': ['Veronica Roth', 'Veronica Roth']
             },
             {
                 'title': ['The Fever Code', 'The Fever Code'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1450916936l/28285244._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1450916936l/28285244._SY475_.jpg'],
+                'image': ['images/books/TheFeverCode.jpg', 'images/books/TheFeverCode.jpg'],
                 'author': ['James Dashner', 'James Dashner']
             },
             {
@@ -603,27 +603,27 @@ const books = [
             },
             {
                 'title': ['The Kill Order', 'The Kill Order'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342539117l/13091429.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342539117l/13091429.jpg'],
+                'image': ['images/books/TheKillOrder.jpg', 'images/books/TheKillOrder.jpg'],
                 'author': ['James Dashner', 'James Dashner']
             },
             {
                 'title': ['The Death Cure', 'The Death Cure'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1304015333l/11162293.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1304015333l/11162293.jpg'],
+                'image': ['images/books/TheDeathCure.jpg', 'images/books/TheDeathCure.jpg'],
                 'author': ['James Dashner', 'James Dashner']
             },
             {
                 'title': ['The Scorch Trials', 'The Scorch Trials'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327972472l/8587084.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327972472l/8587084.jpg'],
+                'image': ['images/books/TheScorchTrials.jpg', 'images/books/TheScorchTrials.jpg'],
                 'author': ['James Dashner', 'James Dashner']
             },
             {
                 'title': ['The Maze Runner', 'The Maze Runner'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1339111530l/8044584.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1339111530l/8044584.jpg'],
+                'image': ['images/books/TheMazeRunner.jpg', 'images/books/TheMazeRunner.jpg'],
                 'author': ['James Dashner', 'James Dashner']
             },
             {
                 'title': ['Harry Potter and the Deathly Hallows', '哈利·波特与死亡圣器'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449590443l/28143118._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449590443l/28143118._SY475_.jpg'],
+                'image': ['images/books/HarryPotterAndTheDeathlyHallows.jpg', 'images/books/HarryPotterAndTheDeathlyHallows.jpg'],
                 'author': ['J.K. Rowling', 'J·K·罗琳']
             }]
     },
@@ -632,57 +632,57 @@ const books = [
         'items': [
             {
                 'title': ['Harry Potter and the Half-Blood Prince', '哈利·波特与“混血王子”'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587697303l/1._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587697303l/1._SX318_.jpg'],
+                'image': ['images/books/HarryPotterAndTheHalfbloodPrince.jpg', 'images/books/HarryPotterAndTheHalfbloodPrince.jpg'],
                 'author': ['J.K. Rowling', 'J·K·罗琳']
             },
             {
                 'title': ['Harry Potter and the Order of the Phoenix', '哈利·波特与凤凰社'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449602534l/28144751._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449602534l/28144751._SY475_.jpg'],
+                'image': ['images/books/HarryPotterAndTheOrderOfThePhoenix.jpg', 'images/books/HarryPotterAndTheOrderOfThePhoenix.jpg'],
                 'author': ['J.K. Rowling', 'J·K·罗琳']
             },
             {
                 'title': ['Quantum Break: Zero State', 'Quantum Break: Zero State'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1459395480l/29746347._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1459395480l/29746347._SX318_.jpg'],
+                'image': ['images/books/QuantumBreakZeroState.jpg', 'images/books/QuantumBreakZeroState.jpg'],
                 'author': ['Cam Rogers', 'Cam Rogers']
             },
             {
                 'title': ['Harry Potter and the Goblet of Fire', '哈利·波特与火焰杯'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1492616888l/28137887._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1492616888l/28137887._SY475_.jpg'],
+                'image': ['images/books/HarryPotterAndTheGobletOfFire.jpg', 'images/books/HarryPotterAndTheGobletOfFire.jpg'],
                 'author': ['J.K. Rowling', 'J·K·罗琳']
             },
             {
                 'title': ['Harry Potter and the Prisoner of Azkaban', '哈利·波特与阿兹卡班囚徒'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335037879l/13611643.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335037879l/13611643.jpg'],
+                'image': ['images/books/HarryPotterAndThePrisonerOfAzkaban.jpg', 'images/books/HarryPotterAndThePrisonerOfAzkaban.jpg'],
                 'author': ['J.K. Rowling', 'J·K·罗琳']
             },
             {
                 'title': ['Harry Potter and the Chamber of Secrets', '哈利·波特与密室'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334525819l/13603662.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334525819l/13603662.jpg'],
+                'image': ['images/books/HarryPotterAndTheChamberOfSecrets.jpg', 'images/books/HarryPotterAndTheChamberOfSecrets.jpg'],
                 'author': ['J.K. Rowling', 'J·K·罗琳']
             },
             {
                 'title': ["Harry Potter and the Sorcerer's Stone", "哈利·波特与魔法石"],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333153083l/13562891.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333153083l/13562891.jpg'],
+                'image': ['images/books/HarryPotterAndTheSorcerersStone.jpg', 'images/books/HarryPotterAndTheSorcerersStone.jpg'],
                 'author': ['J.K. Rowling', 'J·K·罗琳']
             },
             {
                 'title': ['Third Culture Kids', 'Third Culture Kids'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389502301l/121920.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389502301l/121920.jpg'],
+                'image': ['images/books/ThirdCultureKids.jpg', 'images/books/ThirdCultureKids.jpg'],
                 'author': ['David C. Pollock and Ruth E. van Reken', 'David C. Pollock and Ruth E. van Reken']
             },
             {
                 'title': ['My Two Moms', 'My Two Moms'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394283923l/18040366.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394283923l/18040366.jpg'],
+                'image': ['images/books/MyTwoMoms.jpg', 'images/books/MyTwoMoms.jpg'],
                 'author': ['Zach Wahls', 'Zach Wahls']
             },
             {
                 'title': ['A Sociology of Family Life', 'A Sociology of Family Life'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375674333l/13762956.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375674333l/13762956.jpg'],
+                'image': ['images/books/ASociologyOfFamilyLife.jpg', 'images/books/ASociologyOfFamilyLife.jpg'],
                 'author': ['Deborah Chambers', 'Deborah Chambers']
             },
             {
                 'title': ['How We Learn', 'How We Learn'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405136856l/22711288.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405136856l/22711288.jpg'],
+                'image': ['images/books/HowWeLearn.jpg', 'images/books/HowWeLearn.jpg'],
                 'author': ['Benedict Carey', 'Benedict Carey']
             }]
     },
@@ -691,12 +691,12 @@ const books = [
         'items': [
             {
                 'title': ['Having Our Say', 'Having Our Say'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385942795l/19091194.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385942795l/19091194.jpg'],
+                'image': ['images/books/HavingOurSay.jpg', 'images/books/HavingOurSay.jpg'],
                 'author': ['Sarah L. Delany, A. Elizabeth Delany, and Amy Hill Hearth', 'Sarah L. Delany, A. Elizabeth Delany, and Amy Hill Hearth']
             },
             {
                 'title': ['Miracles of the Namiya General Store', '解忧杂货店'],
-                'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1424481746l/24982941.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1424481746l/24982941.jpg'],
+                'image': ['images/books/MiraclesOfTheNamiyaGeneralStore.jpg', 'images/books/MiraclesOfTheNamiyaGeneralStore.jpg'],
                 'author': ['Keigo Higashino', 'Keigo Higashino']
             }]
     },
@@ -708,8 +708,8 @@ const books = [
                     'The Longest Way',
                     '徒步中国'],
                 'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1341237180l/15732501.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386201299l/19190763.jpg'
+                    'images/books/TheLongestWay.jpg',
+                    'images/books/TheLongestWayCN.jpg'
                 ],
                 'author': [
                     'Christoph Rehage',
