@@ -722,69 +722,33 @@ const books = [
         'items': [
             {
                 'title': ['The Minority Report', '少数派报告'],
-                'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390719396l/581125.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428242570l/25301536.jpg'
-                ],
-                'author': [
-                    'Philip K. Dick',
-                    '菲利普·狄克'
-                ]
+                'image': ['images/books/TheMinorityReport.jpeg', 'images/books/TheMinorityReportCN.jpeg'],
+                'author': ['Philip K. Dick', '菲利普·狄克']
             },
             {
-                'title': ['背包十年：我的职业是旅行', '背包十年：我的职业是旅行'],
-                'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393091420l/18923585.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393091420l/18923585.jpg'
-                ],
-                'author': [
-                    '小鹏',
-                    '小鹏'
-                ]
+                'title': ['Ten Years of Backpacking', '背包十年'],
+                'image': ['images/books/TenYearsOfBackpacking.jpeg', 'images/books/TenYearsOfBackpacking.jpeg'],
+                'author': ['Xiao Peng', '小鹏']
             },
             {
-                'title': ['看见', '看见'],
-                'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408458884l/18458655.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408458884l/18458655.jpg'
-                ],
-                'author': [
-                    '柴静',
-                    '柴静'
-                ]
+                'title': ['Insight', '看见'],
+                'image': ['images/books/Insight.jpeg', 'images/books/Insight.jpeg'],
+                'author': ['Chai Jing', '柴静']
             },
             {
                 'title': ['Mockingjay', '饥饿游戏3：嘲笑鸟'],
-                'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722918l/7260188._SY475_.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722918l/7260188._SY475_.jpg'
-                ],
-                'author': [
-                    'Suzanne Collins',
-                    '苏珊·柯林斯'
-                ]
+                'image': ['images/books/Mockingjay.jpg', 'images/books/Mockingjay.jpg'],
+                'author': ['Suzanne Collins', '苏珊·柯林斯']
             },
             {
                 'title': ['Catching Fire', '饥饿游戏2：燃烧的女孩'],
-                'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722941l/6148028.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722941l/6148028.jpg'
-                ],
-                'author': [
-                    'Suzanne Collins',
-                    '苏珊·柯林斯'
-                ]
+                'image': ['images/books/CatchingFire.jpeg', 'images/books/CatchingFire.jpeg'],
+                'author': ['Suzanne Collins', '苏珊·柯林斯']
             },
             {
                 'title': ['The Hunger Games', '饥饿游戏'],
-                'image': [
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722975l/2767052.jpg',
-                    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722975l/2767052.jpg'
-                ],
-                'author': [
-                    'Suzanne Collins',
-                    '苏珊·柯林斯'
-                ]
+                'image': ['images/books/TheHungerGames.jpeg', 'images/books/TheHungerGames.jpeg'],
+                'author': ['Suzanne Collins', '苏珊·柯林斯']
             }
         ]
     }
