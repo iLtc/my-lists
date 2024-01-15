@@ -460,7 +460,7 @@ const books = [
                 'author': ['Hirokazu Koreeda', '是枝裕和']
             },
             {
-                'title': ['82年生的金智英', '82年生的金智英'],
+                'title': ['Kim Ji-young, Born 1982', '82年生的金智英'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1570377823l/53114821._SX318_SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1570377823l/53114821._SX318_SY475_.jpg'],
                 'author': ['Cho Nam-Joo', 'Cho Nam-Joo']
             },
@@ -470,17 +470,17 @@ const books = [
                 'author': ['Andy Weir', '安迪·威尔']
             },
             {
-                'title': ['最后的耍猴人', '最后的耍猴人'],
+                'title': ['The Last Monkey Performer', '最后的耍猴人'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1424008386l/24940477.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1424008386l/24940477.jpg'],
                 'author': ['马宏杰', '马宏杰']
             },
             {
-                'title': ['克莱因壶', '克莱因壶'],
+                'title': ['Klein Bottle', '克莱因壶'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572404088l/48640357._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572404088l/48640357._SX318_.jpg'],
                 'author': ['冈岛二人', '冈岛二人']
             },
             {
-                'title': ['坏小孩', '坏小孩'],
+                'title': ['Bad Kid', '坏小孩'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560300097l/30642373.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560300097l/30642373.jpg'],
                 'author': ['紫金陈', '紫金陈']
             },
@@ -534,7 +534,7 @@ const books = [
                 'author': ['Nick Littlehales', 'Nick Littlehales']
             },
             {
-                'title': ['三体', '三体'],
+                'title': ['The Three-Body Problem', '三体'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552877666l/44490300.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552877666l/44490300.jpg'],
                 'author': ['刘慈欣', '刘慈欣']
             },
@@ -544,7 +544,7 @@ const books = [
                 'author': ['Dale Carnegie', '戴尔·卡耐基']
             },
             {
-                'title': ['到了南半球，一切都变了', '到了南半球，一切都变了'],
+                'title': ['Reaching the Southern Hemisphere, Everything Changed', '到了南半球，一切都变了'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559976411l/46207890._SX318_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559976411l/46207890._SX318_.jpg'],
                 'author': ['刘小顺', '刘小顺']
             },
@@ -554,7 +554,7 @@ const books = [
                 'author': ['Dale Carnegie', '戴尔·卡耐基']
             },
             {
-                'title': ['流浪地球', '流浪地球'],
+                'title': ['The Wandering Earth', '流浪地球'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535086444l/41445419._SY475_.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535086444l/41445419._SY475_.jpg'],
                 'author': ['刘慈欣', '刘慈欣']
             },
@@ -695,7 +695,7 @@ const books = [
                 'author': ['Sarah L. Delany, A. Elizabeth Delany, and Amy Hill Hearth', 'Sarah L. Delany, A. Elizabeth Delany, and Amy Hill Hearth']
             },
             {
-                'title': ['解忧杂货店', '解忧杂货店'],
+                'title': ['Miracles of the Namiya General Store', '解忧杂货店'],
                 'image': ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1424481746l/24982941.jpg', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1424481746l/24982941.jpg'],
                 'author': ['Keigo Higashino', 'Keigo Higashino']
             }]
