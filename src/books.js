@@ -2,11 +2,11 @@ const books = [
   {
     title: 2024,
     items: [
-      //   {
-      //     title: ["Brothers", "兄弟"],
-      //     image: ["Brothers.jpeg", "BrothersCN.jpeg"],
-      //     author: ["Yu Hua", "余华"],
-      //   },
+      {
+        title: ["Brothers", "兄弟"],
+        image: ["Brothers.jpeg", "BrothersCN.jpeg"],
+        author: ["Yu Hua", "余华"],
+      },
       {
         title: ["Building a Second Brain", "Building a Second Brain"],
         image: ["BuildingASecondBrain.jpeg", "BuildingASecondBrain.jpeg"],
