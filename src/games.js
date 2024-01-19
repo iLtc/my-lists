@@ -3,10 +3,10 @@ const games = [
     title: 2024,
     items: [
       {
-        title: ["Horizon Forbidden West", "地平线 禁忌西域"],
+        title: ["Horizon Forbidden West", "地平线 西之绝境"],
         image: ["HorizonForbiddenWest.jpeg", "HorizonForbiddenWest.jpeg"],
         author: ["Guerrilla Games", "游击队工作室"],
-        dlc: [],
+        dlc: [["Burning Shores", "燃烧海岸"]],
       },
     ],
   },
