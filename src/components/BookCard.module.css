@@ -1,19 +1,19 @@
 .card-container {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .image-container {
-  height: 160px;
-  width: 100px;
-  float: left;
-  margin-right: 4px;
+    height: 160px;
+    width: 100px;
+    float: left;
+    margin-right: 4px;
 }
 
 .img {
-  max-height: 160px;
-  max-width: 100px;
+    max-height: 160px;
+    max-width: 100px;
 }
 
 .author-container {
-  font-size: 0.75rem;
+    font-size: 0.75rem;
 }
