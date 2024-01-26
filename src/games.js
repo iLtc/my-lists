@@ -9,7 +9,7 @@ const games = [
                     "HorizonForbiddenWest.jpeg",
                 ],
                 author: ["Guerrilla Games", "游击队工作室"],
-                dlc: [["Burning Shores", "燃烧海岸"]],
+                dlc: [["Burning Shores", "炙炎海岸"]],
             },
         ],
     },
