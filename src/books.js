@@ -3,6 +3,11 @@ const books = [
         title: 2024,
         items: [
             {
+                title: ["Cries in the Drizzle", "在细雨中呼喊"],
+                image: ["CriesInTheDrizzle.jpeg", "CriesInTheDrizzleCN.jpeg"],
+                author: ["Yu Hua", "余华"],
+            },
+            {
                 title: ["Crying in H Mart", "妈妈走后"],
                 image: ["CryingInHMart.jpeg", "CryingInHMartCN.jpeg"],
                 author: ["Michelle Zauner", "米歇尔·佐纳"],
