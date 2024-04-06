@@ -3,6 +3,11 @@ const books = [
         title: 2024,
         items: [
             {
+                title: ["Take Me Home", "只要不忘了回家的路"],
+                image: ["TakeMeHome.jpeg", "TakeMeHome.jpeg"],
+                author: ["Xiao Peng", "小鹏"],
+            },
+            {
                 title: ["Why We Travel", "我们为什么旅行"],
                 image: ["WhyWeTravel.jpeg", "WhyWeTravel.jpeg"],
                 author: ["Xiao Peng", "小鹏"],
