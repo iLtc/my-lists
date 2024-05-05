@@ -3,6 +3,12 @@ const games = [
         title: 2024,
         items: [
             {
+                title: ["The Rewinder", "山海旅人"],
+                image: ["TheRewinder.jpeg", "TheRewinder.jpeg"],
+                author: ["Misty Mountain Studio", "云山小雨工作室"],
+                dlc: [],
+            },
+            {
                 title: ["Horizon Forbidden West", "地平线 西之绝境"],
                 image: [
                     "HorizonForbiddenWest.jpeg",
