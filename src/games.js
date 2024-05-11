@@ -6,7 +6,7 @@ const games = [
                 title: ["The Rewinder", "山海旅人"],
                 image: ["TheRewinder.jpeg", "TheRewinder.jpeg"],
                 author: ["Misty Mountain Studio", "云山小雨工作室"],
-                dlc: [],
+                dlc: [["Root of Evil", "夜行柳渡"]],
             },
             {
                 title: ["Horizon Forbidden West", "地平线 西之绝境"],
