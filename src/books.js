@@ -3,6 +3,11 @@ const books = [
         title: 2024,
         items: [
             {
+                title: ["Collected Essays", "寻味东西"],
+                image: ["CollectedEssays.jpg", "CollectedEssaysCN.jpeg"],
+                author: ["Fuchsia Dunlop", "扶霞·邓洛普"],
+            },
+            {
                 title: ["Twenty Years of Backpacking", "背包二十年"],
                 image: [
                     "TwentyYearsOfBackpacking.jpeg",
