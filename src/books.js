@@ -3,6 +3,11 @@ const books = [
         title: 2024,
         items: [
             {
+                title: ["Driftwood", "浮木"],
+                image: ["Driftwood.jpeg", "Driftwood.jpeg"],
+                author: ["Yang Benfen", "杨本芬"],
+            },
+            {
                 title: ["The Psychology of Money", "金钱心理学"],
                 image: [
                     "ThePsychologyOfMoney.jpeg",
