@@ -3,6 +3,11 @@ const books = [
         title: 2024,
         items: [
             {
+                title: ["Bean Sesame Tea", "豆香芝麻茶"],
+                image: ["BeanSesameTea.jpeg", "BeanSesameTea.jpeg"],
+                author: ["Yang Benfen", "杨本芬"],
+            },
+            {
                 title: ["I Am Fragrant", "我本芬芳"],
                 image: ["IAmFragrant.jpeg", "IAmFragrant.jpeg"],
                 author: ["Yang Benfen", "杨本芬"],
