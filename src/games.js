@@ -3,6 +3,15 @@ const games = [
         title: 2024,
         items: [
             {
+                title: ["Hellblade: Senua's Sacrifice", "地狱之刃：塞娜的献祭"],
+                image: [
+                    "HellbladeSenuasSacrifice.jpeg",
+                    "HellbladeSenuasSacrifice.jpeg",
+                ],
+                author: ["Ninja Theory", "忍者理论"],
+                dlc: [],
+            },
+            {
                 title: ["The Rewinder", "山海旅人"],
                 image: ["TheRewinder.jpeg", "TheRewinder.jpeg"],
                 author: ["Misty Mountain Studio", "云山小雨工作室"],
