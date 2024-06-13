@@ -3,6 +3,14 @@ const books = [
         title: 2024,
         items: [
             {
+                title: ["Along the Journey of Your World", "从你的全世界路过"],
+                image: [
+                    "AlongTheJourneyOfYourWorld.jpeg",
+                    "AlongTheJourneyOfYourWorld.jpeg",
+                ],
+                author: ["Zhang Jiajia", "张嘉佳"],
+            },
+            {
                 title: ["Bean Sesame Tea", "豆香芝麻茶"],
                 image: ["BeanSesameTea.jpeg", "BeanSesameTea.jpeg"],
                 author: ["Yang Benfen", "杨本芬"],
