@@ -3,6 +3,15 @@ const games = [
         title: 2024,
         items: [
             {
+                title: ["Senua's Saga: Hellblade II", "地狱之刃II：塞娜的传说"],
+                image: [
+                    "SenuasSagaHellbladeII.jpeg",
+                    "SenuasSagaHellbladeII.jpeg",
+                ],
+                author: ["Ninja Theory", "忍者理论"],
+                dlc: [],
+            },
+            {
                 title: ["Hellblade: Senua's Sacrifice", "地狱之刃：塞娜的献祭"],
                 image: [
                     "HellbladeSenuasSacrifice.jpeg",
