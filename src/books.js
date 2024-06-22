@@ -3,6 +3,11 @@ const books = [
         title: 2024,
         items: [
             {
+                title: ["Let Me Stay With You", "让我留在你身边"],
+                image: ["LetMeStayWithYou.jpg", "LetMeStayWithYou.jpg"],
+                author: ["Zhang Jiajia", "张嘉佳"],
+            },
+            {
                 title: ["Along the Journey of Your World", "从你的全世界路过"],
                 image: [
                     "AlongTheJourneyOfYourWorld.jpeg",
