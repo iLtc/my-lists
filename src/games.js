@@ -3,6 +3,15 @@ const games = [
         title: 2024,
         items: [
             {
+                title: ["Alan Wake's American Nightmare", "心灵杀手：美国噩梦"],
+                image: [
+                    "AlanWakesAmericanNightmare.jpg",
+                    "AlanWakesAmericanNightmare.jpg",
+                ],
+                author: ["Remedy Entertainment", "绿美迪娱乐"],
+                dlc: [],
+            },
+            {
                 title: ["Senua's Saga: Hellblade II", "地狱之刃II：塞娜的传说"],
                 image: [
                     "SenuasSagaHellbladeII.jpeg",
