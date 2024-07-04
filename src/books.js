@@ -3,6 +3,11 @@ const books = [
         title: 2024,
         items: [
             {
+                title: ["Paradise Travel Group", "天堂旅游集团"],
+                image: ["ParadiseTravelGroup.jpg", "ParadiseTravelGroup.jpg"],
+                author: ["Zhang Jiajia", "张嘉佳"],
+            },
+            {
                 title: ["Let Me Stay With You", "让我留在你身边"],
                 image: ["LetMeStayWithYou.jpg", "LetMeStayWithYou.jpg"],
                 author: ["Zhang Jiajia", "张嘉佳"],
