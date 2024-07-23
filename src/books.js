@@ -902,6 +902,46 @@ const books = [
             },
         ],
     },
+    {
+        title: 2008,
+        items: [
+            {
+                title: ["Jade Dynasty 7", "诛仙7"],
+                image: ["JadeDynasty7.jpg", "JadeDynasty7.jpg"],
+                author: ["Xiao Ding", "萧鼎"],
+            },
+            {
+                title: ["Jade Dynasty 6", "诛仙6"],
+                image: ["JadeDynasty6.jpg", "JadeDynasty6.jpg"],
+                author: ["Xiao Ding", "萧鼎"],
+            },
+            {
+                title: ["Jade Dynasty 5", "诛仙5"],
+                image: ["JadeDynasty5.jpg", "JadeDynasty5.jpg"],
+                author: ["Xiao Ding", "萧鼎"],
+            },
+            {
+                title: ["Jade Dynasty 4", "诛仙4"],
+                image: ["JadeDynasty4.jpg", "JadeDynasty4.jpg"],
+                author: ["Xiao Ding", "萧鼎"],
+            },
+            {
+                title: ["Jade Dynasty 3", "诛仙3"],
+                image: ["JadeDynasty3.jpg", "JadeDynasty3.jpg"],
+                author: ["Xiao Ding", "萧鼎"],
+            },
+            {
+                title: ["Jade Dynasty 2", "诛仙2"],
+                image: ["JadeDynasty2.jpg", "JadeDynasty2.jpg"],
+                author: ["Xiao Ding", "萧鼎"],
+            },
+            {
+                title: ["Jade Dynasty 1", "诛仙1"],
+                image: ["JadeDynasty1.jpg", "JadeDynasty1.jpg"],
+                author: ["Xiao Ding", "萧鼎"],
+            },
+        ],
+    },
 ];
 
 export default books;
