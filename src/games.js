@@ -3,6 +3,12 @@ const games = [
         title: 2024,
         items: [
             {
+                title: ["Alan Wake 2", "心灵杀手2"],
+                image: ["AlanWake2.jpg", "AlanWake2.jpg"],
+                author: ["Remedy Entertainment", "绿美迪娱乐"],
+                dlc: [["Night Springs", "野泉镇"]],
+            },
+            {
                 title: ["Alan Wake's American Nightmare", "心灵杀手：美国噩梦"],
                 image: [
                     "AlanWakesAmericanNightmare.jpg",
