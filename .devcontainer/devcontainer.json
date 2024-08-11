@@ -1,3 +1,4 @@
 {
-    "postCreateCommand": "yarn"
+    "postCreateCommand": "yarn",
+    "postStartCommand": "yarn start"
 }
