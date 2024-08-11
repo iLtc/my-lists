@@ -3,6 +3,12 @@ const games = [
         title: 2024,
         items: [
             {
+                title: ["Firework", "烟火"],
+                image: ["Firework.jpg", "FireworkCN.jpg"],
+                author: ["Shiying Studio", "拾英工作室"],
+                dlc: [],
+            },
+            {
                 title: ["Alan Wake 2", "心灵杀手2"],
                 image: ["AlanWake2.jpg", "AlanWake2.jpg"],
                 author: ["Remedy Entertainment", "绿美迪娱乐"],
