@@ -900,6 +900,11 @@ const books = [
                 image: ["TheHungerGames.jpeg", "TheHungerGames.jpeg"],
                 author: ["Suzanne Collins", "苏珊·柯林斯"],
             },
+            {
+                title: ["Wolves", "狼群"],
+                image: ["Wolves.jpg", "Wolves.jpg"],
+                author: ["Ci Xue", "刺血"],
+            },
         ],
     },
     {
