@@ -3,6 +3,15 @@ const games = [
         title: 2024,
         items: [
             {
+                title: ["Murders on the Yangtze River", "山河旅探"],
+                image: [
+                    "MurdersOnTheYangtzeRiver.jpg",
+                    "MurdersOnTheYangtzeRiverCN.jpg",
+                ],
+                author: ["OMEGAMES STUDIO", "奥秘之家"],
+                dlc: [],
+            },
+            {
                 title: ["Firework", "烟火"],
                 image: ["Firework.jpg", "FireworkCN.jpg"],
                 author: ["Shiying Studio", "拾英工作室"],
