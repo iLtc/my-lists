@@ -3,6 +3,18 @@ const games = [
         title: 2024,
         items: [
             {
+                title: [
+                    "Duck Detective: The Secret Salami",
+                    "Duck Detective: The Secret Salami",
+                ],
+                image: [
+                    "DuckDetectiveTheSecretSalami.jpeg",
+                    "DuckDetectiveTheSecretSalami.jpeg",
+                ],
+                author: ["Happy Broccoli Games", "Happy Broccoli Games"],
+                dlc: [],
+            },
+            {
                 title: ["Murders on the Yangtze River", "山河旅探"],
                 image: [
                     "MurdersOnTheYangtzeRiver.jpg",
