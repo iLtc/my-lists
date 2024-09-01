@@ -4,10 +4,12 @@ import classes from "./GameCard.module.css";
 
 const GameCard = (props) => {
     const idx = props.lang === "en" ? 0 : 1;
-    const hasDLC = props.dlc.length > 0;
-    const DLCItems = props.dlc.map((item) => (
-        <ListGroupItem>DLC: {item[idx]}</ListGroupItem>
-    ));
+    const hasDLC = props.dlc && props.dlc.length > 0;
+    const DLCItems =
+        props.dlc &&
+        props.dlc.map((item) => (
+            <ListGroupItem>DLC: {item[idx]}</ListGroupItem>
+        ));
 
     return (
         <Col sm={12} md={6} lg={4} className={classes["card-container"]}>

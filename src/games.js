@@ -12,7 +12,6 @@ const games = [
                     "DuckDetectiveTheSecretSalami.jpeg",
                 ],
                 author: ["Happy Broccoli Games", "Happy Broccoli Games"],
-                dlc: [],
             },
             {
                 title: ["Murders on the Yangtze River", "山河旅探"],
@@ -21,13 +20,11 @@ const games = [
                     "MurdersOnTheYangtzeRiverCN.jpg",
                 ],
                 author: ["OMEGAMES STUDIO", "奥秘之家"],
-                dlc: [],
             },
             {
                 title: ["Firework", "烟火"],
                 image: ["Firework.jpg", "FireworkCN.jpg"],
                 author: ["Shiying Studio", "拾英工作室"],
-                dlc: [],
             },
             {
                 title: ["Alan Wake 2", "心灵杀手2"],
@@ -42,7 +39,6 @@ const games = [
                     "AlanWakesAmericanNightmare.jpg",
                 ],
                 author: ["Remedy Entertainment", "绿美迪娱乐"],
-                dlc: [],
             },
             {
                 title: ["Senua's Saga: Hellblade II", "地狱之刃II：塞娜的传说"],
@@ -51,7 +47,6 @@ const games = [
                     "SenuasSagaHellbladeII.jpeg",
                 ],
                 author: ["Ninja Theory", "忍者理论"],
-                dlc: [],
             },
             {
                 title: ["Hellblade: Senua's Sacrifice", "地狱之刃：塞娜的献祭"],
@@ -60,7 +55,6 @@ const games = [
                     "HellbladeSenuasSacrifice.jpeg",
                 ],
                 author: ["Ninja Theory", "忍者理论"],
-                dlc: [],
             },
             {
                 title: ["The Rewinder", "山海旅人"],
@@ -101,37 +95,31 @@ const games = [
                 title: ["Limbo", "Limbo"],
                 image: ["Limbo.jpeg", "Limbo.jpeg"],
                 author: ["Playdead", "Playdead"],
-                dlc: [],
             },
             {
                 title: ["Inside", "Inside"],
                 image: ["Inside.jpeg", "Inside.jpeg"],
                 author: ["Playdead", "Playdead"],
-                dlc: [],
             },
             {
                 title: ["Marvel's Spider-Man 2", "漫威蜘蛛侠2"],
                 image: ["SpiderMan2.jpeg", "SpiderMan2.jpeg"],
                 author: ["Insomniac Games", "Insomniac Games"],
-                dlc: [],
             },
             {
                 title: ["Hogwarts Legacy", "霍格华兹的传承"],
                 image: ["HogwartsLegacy.jpeg", "HogwartsLegacy.jpeg"],
                 author: ["Avalanche Software", "艾薇岚奇软件"],
-                dlc: [],
             },
             {
                 title: ["Venba", "Venba"],
                 image: ["Venba.jpg", "Venba.jpg"],
                 author: ["Visai Games", "Visai Games"],
-                dlc: [],
             },
             {
                 title: ["Mafia II", "四海兄弟II"],
                 image: ["Mafia2.jpeg", "Mafia2.jpeg"],
                 author: ["2K Czech", "2K Czech"],
-                dlc: [],
             },
             {
                 title: ["The Legend of Sword and Fairy", "仙剑奇侠传"],
@@ -140,13 +128,11 @@ const games = [
                     "TheLegendOfSwordAndFairy.jpeg",
                 ],
                 author: ["Softstar Entertainment", "大宇资讯"],
-                dlc: [],
             },
             {
                 title: ["Star Wars Jedi: Survivor", "星球大战 绝地：幸存者"],
                 image: ["StarWarsJediSurvivor.jpg", "StarWarsJediSurvivor.jpg"],
                 author: ["Respawn Entertainment", "重生娱乐"],
-                dlc: [],
             },
         ],
     },
@@ -160,13 +146,11 @@ const games = [
                     "SIE Santa Monica Studio",
                     "索尼互动娱乐圣莫尼卡工作室",
                 ],
-                dlc: [],
             },
             {
                 title: ["A Plague Tale: Requiem", "瘟疫传说：安魂曲"],
                 image: ["APlagueTaleRequiem.jpeg", "APlagueTaleRequiem.jpeg"],
                 author: ["Asobo Studio", "Asobo 游戏工作室"],
-                dlc: [],
             },
             {
                 title: ["A Plague Tale: Innocence", "瘟疫传说：无罪"],
@@ -175,7 +159,6 @@ const games = [
                     "APlagueTaleInnocence.jpeg",
                 ],
                 author: ["Asobo Studio", "Asobo 游戏工作室"],
-                dlc: [],
             },
             {
                 title: ["Alan Wake", "心灵杀手"],
@@ -190,7 +173,6 @@ const games = [
                 title: ["Stray", "Stray"],
                 image: ["Stray.jpeg", "Stray.jpeg"],
                 author: ["BlueTwelve Studio", "BlueTwelve Studio"],
-                dlc: [],
             },
             {
                 title: ["God of War", "战神"],
@@ -199,25 +181,21 @@ const games = [
                     "SIE Santa Monica Studio",
                     "索尼互动娱乐圣莫尼卡工作室",
                 ],
-                dlc: [],
             },
             {
                 title: ["Assassin's Creed II", "刺客信条II"],
                 image: ["AssassinsCreed2.jpeg", "AssassinsCreed2.jpeg"],
                 author: ["Ubisoft", "育碧"],
-                dlc: [],
             },
             {
                 title: ["Assassin's Creed", "刺客信条"],
                 image: ["AssassinsCreed1.jpeg", "AssassinsCreed1.jpeg"],
                 author: ["Ubisoft", "育碧"],
-                dlc: [],
             },
             {
                 title: ["The Last of Us Part II", "最后生还者 第II章"],
                 image: ["TheLastOfUsPart2.webp", "TheLastOfUsPart2.webp"],
                 author: ["Naughty Dog", "顽皮狗"],
-                dlc: [],
             },
             {
                 title: ["The Last of Us", "最后生还者"],
@@ -235,7 +213,6 @@ const games = [
                     "UnchartedDrakesDeception.jpeg",
                 ],
                 author: ["Naughty Dog", "顽皮狗"],
-                dlc: [],
             },
             {
                 title: ["Uncharted 2: Among Thieves", "神秘海域2：纵横四海"],
@@ -244,7 +221,6 @@ const games = [
                     "UnchartedAmongThieves.jpeg",
                 ],
                 author: ["Naughty Dog", "顽皮狗"],
-                dlc: [],
             },
             {
                 title: [
@@ -256,13 +232,11 @@ const games = [
                     "UnchartedDrakesFortune.webp",
                 ],
                 author: ["Naughty Dog", "顽皮狗"],
-                dlc: [],
             },
             {
                 title: ["Mafia", "四海兄弟"],
                 image: ["Mafia.jpeg", "Mafia.jpeg"],
                 author: ["Hangar 13", "Hangar 13"],
-                dlc: [],
             },
         ],
     },
@@ -276,7 +250,6 @@ const games = [
                     "GuardiansOfTheGalaxy.jpeg",
                 ],
                 author: ["Eidos-Montréal", "艺夺蒙特利尔"],
-                dlc: [],
             },
             {
                 title: ["Life Is Strange: True Colors", "奇异人生：本色"],
@@ -297,13 +270,11 @@ const games = [
                     "StarWarsJediFallenOrder.jpeg",
                 ],
                 author: ["Respawn Entertainment", "重生娱乐"],
-                dlc: [],
             },
             {
                 title: ["Detroit: Become Human", "底特律：化身为人"],
                 image: ["DetroitBecomeHuman.jpeg", "DetroitBecomeHuman.jpeg"],
                 author: ["Quantic Dream", "Quantic Dream"],
-                dlc: [],
             },
             {
                 title: [
@@ -315,7 +286,6 @@ const games = [
                     "SpiderManMilesMorales.webp",
                 ],
                 author: ["Insomniac Games", "Insomniac Games"],
-                dlc: [],
             },
             {
                 title: ["Marvel's Avengers", "漫威复仇者"],
@@ -333,7 +303,6 @@ const games = [
                     "ShadowOfTheTombRaider.jpeg",
                 ],
                 author: ["Crystal Dynamics", "晶体动力"],
-                dlc: [],
             },
             {
                 title: ["Marvel's Spider-Man", "漫威蜘蛛侠"],
@@ -345,7 +314,6 @@ const games = [
                 title: ["Cyberpunk 2077", "赛博朋克 2077"],
                 image: ["Cyberpunk2077.jpeg", "Cyberpunk2077.jpeg"],
                 author: ["CD Projekt", "CD Projekt"],
-                dlc: [],
             },
         ],
     },
@@ -362,7 +330,6 @@ const games = [
                 title: ["Watch Dogs 2", "看门狗2"],
                 image: ["WatchDogs2.jpeg", "WatchDogs2.jpeg"],
                 author: ["Ubisoft", "育碧"],
-                dlc: [],
             },
             {
                 title: ["The Invisible Guardian", "隐形守护者"],
@@ -371,7 +338,6 @@ const games = [
                     "TheInvisibleGuardian.jpeg",
                 ],
                 author: ["New One Studio", "New One Studio"],
-                dlc: [],
             },
             {
                 title: ["Rise of the Tomb Raider", "古墓丽影：崛起"],
@@ -386,13 +352,11 @@ const games = [
                     "UnchartedTheLostLegacy.jpeg",
                 ],
                 author: ["Naughty Dog", "顽皮狗"],
-                dlc: [],
             },
             {
                 title: ["Uncharted 4: A Thief’s End", "神秘海域4：盗贼末路"],
                 image: ["Uncharted4.jpeg", "Uncharted4.jpeg"],
                 author: ["Naughty Dog", "顽皮狗"],
-                dlc: [],
             },
             {
                 title: ["Watch Dogs", "看门狗"],
@@ -404,7 +368,6 @@ const games = [
                 title: ["Tomb Raider", "古墓丽影"],
                 image: ["TombRaider.jpeg", "TombRaider.jpeg"],
                 author: ["Crystal Dynamics", "晶体动力"],
-                dlc: [],
             },
         ],
     },
@@ -415,19 +378,16 @@ const games = [
                 title: ["Shadow Complex", "多重阴影"],
                 image: ["ShadowComplex.jpeg", "ShadowComplex.jpeg"],
                 author: ["Chair Entertainment", "Chair Entertainment"],
-                dlc: [],
             },
             {
                 title: ["Quantum Break", "量子裂痕"],
                 image: ["QuantumBreak.jpeg", "QuantumBreak.jpeg"],
                 author: ["Remedy Entertainment", "绿美迪娱乐"],
-                dlc: [],
             },
             {
                 title: ["Firewatch", "看火人"],
                 image: ["Firewatch.jpeg", "Firewatch.jpeg"],
                 author: ["Campo Santo", "Campo Santo"],
-                dlc: [],
             },
         ],
     },
