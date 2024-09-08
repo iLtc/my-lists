@@ -3,6 +3,11 @@ const games = [
         title: 2024,
         items: [
             {
+                title: ["Black Myth: Wukong", "黑神话：悟空"],
+                image: ["BlackMythWukong.jpeg", "BlackMythWukongCN.jpg"],
+                author: ["Game Science", "游戏科学"],
+            },
+            {
                 title: [
                     "Duck Detective: The Secret Salami",
                     "Duck Detective: The Secret Salami",
