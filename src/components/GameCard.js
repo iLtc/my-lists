@@ -3,6 +3,7 @@ import React from "react";
 import classes from "./GameCard.module.css";
 
 const GameCard = (props) => {
+    const isDev = process.env.NODE_ENV === "development";
     const idx = props.lang === "en" ? 0 : 1;
     const hasDLC = props.dlc && props.dlc.length > 0;
     const DLCItems =
@@ -16,7 +17,7 @@ const GameCard = (props) => {
             <Card>
                 <Card.Img
                     variant="top"
-                    src={`images/games/${props.image[idx]}`}
+                    src={`${isDev ? "" : "/cdn-cgi/image/width=480/"}images/games/${props.image[idx]}`}
                     alt={props.title[idx]}
                 />
                 <Card.Body>

@@ -4,6 +4,7 @@ import classes from "./BookCard.module.css";
 import { Buffer } from "buffer";
 
 const BookCard = (props) => {
+    const isDev = process.env.NODE_ENV === "development";
     const idx = props.lang === "en" ? 0 : 1;
     const isBase64 = props.isBase64 === true;
 
@@ -22,7 +23,7 @@ const BookCard = (props) => {
             <div className={classes["image-container"]}>
                 <img
                     alt={title}
-                    src={`images/books/${image}`}
+                    src={`${isDev ? "" : "/cdn-cgi/image/width=100/"}images/books/${image}`}
                     className={classes.img}
                 />
             </div>
