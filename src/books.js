@@ -3,6 +3,17 @@ const books = [
         title: 2024,
         items: [
             {
+                title: [
+                    "All the Colors of the Dark",
+                    "All the Colors of the Dark",
+                ],
+                image: [
+                    "AllTheColorsOfTheDark.jpg",
+                    "AllTheColorsOfTheDark.jpg",
+                ],
+                author: ["Chris Whitaker", "Chris Whitaker"],
+            },
+            {
                 title: ["Paradise Travel Group", "天堂旅游集团"],
                 image: ["ParadiseTravelGroup.jpg", "ParadiseTravelGroup.jpg"],
                 author: ["Zhang Jiajia", "张嘉佳"],
