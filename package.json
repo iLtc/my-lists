@@ -21,6 +21,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
+        "postbuild": "react-snap",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "test": "react-scripts test",
@@ -48,7 +49,8 @@
     "devDependencies": {
         "husky": "^8.0.3",
         "lint-staged": "^15.2.0",
-        "prettier": "3.2.2"
+        "prettier": "3.2.2",
+        "react-snap": "^1.23.0"
     },
     "lint-staged": {
         "**/*": "prettier --write --ignore-unknown"
