@@ -17,7 +17,7 @@ const GameCard = (props) => {
             <Card>
                 <Card.Img
                     variant="top"
-                    src={`${isDev ? "/" : "/cdn-cgi/image/width=480/"}images/games/${props.image[idx]}`}
+                    src={`${isDev ? "" : "/cdn-cgi/image/width=480/"}images/games/${props.image[idx]}`}
                     alt={props.title[idx]}
                 />
                 <Card.Body>
