@@ -3,6 +3,32 @@ const books = [
         title: 2024,
         items: [
             {
+                title: ["Twelve Years a Slave", "为奴十二年"],
+                image: ["TwelveYearsASlave.jpg", "TwelveYearsASlave.jpg"],
+                author: ["Solomon Northup", "Solomon Northup"],
+            },
+            {
+                title: ["Jony Ive", "乔尼·艾维"],
+                image: ["JonyIve.jpg", "JonyIve.jpg"],
+                author: ["Leander Kahney", "Leander Kahney"],
+            },
+            {
+                title: [
+                    "My Girlfriend Will Get Married Soon",
+                    "与我十年长跑的女友明天要嫁人了",
+                ],
+                image: [
+                    "MyGirlfriendWillGetMarriedSoon.jpg",
+                    "MyGirlfriendWillGetMarriedSoon.jpg",
+                ],
+                author: ["Li Haibo", "李海波"],
+            },
+            {
+                title: ["Here One Moment", "Here One Moment"],
+                image: ["HereOneMoment.jpg", "HereOneMoment.jpg"],
+                author: ["Liane Moriarty", "Liane Moriarty"],
+            },
+            {
                 title: [
                     "All the Colors of the Dark",
                     "All the Colors of the Dark",
@@ -223,18 +249,6 @@ const books = [
                 title: ["The Litchi Road", "长安的荔枝"],
                 image: ["TheLitchiRoad.jpeg", "TheLitchiRoad.jpeg"],
                 author: ["Ma Boyong", "马伯庸"],
-            },
-            {
-                title: ["UGVybWFuZW50IFJlY29yZA==", "5rC45LmF6K6w5b2V"],
-                image: [
-                    "VUdWeWJXRnVaVzUwSUZKbFkyOXlaQT09LmpwZw==",
-                    "VUdWeWJXRnVaVzUwSUZKbFkyOXlaQT09LmpwZw==",
-                ],
-                author: [
-                    "RWR3YXJkIFNub3dkZW4=",
-                    "54ix5b635Y2Owrfmlq/or7rnmbs=",
-                ],
-                isBase64: true,
             },
             {
                 title: ["Artemis", "月球城市"],
