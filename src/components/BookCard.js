@@ -23,7 +23,7 @@ const BookCard = (props) => {
             <div className={classes["image-container"]}>
                 <img
                     alt={title}
-                    src={`${isDev ? "" : "/cdn-cgi/image/width=100/"}images/books/${image}`}
+                    src={`${isDev ? "/" : "/cdn-cgi/image/width=100/"}images/books/${image}`}
                     className={classes.img}
                 />
             </div>

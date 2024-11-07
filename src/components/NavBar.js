@@ -9,10 +9,10 @@ const NavBar = () => {
 
     const enActive = !location.pathname.includes("zh");
 
-    const booksLink = enActive ? "#/books" : "#/books/zh";
-    const gamesLink = enActive ? "#/games" : "#/games/zh";
-    const enLink = booksActive ? "#/books" : "#/games";
-    const zhLink = booksActive ? "#/books/zh" : "#/games/zh";
+    const booksLink = enActive ? "/books" : "/books/zh";
+    const gamesLink = enActive ? "/games" : "/games/zh";
+    const enLink = booksActive ? "/books" : "/games";
+    const zhLink = booksActive ? "/books/zh" : "/games/zh";
 
     const brandTitle = enActive ? "My Lists" : "我的列表";
     const bookTitle = enActive ? "Books" : "书籍";
