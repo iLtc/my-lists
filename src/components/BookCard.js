@@ -25,6 +25,7 @@ const BookCard = (props) => {
                     alt={title}
                     src={`${isDev ? "" : "/cdn-cgi/image/width=100/"}images/books/${image}`}
                     className={classes.img}
+                    loading="lazy"
                 />
             </div>
             <div className="title-container">{title}</div>

@@ -19,6 +19,7 @@ const GameCard = (props) => {
                     variant="top"
                     src={`${isDev ? "" : "/cdn-cgi/image/width=480/"}images/games/${props.image[idx]}`}
                     alt={props.title[idx]}
+                    loading="lazy"
                 />
                 <Card.Body>
                     <Card.Title>{props.title[idx]}</Card.Title>
