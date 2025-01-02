@@ -3,6 +3,17 @@ const games = [
         title: 2024,
         items: [
             {
+                title: [
+                    "Indiana Jones and the Great Circle",
+                    "夺宝奇兵：古老之圈",
+                ],
+                image: [
+                    "IndianaJonesAndTheGreatCircle.jpg",
+                    "IndianaJonesAndTheGreatCircleCN.jpg",
+                ],
+                author: ["MachineGames", "MachineGames"],
+            },
+            {
                 title: ["Black Myth: Wukong", "黑神话：悟空"],
                 image: ["BlackMythWukong.jpeg", "BlackMythWukongCN.jpg"],
                 author: ["Game Science", "游戏科学"],
