@@ -1,7 +1,27 @@
 const books = [
     {
+        title: 2025,
+        items: [
+            {
+                title: ["Consent", "同意"],
+                image: ["Consent.jpg", "ConsentCN.jpg"],
+                author: ["Vanessa Springora", "Vanessa Springora"],
+            },
+            {
+                title: ["Elon Musk", "埃隆·马斯克传"],
+                image: ["ElonMusk.jpg", "ElonMuskCN.jpg"],
+                author: ["Walter Isaacson", "沃尔特·艾萨克森"],
+            },
+        ],
+    },
+    {
         title: 2024,
         items: [
+            {
+                title: ["Mama's Bank Account", "妈妈的银行账户"],
+                image: ["MamasBankAccount.jpg", "MamasBankAccountCN.jpg"],
+                author: ["Kathryn Forbes", "凯瑟琳·福布斯"],
+            },
             {
                 title: ["Twelve Years a Slave", "为奴十二年"],
                 image: ["TwelveYearsASlave.jpg", "TwelveYearsASlave.jpg"],
