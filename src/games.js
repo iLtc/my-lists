@@ -1,5 +1,15 @@
 const games = [
     {
+        title: 2025,
+        items: [
+            {
+                title: ["Factorio", "异星工厂"],
+                image: ["Factorio.jpg", "Factorio.jpg"],
+                author: ["Wube Software", "Wube Software"],
+            },
+        ],
+    },
+    {
         title: 2024,
         items: [
             {
