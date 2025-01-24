@@ -3,6 +3,14 @@ const books = [
         title: 2025,
         items: [
             {
+                title: ["System Design Interview", "系统设计面试"],
+                image: [
+                    "SystemDesignInterview.jpg",
+                    "SystemDesignInterview.jpg",
+                ],
+                author: ["Alex Xu", "Alex Xu"],
+            },
+            {
                 title: ["Consent", "同意"],
                 image: ["Consent.jpg", "ConsentCN.jpg"],
                 author: ["Vanessa Springora", "Vanessa Springora"],
