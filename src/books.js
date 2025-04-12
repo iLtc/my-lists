@@ -3,12 +3,50 @@ const books = [
         title: 2025,
         items: [
             {
+                title: ["Goodfellas in 15 Days", "两京十五日"],
+                image: ["GoodfellasIn15Days.jpg", "GoodfellasIn15Days.jpg"],
+                author: ["Ma Boyong", "马伯庸"],
+            },
+            {
+                title: ["If You Tell", "如果你敢说出去"],
+                image: ["IfYouTell.jpg", "IfYouTellCN.jpg"],
+                author: ["Gregg Olsen", "格雷格·奥尔森"],
+            },
+            {
+                title: ["Reunion", "团圆记"],
+                image: ["Reunion.jpg", "Reunion.jpg"],
+                author: ["Yang Yunsu", "杨云苏"],
+            },
+            {
+                title: ["The Worlds I See", "我看见的世界"],
+                image: ["TheWorldsISee.jpg", "TheWorldsISeeCN.jpg"],
+                author: ["Fei-Fei Li", "李飞飞"],
+            },
+            {
+                title: ["My Mother Works as a Cleaner", "我的母亲做保洁"],
+                image: [
+                    "MyMotherWorksAsACleaner.jpg",
+                    "MyMotherWorksAsACleaner.jpg",
+                ],
+                author: ["Zhang Xiaoman", "张小满"],
+            },
+            {
                 title: ["System Design Interview", "系统设计面试"],
                 image: [
                     "SystemDesignInterview.jpg",
                     "SystemDesignInterview.jpg",
                 ],
                 author: ["Alex Xu", "Alex Xu"],
+            },
+            {
+                title: ["Why Do We Need Libraries?", "世上为什么要有图书馆"],
+                image: ["WhyDoWeNeedLibraries.jpg", "WhyDoWeNeedLibraries.jpg"],
+                author: ["Yang Suqiu", "杨素秋"],
+            },
+            {
+                title: ["The Journey to The South", "食南之徒"],
+                image: ["TheJourneyToTheSouth.jpg", "TheJourneyToTheSouth.jpg"],
+                author: ["Ma Boyong", "马伯庸"],
             },
             {
                 title: ["Consent", "同意"],
