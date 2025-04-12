@@ -3,6 +3,16 @@ const games = [
         title: 2025,
         items: [
             {
+                title: ["Mafia III", "四海兄弟III"],
+                image: ["Mafia3.webp", "Mafia3.webp"],
+                author: ["Hangar 13", "Hangar 13"],
+                dlc: [
+                    ["Faster, Baby!", "再快点，宝贝！"],
+                    ["Stones Unturned", "漏网之鱼"],
+                    ["Sign of the Times", "时代印记"],
+                ],
+            },
+            {
                 title: ["Factorio", "异星工厂"],
                 image: ["Factorio.jpg", "Factorio.jpg"],
                 author: ["Wube Software", "Wube Software"],
