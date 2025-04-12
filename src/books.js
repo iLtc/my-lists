@@ -999,6 +999,26 @@ const books = [
         ],
     },
     {
+        title: 2011,
+        items: [
+            {
+                title: ["Douluo Continent", "斗罗大陆"],
+                image: ["DouluoContinent.jpg", "DouluoContinent.jpg"],
+                author: ["Tang Jia San Shao", "唐家三少"],
+            },
+        ],
+    },
+    {
+        title: 2010,
+        items: [
+            {
+                title: ["Fights Break Spheres", "斗破苍穹"],
+                image: ["FightsBreakSpheres.jpg", "FightsBreakSpheres.jpg"],
+                author: ["Tiancan Tudou", "天蚕土豆"],
+            },
+        ],
+    },
+    {
         title: 2008,
         items: [
             {
