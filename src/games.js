@@ -3,6 +3,15 @@ const games = [
         title: 2025,
         items: [
             {
+                title: ["Dishonored", "耻辱"],
+                image: ["Dishonored.jpg", "Dishonored.jpg"],
+                author: ["Arkane Studios", "Arkane Studios"],
+                dlc: [
+                    ["The Knife of Dunwall", "褐墙市之刃"],
+                    ["The Brigmore Witches", "布莱顿女巫"],
+                ],
+            },
+            {
                 title: ["Mafia III", "四海兄弟III"],
                 image: ["Mafia3.webp", "Mafia3.webp"],
                 author: ["Hangar 13", "Hangar 13"],
