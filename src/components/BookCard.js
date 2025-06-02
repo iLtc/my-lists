@@ -1,4 +1,4 @@
-import { Col } from "react-bootstrap";
+import { Col, Card } from "react-bootstrap";
 import React from "react";
 import classes from "./BookCard.module.css";
 import { Buffer } from "buffer";
@@ -20,16 +20,26 @@ const BookCard = (props) => {
 
     return (
         <Col sm={12} md={6} lg={4} className={classes["card-container"]}>
-            <div className={classes["image-container"]}>
-                <img
-                    alt={title}
-                    src={`${isDev ? "" : "/cdn-cgi/image/width=100/"}images/books/${image}`}
-                    className={classes.img}
-                    loading="lazy"
-                />
-            </div>
-            <div className="title-container">{title}</div>
-            <div className={classes["author-container"]}>by {author}</div>
+            <Card className={classes.card}>
+                <div className={classes.cardInner}>
+                    <div className={classes["image-container"]}>
+                        <Card.Img
+                            alt={title}
+                            src={`${isDev ? "" : "/cdn-cgi/image/width=150/"}images/books/${image}`}
+                            className={classes.img}
+                            loading="lazy"
+                        />
+                    </div>
+                    <Card.Body className={classes["card-body"]}>
+                        <Card.Title className={classes.title}>
+                            {title}
+                        </Card.Title>
+                        <Card.Text className={classes.author}>
+                            by {author}
+                        </Card.Text>
+                    </Card.Body>
+                </div>
+            </Card>
         </Col>
     );
 };

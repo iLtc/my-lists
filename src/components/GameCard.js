@@ -8,25 +8,34 @@ const GameCard = (props) => {
     const hasDLC = props.dlc && props.dlc.length > 0;
     const DLCItems =
         props.dlc &&
-        props.dlc.map((item) => (
-            <ListGroupItem>DLC: {item[idx]}</ListGroupItem>
+        props.dlc.map((item, index) => (
+            <ListGroupItem key={index} className={classes.dlcItem}>
+                <small className={classes.dlcLabel}>DLC:</small> {item[idx]}
+            </ListGroupItem>
         ));
 
     return (
         <Col sm={12} md={6} lg={4} className={classes["card-container"]}>
-            <Card>
-                <Card.Img
-                    variant="top"
-                    src={`${isDev ? "" : "/cdn-cgi/image/width=480/"}images/games/${props.image[idx]}`}
-                    alt={props.title[idx]}
-                    loading="lazy"
-                />
-                <Card.Body>
-                    <Card.Title>{props.title[idx]}</Card.Title>
-                    <Card.Text>by {props.author[idx]}</Card.Text>
+            <Card className={classes.card}>
+                <div className={classes["image-container"]}>
+                    <Card.Img
+                        variant="top"
+                        src={`${isDev ? "" : "/cdn-cgi/image/width=480/"}images/games/${props.image[idx]}`}
+                        alt={props.title[idx]}
+                        loading="lazy"
+                        className={classes.img}
+                    />
+                </div>
+                <Card.Body className={classes["card-body"]}>
+                    <Card.Title className={classes.title}>
+                        {props.title[idx]}
+                    </Card.Title>
+                    <Card.Text className={classes.author}>
+                        by {props.author[idx]}
+                    </Card.Text>
                 </Card.Body>
                 {hasDLC && (
-                    <ListGroup className="list-group-flush">
+                    <ListGroup className={classes.dlcContainer}>
                         {DLCItems}
                     </ListGroup>
                 )}
