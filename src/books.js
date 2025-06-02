@@ -3,6 +3,63 @@ const books = [
         title: 2025,
         items: [
             {
+                title: ["So Young", "致我们终将逝去的青春"],
+                image: ["SoYoung.jpg", "SoYoung.jpg"],
+                author: ["Xin Yiwu", "辛夷坞"],
+            },
+            {
+                title: ["Hidden Figures", "隐藏人物"],
+                image: ["HiddenFigures.jpg", "HiddenFigures.jpg"],
+                author: ["Margot Lee Shetterly", "玛歌·李·雪德利"],
+            },
+            {
+                title: ["Who Moved My Cheese?", "谁动了我的奶酪？"],
+                image: ["WhoMovedMyCheese.jpg", "WhoMovedMyCheeseCN.jpg"],
+                author: ["Spencer Johnson", "斯宾塞·约翰逊"],
+            },
+            {
+                title: ["Five Days at Memorial", "医院五日"],
+                image: ["FiveDaysAtMemorial.jpg", "FiveDaysAtMemorial.jpg"],
+                author: ["Sheri Fink", "雪莉·芬克"],
+            },
+            {
+                title: ["Good Morning, Monster", "早安，怪物"],
+                image: ["GoodMorningMonster.jpg", "GoodMorningMonsterCN.jpg"],
+                author: ["Catherine Gildiner", "凯瑟琳·吉尔迪纳"],
+            },
+            {
+                title: [
+                    "The Story of a Shipwrecked Sailor",
+                    "一个海难幸存者的故事",
+                ],
+                image: [
+                    "TheStoryOfAShipwreckedSailor.jpg",
+                    "TheStoryOfAShipwreckedSailorCN.jpg",
+                ],
+                author: ["Gabriel García Márquez", "加西亚·马尔克斯"],
+            },
+            {
+                title: ["我用中文做了场梦", "I Had a Dream in Chinese"],
+                image: ["IHadADreamInChinese.jpg", "IHadADreamInChinese.jpg"],
+                author: ["Alessandro Ceschi", "亚历"],
+            },
+            {
+                title: ["The Electric State", "电幻国度"],
+                image: ["TheElectricState.jpg", "TheElectricState.jpg"],
+                author: ["Simon Stålenhag", "西蒙·斯塔伦海格"],
+            },
+            {
+                title: [
+                    "The Password of the Qingming Festival",
+                    "清明上河图密码",
+                ],
+                image: [
+                    "ThePasswordOfTheQingmingFestival.jpg",
+                    "ThePasswordOfTheQingmingFestival.jpg",
+                ],
+                author: ["Ye Wenbiao", "冶文彪"],
+            },
+            {
                 title: ["Goodfellas in 15 Days", "两京十五日"],
                 image: ["GoodfellasIn15Days.jpg", "GoodfellasIn15Days.jpg"],
                 author: ["Ma Boyong", "马伯庸"],
