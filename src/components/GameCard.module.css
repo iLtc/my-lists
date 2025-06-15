@@ -49,9 +49,8 @@
 }
 
 .author {
-    font-size: 0.875rem;
+    font-size: 0.9rem;
     color: #6c757d;
-    margin-top: auto;
     margin-bottom: 0;
 }
 
@@ -60,7 +59,7 @@
 }
 
 .dlcItem {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 0.5rem 1rem;
     background-color: #f8f9fa;
     border: none;
