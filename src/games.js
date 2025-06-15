@@ -3,6 +3,11 @@ const games = [
         title: 2025,
         items: [
             {
+                title: ["Dishonored 2", "耻辱2"],
+                image: ["Dishonored2.jpg", "Dishonored2.jpg"],
+                author: ["Arkane Studios", "Arkane Studios"],
+            },
+            {
                 title: ["Dishonored", "耻辱"],
                 image: ["Dishonored.jpg", "Dishonored.jpg"],
                 author: ["Arkane Studios", "Arkane Studios"],
