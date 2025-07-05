@@ -3,6 +3,22 @@ const games = [
         title: 2025,
         items: [
             {
+                title: ["Portal", "传送门"],
+                image: ["Portal.jpg", "Portal.jpg"],
+                author: ["Valve", "Valve"],
+            },
+            {
+                title: [
+                    "Dishonored: Death of the Outsider",
+                    "耻辱：界外魔之死",
+                ],
+                image: [
+                    "DishonoredDeathOfTheOutsider.jpg",
+                    "DishonoredDeathOfTheOutsider.jpg",
+                ],
+                author: ["Arkane Studios", "Arkane Studios"],
+            },
+            {
                 title: ["Dishonored 2", "耻辱2"],
                 image: ["Dishonored2.jpg", "Dishonored2.jpg"],
                 author: ["Arkane Studios", "Arkane Studios"],
