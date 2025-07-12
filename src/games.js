@@ -3,6 +3,11 @@ const games = [
         title: 2025,
         items: [
             {
+                title: ["Portal 2", "传送门2"],
+                image: ["Portal2.jpg", "Portal2.jpg"],
+                author: ["Valve", "Valve"],
+            },
+            {
                 title: ["Portal", "传送门"],
                 image: ["Portal.jpg", "Portal.jpg"],
                 author: ["Valve", "Valve"],
