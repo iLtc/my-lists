@@ -3,6 +3,11 @@ const games = [
         title: 2025,
         items: [
             {
+                title: ["Tunic", "Tunic"],
+                image: ["Tunic.jpg", "Tunic.jpg"],
+                author: ["Isometricorp Games", "Isometricorp Games"],
+            },
+            {
                 title: ["Portal 2", "传送门2"],
                 image: ["Portal2.jpg", "Portal2.jpg"],
                 author: ["Valve", "Valve"],
