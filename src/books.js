@@ -3,6 +3,67 @@ const books = [
         title: 2025,
         items: [
             {
+                title: ["Peach Blossom Spring is Fine", "桃花源没事儿"],
+                image: [
+                    "PeachBlossomSpringIsFine.jpg",
+                    "PeachBlossomSpringIsFine.jpg",
+                ],
+                author: ["Ma Boyong", "马伯庸"],
+            },
+            {
+                title: [
+                    "Friends, Lovers, and the Big Terrible Thing",
+                    "老友、爱人和大麻烦",
+                ],
+                image: [
+                    "FriendsLoversAndTheBigTerribleThing.jpg",
+                    "FriendsLoversAndTheBigTerribleThingCN.jpg",
+                ],
+                author: ["Matthew Perry", "马修·派瑞"],
+            },
+            {
+                title: ["The Vegetarian", "素食者"],
+                image: ["TheVegetarian.jpg", "TheVegetarianCN.jpg"],
+                author: ["Han Kang", "韩江"],
+            },
+            {
+                title: [
+                    "Old-fashioned Girl's Shopping Route",
+                    "老派少女購物路線",
+                ],
+                image: [
+                    "OldFashionedGirlsShoppingRoute.jpg",
+                    "OldFashionedGirlsShoppingRoute.jpg",
+                ],
+                author: ["Hong Aizhu", "洪愛珠"],
+            },
+            {
+                title: ["The Criminal Lu Yanshi", "陆犯焉识"],
+                image: ["TheCriminalLuYanshi.jpg", "TheCriminalLuYanshi.jpg"],
+                author: ["Yan Geling", "严歌苓"],
+            },
+            {
+                title: ["The Hot Zone", "血疫"],
+                image: ["TheHotZone.jpg", "TheHotZoneCN.jpg"],
+                author: ["Richard Preston", "理查德·普雷斯顿"],
+            },
+            {
+                title: ["Between Small Mountains", "在小山和小山之间"],
+                image: [
+                    "BetweenSmallMountains.jpg",
+                    "BetweenSmallMountains.jpg",
+                ],
+                author: ["Li Ting", "李停"],
+            },
+            {
+                title: ["The Housekeeper and the Professor", "博士热爱的算式"],
+                image: [
+                    "TheHousekeeperAndTheProfessor.jpg",
+                    "TheHousekeeperAndTheProfessorCN.jpg",
+                ],
+                author: ["Yōko Ogawa", "小川洋子"],
+            },
+            {
                 title: ["So Young", "致我们终将逝去的青春"],
                 image: ["SoYoung.jpg", "SoYoung.jpg"],
                 author: ["Xin Yiwu", "辛夷坞"],
