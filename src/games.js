@@ -3,6 +3,11 @@ const games = [
         title: 2025,
         items: [
             {
+                title: ["Red Dead Redemption 2", "荒野大镖客：救赎2"],
+                image: ["RedDeadRedemption2.jpg", "RedDeadRedemption2.jpg"],
+                author: ["Rockstar Games", "Rockstar Games"],
+            },
+            {
                 title: ["Tunic", "Tunic"],
                 image: ["Tunic.jpg", "Tunic.jpg"],
                 author: ["Isometricorp Games", "Isometricorp Games"],
