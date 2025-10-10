@@ -3,6 +3,11 @@ const books = [
         title: 2025,
         items: [
             {
+                title: ["Can't Hurt Me", "我，刀枪不入"],
+                image: ["CantHurtMe.jpg", "CantHurtMeCN.jpg"],
+                author: ["David Goggins", "大卫·戈金斯"],
+            },
+            {
                 title: ["Peach Blossom Spring is Fine", "桃花源没事儿"],
                 image: [
                     "PeachBlossomSpringIsFine.jpg",
@@ -1133,6 +1138,26 @@ const books = [
                 title: ["Fights Break Spheres", "斗破苍穹"],
                 image: ["FightsBreakSpheres.jpg", "FightsBreakSpheres.jpg"],
                 author: ["Tiancan Tudou", "天蚕土豆"],
+            },
+        ],
+    },
+    {
+        title: 2009,
+        items: [
+            {
+                title: ["Transcend Yourself", "超越自己"],
+                image: ["TranscendYourself.jpg", "TranscendYourself.jpg"],
+                author: ["Liu Yong", "刘墉"],
+            },
+            {
+                title: ["Create Yourself", "创造自己"],
+                image: ["CreateYourself.jpg", "CreateYourself.jpg"],
+                author: ["Liu Yong", "刘墉"],
+            },
+            {
+                title: ["Affirm Yourself", "肯定自己"],
+                image: ["AffirmYourself.jpg", "AffirmYourself.jpg"],
+                author: ["Liu Yong", "刘墉"],
             },
         ],
     },
