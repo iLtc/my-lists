@@ -3,6 +3,11 @@ const games = [
         title: 2025,
         items: [
             {
+                title: ["Sanfu", "三伏"],
+                image: ["Sanfu.jpg", "Sanfu.jpg"],
+                author: ["Shiying Studio", "拾英工作室"],
+            },
+            {
                 title: ["Red Dead Redemption", "荒野大镖客：救赎"],
                 image: ["RedDeadRedemption.jpg", "RedDeadRedemption.jpg"],
                 author: ["Rockstar Games", "Rockstar Games"],
