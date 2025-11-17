@@ -3,6 +3,11 @@ const games = [
         title: 2025,
         items: [
             {
+                title: ["Cyber Manhunt", "全网公敌"],
+                image: ["CyberManhunt.webp", "CyberManhuntCN.jpg"],
+                author: ["Aluba Studio", "Aluba Studio"],
+            },
+            {
                 title: ["Sanfu", "三伏"],
                 image: ["Sanfu.jpg", "Sanfu.jpg"],
                 author: ["Shiying Studio", "拾英工作室"],
