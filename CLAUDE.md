@@ -14,7 +14,7 @@ Live site: **https://lists.iltc.app**
 
 | Layer            | Technology                                       |
 | ---------------- | ------------------------------------------------ |
-| Framework        | React 17 (Vite)                                  |
+| Framework        | React 19 (Vite)                                  |
 | Build tool       | Vite 6 + @vitejs/plugin-react                    |
 | UI library       | React Bootstrap 2.x + Bootstrap 5                |
 | Routing          | React Router DOM 6 (HashRouter)                  |
