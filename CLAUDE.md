@@ -16,7 +16,7 @@ Live site: **https://lists.iltc.app**
 | ---------------- | ------------------------------------------------ |
 | Framework        | React 17 (Create React App)                      |
 | UI library       | React Bootstrap 2.x + Bootstrap 5                |
-| Routing          | React Router DOM 5 (HashRouter)                  |
+| Routing          | React Router DOM 6 (HashRouter)                  |
 | Language         | JavaScript (no TypeScript)                       |
 | Styling          | CSS Modules + global CSS                         |
 | Package manager  | **Yarn** (use `yarn`, not `npm`)                 |

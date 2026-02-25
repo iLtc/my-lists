@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import Container from "react-bootstrap/Container";
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import CardGroup from "./components/CardGroup";
 import NavBar from "./components/NavBar";
 
@@ -37,13 +37,26 @@ const App = () => {
             <div>
                 <NavBar />
                 <Container>
-                    <Switch>
-                        <Route path="/books/zh">{bookCardGroups("zh")}</Route>
-                        <Route path="/(|books)">{bookCardGroups("en")}</Route>
-                        <Route path="/games/zh">{gameCardGroups("zh")}</Route>
-                        <Route path="/games">{gameCardGroups("en")}</Route>
-                        <Route>404 Not Found</Route>
-                    </Switch>
+                    <Routes>
+                        <Route
+                            path="/books/zh"
+                            element={<>{bookCardGroups("zh")}</>}
+                        />
+                        <Route
+                            path="/books"
+                            element={<>{bookCardGroups("en")}</>}
+                        />
+                        <Route
+                            path="/games/zh"
+                            element={<>{gameCardGroups("zh")}</>}
+                        />
+                        <Route
+                            path="/games"
+                            element={<>{gameCardGroups("en")}</>}
+                        />
+                        <Route path="/" element={<>{bookCardGroups("en")}</>} />
+                        <Route path="*" element={<>404 Not Found</>} />
+                    </Routes>
                 </Container>
             </div>
         </HashRouter>
