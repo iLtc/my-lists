@@ -3,7 +3,7 @@ import React from "react";
 import classes from "./GameCard.module.css";
 
 const GameCard = (props) => {
-    const isDev = process.env.NODE_ENV === "development";
+    const isDev = import.meta.env.DEV;
     const idx = props.lang === "en" ? 0 : 1;
     const hasDLC = props.dlc && props.dlc.length > 0;
     const DLCItems =
