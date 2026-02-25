@@ -15,7 +15,7 @@ Live site: **https://lists.iltc.app**
 | Layer            | Technology                                       |
 | ---------------- | ------------------------------------------------ |
 | Framework        | React 17 (Create React App)                      |
-| UI library       | React Bootstrap 1.x + Bootstrap 4                |
+| UI library       | React Bootstrap 2.x + Bootstrap 5                |
 | Routing          | React Router DOM 5 (HashRouter)                  |
 | Language         | JavaScript (no TypeScript)                       |
 | Styling          | CSS Modules + global CSS                         |
