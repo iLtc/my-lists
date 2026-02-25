@@ -20,7 +20,7 @@ Live site: **https://lists.iltc.app**
 | Language         | JavaScript (no TypeScript)                       |
 | Styling          | CSS Modules + global CSS                         |
 | Package manager  | **Yarn** (use `yarn`, not `npm`)                 |
-| Node version     | **18** (see `.nvmrc`)                            |
+| Node version     | **24** (see `.nvmrc`)                            |
 | Formatting       | Prettier 3                                       |
 | Pre-commit hooks | Husky + lint-staged (runs Prettier on all files) |
 | Deployment       | GitHub Actions → GitHub Pages                    |
@@ -55,7 +55,7 @@ my-lists/
 ├── .devcontainer/          # Dev container config
 ├── .husky/pre-commit       # Runs lint-staged
 ├── .editorconfig
-├── .nvmrc                  # Node 18
+├── .nvmrc                  # Node 24
 ├── .prettierrc             # Prettier config
 └── package.json
 ```
