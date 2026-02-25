@@ -1,4 +1,4 @@
-import { Col, Card, ListGroup, ListGroupItem } from "react-bootstrap";
+import { Col, Card, ListGroup } from "react-bootstrap";
 import React from "react";
 import classes from "./GameCard.module.css";
 
@@ -9,9 +9,9 @@ const GameCard = (props) => {
     const DLCItems =
         props.dlc &&
         props.dlc.map((item, index) => (
-            <ListGroupItem key={index} className={classes.dlcItem}>
+            <ListGroup.Item key={index} className={classes.dlcItem}>
                 <small className={classes.dlcLabel}>DLC:</small> {item[idx]}
-            </ListGroupItem>
+            </ListGroup.Item>
         ));
 
     return (
