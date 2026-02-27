@@ -1,5 +1,15 @@
 const games = [
     {
+        title: 2026,
+        items: [
+            {
+                title: ["Mafia: The Old Country", "四海兄弟：故乡"],
+                image: ["MafiaTheOldCountry.jpg", "MafiaTheOldCountry.jpg"],
+                author: ["Hangar 13", "Hangar 13"],
+            },
+        ],
+    },
+    {
         title: 2025,
         items: [
             {
