@@ -3,6 +3,11 @@ const games = [
         title: 2026,
         items: [
             {
+                title: ["Dave the Diver", "潜水员戴夫"],
+                image: ["DaveTheDiver.jpg", "DaveTheDiver.jpg"],
+                author: ["Dave The Diver", "Dave The Diver"],
+            },
+            {
                 title: ["Mafia: The Old Country", "四海兄弟：故乡"],
                 image: ["MafiaTheOldCountry.jpg", "MafiaTheOldCountry.jpg"],
                 author: ["Hangar 13", "Hangar 13"],
