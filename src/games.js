@@ -237,7 +237,7 @@ const games = [
         items: [
             {
                 title: ["God of War Ragnarök", "战神：诸神黄昏"],
-                image: ["GodOfWarRagnarök.webp", "GodOfWarRagnarök.webp"],
+                image: ["GodOfWarRagnarok.webp", "GodOfWarRagnarok.webp"],
                 author: [
                     "SIE Santa Monica Studio",
                     "索尼互动娱乐圣莫尼卡工作室",
