@@ -1,7 +1,75 @@
 const books = [
     {
+        title: 2026,
+        items: [
+            {
+                title: [
+                    "I Am a Girl Who Grew Up in the Village",
+                    "我是寨子里长大的女孩",
+                ],
+                image: [
+                    "IAmAGirlWhoGrewUpInTheVillage.jpg",
+                    "IAmAGirlWhoGrewUpInTheVillage.jpg",
+                ],
+                author: ["扎十一惹", "扎十一惹"],
+            },
+            {
+                title: ["Hackers & Painters", "黑客与画家"],
+                image: ["HackersAndPainters.jpg", "HackersAndPaintersCN.jpg"],
+                author: ["Paul Graham", "保罗·格雷厄姆"],
+            },
+            {
+                title: ["Exhalation", "呼吸"],
+                image: ["Exhalation.jpg", "ExhalationCN.jpg"],
+                author: ["Ted Chiang", "特德·姜"],
+            },
+            {
+                title: ["Stories of Your Life and Others", "你一生的故事"],
+                image: [
+                    "StoriesOfYourLifeAndOthers.jpg",
+                    "StoriesOfYourLifeAndOthersCN.jpg",
+                ],
+                author: ["Ted Chiang", "特德·姜"],
+            },
+            {
+                title: ["Broken Country", "Broken Country"],
+                image: ["BrokenCountry.jpg", "BrokenCountry.jpg"],
+                author: ["Clare Leslie Hall", "Clare Leslie Hall"],
+            },
+            {
+                title: ["Let There Be Light", "要有光"],
+                image: ["LetThereBeLight.jpg", "LetThereBeLight.jpg"],
+                author: ["Liang Hong", "梁鸿"],
+            },
+            {
+                title: ["My Friends", "我的天才朋友"],
+                image: ["MyFriends.jpg", "MyFriendsCN.jpg"],
+                author: ["Fredrik Backman", "弗雷德里克·巴克曼"],
+            },
+        ],
+    },
+    {
         title: 2025,
         items: [
+            {
+                title: [
+                    "Don't Believe Everything You Think",
+                    "不要相信你所想的一切",
+                ],
+                image: [
+                    "DontBelieveEverythingYouThink.jpg",
+                    "DontBelieveEverythingYouThinkCN.jpeg",
+                ],
+                author: ["Joseph Nguyen", "约瑟夫·阮"],
+            },
+            {
+                title: ["When Breath Becomes Air", "当呼吸化为空气"],
+                image: [
+                    "WhenBreathBecomesAir.jpg",
+                    "WhenBreathBecomesAirCN.jpg",
+                ],
+                author: ["Paul Kalanithi", "保罗·卡拉尼什"],
+            },
             {
                 title: ["Can't Hurt Me", "我，刀枪不入"],
                 image: ["CantHurtMe.jpg", "CantHurtMeCN.jpg"],
