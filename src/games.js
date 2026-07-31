@@ -3,9 +3,15 @@ const games = [
         title: 2026,
         items: [
             {
+                title: ["007 First Light", "007 初露鋒芒"],
+                image: ["007FirstLight.jpg", "007FirstLightCN.jpg"],
+                author: ["IO Interactive", "IO Interactive"],
+            },
+            {
                 title: ["Dave the Diver", "潜水员戴夫"],
                 image: ["DaveTheDiver.jpg", "DaveTheDiver.jpg"],
                 author: ["Dave The Diver", "Dave The Diver"],
+                dlc: [["In the Jungle", "丛林探险"]],
             },
             {
                 title: ["Mafia: The Old Country", "四海兄弟：故乡"],
