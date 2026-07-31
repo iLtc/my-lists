@@ -8,6 +8,11 @@ const games = [
                 author: ["IO Interactive", "IO Interactive"],
             },
             {
+                title: ["Pragmata", "识质存在"],
+                image: ["Pragmata.jpg", "Pragmata.jpg"],
+                author: ["Capcom", "卡普空"],
+            },
+            {
                 title: ["Dave the Diver", "潜水员戴夫"],
                 image: ["DaveTheDiver.jpg", "DaveTheDiver.jpg"],
                 author: ["Dave The Diver", "Dave The Diver"],
