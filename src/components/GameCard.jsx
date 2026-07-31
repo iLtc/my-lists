@@ -20,7 +20,7 @@ const GameCard = (props) => {
                 <div className={classes["image-container"]}>
                     <Card.Img
                         variant="top"
-                        src={`${isDev ? "" : "/cdn-cgi/image/width=480/"}images/games/${props.image[idx]}`}
+                        src={`${isDev ? "/" : "/cdn-cgi/image/width=480/"}images/games/${props.image[idx]}`}
                         alt={props.title[idx]}
                         loading="lazy"
                         className={classes.img}

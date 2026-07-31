@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import Container from "react-bootstrap/Container";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CardGroup from "./components/CardGroup";
 import NavBar from "./components/NavBar";
 
@@ -33,7 +33,7 @@ const App = () => {
     };
 
     return (
-        <HashRouter>
+        <BrowserRouter>
             <div>
                 <NavBar />
                 <Container>
@@ -59,7 +59,7 @@ const App = () => {
                     </Routes>
                 </Container>
             </div>
-        </HashRouter>
+        </BrowserRouter>
     );
 };
 
