@@ -1,46 +1,31 @@
-import { Col, Card } from "react-bootstrap";
 import React from "react";
-import classes from "./BookCard.module.css";
-import { Buffer } from "buffer";
 
 const BookCard = (props) => {
     const isDev = import.meta.env.DEV;
     const idx = props.lang === "en" ? 0 : 1;
-    const isBase64 = props.isBase64 === true;
-
-    const title = isBase64
-        ? Buffer.from(props.title[idx], "base64").toString("utf8")
-        : props.title[idx];
-    const author = isBase64
-        ? Buffer.from(props.author[idx], "base64").toString("utf8")
-        : props.author[idx];
-    const image = isBase64
-        ? Buffer.from(props.image[idx], "base64").toString("utf8")
-        : props.image[idx];
 
     return (
-        <Col sm={12} md={6} lg={4} className={classes["card-container"]}>
-            <Card className={classes.card}>
-                <div className={classes.cardInner}>
-                    <div className={classes["image-container"]}>
-                        <Card.Img
-                            alt={title}
-                            src={`${isDev ? "/" : "/cdn-cgi/image/width=150/"}images/books/${image}`}
-                            className={classes.img}
-                            loading="lazy"
-                        />
-                    </div>
-                    <Card.Body className={classes["card-body"]}>
-                        <Card.Title className={classes.title}>
-                            {title}
-                        </Card.Title>
-                        <Card.Text className={classes.author}>
-                            by {author}
-                        </Card.Text>
-                    </Card.Body>
-                </div>
-            </Card>
-        </Col>
+        <article className="flex flex-col gap-3.5">
+            <div className="cover-frame relative aspect-[2/3] overflow-hidden">
+                <img
+                    alt=""
+                    src={`${isDev ? "/" : "/cdn-cgi/image/width=320/"}images/books/${props.image[idx]}`}
+                    loading="lazy"
+                    onError={(event) => {
+                        event.target.style.display = "none";
+                    }}
+                    className="absolute inset-0 block h-full w-full object-cover"
+                />
+            </div>
+            <div className="flex min-w-0 flex-col gap-[3px]">
+                <h3 className="font-heading text-[15px] font-bold leading-[1.25] tracking-[-.012em] [text-wrap:pretty]">
+                    {props.title[idx]}
+                </h3>
+                <p className="text-[13px] leading-[1.4] text-neutral-600">
+                    {props.author[idx]}
+                </p>
+            </div>
+        </article>
     );
 };
 

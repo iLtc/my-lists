@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
 import { copyFileSync, mkdirSync } from "node:fs";
 import { resolve } from "node:path";
 
@@ -25,5 +26,5 @@ const staticExport = () => ({
 });
 
 export default defineConfig({
-    plugins: [react(), staticExport()],
+    plugins: [react(), tailwindcss(), staticExport()],
 });
