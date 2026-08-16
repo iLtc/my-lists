@@ -30,7 +30,7 @@ const CardGroup = (props) => {
             <div
                 className={
                     props.isGame
-                        ? "grid grid-cols-[repeat(auto-fill,minmax(min(280px,100%),1fr))] gap-x-[clamp(16px,2vw,32px)] gap-y-[52px] pt-8"
+                        ? "grid grid-cols-[repeat(auto-fill,minmax(min(320px,100%),1fr))] gap-x-[clamp(16px,2vw,32px)] gap-y-[52px] pt-8"
                         : "grid grid-cols-[repeat(auto-fill,minmax(min(150px,46%),1fr))] gap-x-[clamp(14px,2vw,30px)] gap-y-[clamp(24px,3vw,40px)] pt-8"
                 }
             >
