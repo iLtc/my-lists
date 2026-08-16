@@ -3,6 +3,11 @@ const games = [
         title: 2026,
         items: [
             {
+                title: ["Where Winds Meet", "烟云十六声"],
+                image: ["WhereWindsMeet.jpg", "WhereWindsMeetCN.jpg"],
+                author: ["Everstone", "Everstone"],
+            },
+            {
                 title: ["007 First Light", "007 初露鋒芒"],
                 image: ["007FirstLight.jpg", "007FirstLightCN.jpg"],
                 author: ["IO Interactive", "IO Interactive"],
