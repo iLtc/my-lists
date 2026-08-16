@@ -23,6 +23,11 @@ const games = [
                 image: ["MafiaTheOldCountry.jpg", "MafiaTheOldCountry.jpg"],
                 author: ["Hangar 13", "Hangar 13"],
             },
+            {
+                title: ["Where Winds Meet", "燕云十六声"],
+                image: ["WhereWindsMeet.jpg", "WhereWindsMeetCN.jpg"],
+                author: ["Everstone", "Everstone"],
+            },
         ],
     },
     {
