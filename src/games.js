@@ -3,6 +3,17 @@ const games = [
         title: 2026,
         items: [
             {
+                title: [
+                    "Resonance: A Plague Tale Legacy",
+                    "共鸣：瘟疫传说传承",
+                ],
+                image: [
+                    "ResonanceAPlagueTaleLegacy.jpg",
+                    "ResonanceAPlagueTaleLegacyCN.jpg",
+                ],
+                author: ["Asobo Studio", "Asobo 游戏工作室"],
+            },
+            {
                 title: ["Where Winds Meet", "烟云十六声"],
                 image: ["WhereWindsMeet.jpg", "WhereWindsMeetCN.jpg"],
                 author: ["Everstone", "Everstone"],
