@@ -3,6 +3,11 @@ const games = [
         title: 2026,
         items: [
             {
+                title: ["Replaced", "Replaced"],
+                author: ["Sad Cat Studios", "Sad Cat Studios"],
+                image: ["Replaced.jpg", "Replaced.jpg"],
+            },
+            {
                 title: [
                     "Resonance: A Plague Tale Legacy",
                     "共鸣：瘟疫传说传承",
