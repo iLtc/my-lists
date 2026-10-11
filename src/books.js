@@ -3,6 +3,21 @@ const books = [
         title: 2026,
         items: [
             {
+                title: ["Hidden America", "看不见的美国"],
+                image: ["HiddenAmerica.jpg", "HiddenAmericaCN.jpg"],
+                author: ["Jeanne Marie Laskas", "Jeanne Marie Laskas"],
+            },
+            {
+                title: ["My Life in France", "我的美味人生"],
+                image: ["MyLifeInFrance.jpg", "MyLifeInFranceCN.jpg"],
+                author: ["Julia Child", "茱莉亚·查尔德"],
+            },
+            {
+                title: ["That Apple Is Good Too", "那个苹果也很好"],
+                image: ["ThatAppleIsGoodToo.jpg", "ThatAppleIsGoodToo.jpg"],
+                author: ["Luan Yingxin", "栾颖新"],
+            },
+            {
                 title: [
                     "I Am a Girl Who Grew Up in the Village",
                     "我是寨子里长大的女孩",
